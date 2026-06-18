@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SoftFund | Dashboard de Inversión</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://cdn.jsdelivr.net/npm/xlsx/dist/xlsx.full.min.js"></script>
+        <script>tailwind.config={theme:{extend:{fontFamily:{sans:['Inter','ui-sans-serif','system-ui','sans-serif']},colors:{softbg:'#F8FAFC',slateText:'#334155',graphite:'#1E293B'}}}};</script>
+    </head>
+    <body class="min-h-screen bg-softbg font-sans text-slateText antialiased">
+        <header class="sticky top-0 z-20 border-b border-slate-200/70 bg-softbg/90 backdrop-blur">
+            <nav class="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 sm:px-6 lg:px-8">
+                <div class="flex items-center gap-3">
+                    <div class="flex h-9 w-9 items-center justify-center rounded-xl bg-slate-900 text-sm font-semibold text-white">SF</div>
+                    <span class="text-lg font-semibold tracking-tight text-graphite">SoftFund</span>
+                </div>
+                <div class="flex items-center gap-2 rounded-full bg-white px-3 py-2 text-sm text-slate-600 shadow-sm">
+                    <span class="h-2.5 w-2.5 rounded-full bg-emerald-400"></span>
+                    <span>Datos actualizados</span>
+                </div>
+            </nav>
+        </header>
+        <main class="mx-auto max-w-7xl px-5 py-10 sm:px-6 lg:px-8">
+            <section class="mb-8">
+                <div class="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
+                    <div>
+                        <p class="mb-3 text-sm font-medium uppercase tracking-[0.18em] text-slate-500">Dashboard de inversión</p>
+                        <h1 class="text-4xl font-semibold tracking-tight text-graphite sm:text-5xl">Selector Inteligente de Fondos y ETFs</h1>
+                        <p class="mt-4 max-w-2xl text-base leading-7 text-slate-600">Visualiza, crea, modifica, elimina y exporta fondos y ETFs. Los filtros se adaptan al vehículo de inversión seleccionado.</p>
+                    </div>
+                    <button id="legendButton" type="button" class="inline-flex w-fit items-center gap-2 rounded-xl bg-white px-4 py-3 text-sm font-medium text-slate-700 shadow-sm ring-1 ring-slate-200 hover:bg-slate-50">
+                        <span class="flex h-6 w-6 items-center justify-center rounded-lg bg-slate-100 text-slate-600">?</span>Ver leyenda de métricas
+                    </button>
+                </div>
+                <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                    <article class="rounded-xl bg-white p-6 shadow-sm ring-1 ring-slate-200/60">
+                        <p class="text-sm font-medium text-slate-500">Total</p>
+                        <p id="kpiTotalFondos" class="mt-3 text-3xl font-semibold text-graphite">0</p>
+                    </article>
+                    <article class="rounded-xl bg-white p-6 shadow-sm ring-1 ring-slate-200/60">
+                        <p class="text-sm font-medium text-slate-500">Rentabilidad Media</p>
+                        <p id="kpiRentabilidadMedia" class="mt-3 text-3xl font-semibold text-graphite">0%</p>
+                    </article>
+                    <article class="rounded-xl bg-white p-6 shadow-sm ring-1 ring-slate-200/60">
+                        <p class="text-sm font-medium text-slate-500">Rating medio</p>
+                        <p id="kpiRatingMedio" class="mt-3 text-3xl font-semibold text-graphite">0/5</p>
+                    </article>
+                </div>
+            </section>
+            <section class="mb-6 rounded-xl bg-white p-4 shadow-sm ring-1 ring-slate-200/60">
+                <div class="flex flex-col gap-4 xl:flex-row xl:items-center xl:justify-between">
+                    <div class="flex flex-col gap-3 lg:flex-row lg:items-center">
+                        <input
+                            id="searchInput"
+                            type="search"
+                            placeholder="Buscar por nombre, ISIN, tipo o año..."
+                            class="w-full lg:w-80 rounded-xl border border-slate-200 bg-slate-50 px-4 py-3 text-sm text-graphite outline-none focus:ring-4 focus:ring-slate-100"
+                        >
+                        <div>
+                            <label for="vehicleSelect" class="mb-1 block text-xs font-medium text-slate-500">Veh. Inversión</label>
+                            <select id="vehicleSelect" class="w-full sm:w-44 rounded-xl border border-slate-200 bg-slate-50 px-4 py-3 text-sm font-medium text-graphite outline-none focus:ring-4 focus:ring-slate-100">
+                                <option value="Todos">Todos</option>
+                                <option value="Fondos">Fondos</option>
+                                <option value="Etfs">Etfs</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="fundTypeSelect" class="mb-1 block text-xs font-medium text-slate-500">Tipos</label>
+                            <select id="fundTypeSelect" class="w-full sm:w-64 rounded-xl border border-slate-200 bg-slate-50 px-4 py-3 text-sm font-medium text-graphite outline-none focus:ring-4 focus:ring-slate-100">
+                                <option value="Todos">Todos</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-3 sm:flex-row sm:items-end">
+                        <button id="createFundButton" type="button" class="rounded-xl bg-emerald-700 px-4 py-3 text-sm font-medium text-white hover:bg-emerald-800">Nuevo fondo / ETF</button>
+                        <div class="flex gap-2 rounded-xl bg-slate-50 p-1 ring-1 ring-slate-100">
+                            <button id="exportExcelButton" type="button" class="rounded-lg bg-slate-900 px-4 py-2 text-sm font-medium text-white hover:bg-slate-800">Excel</button>
+                            <button id="exportJsonButton" type="button" class="rounded-lg bg-white px-4 py-2 text-sm font-medium text-slate-700 ring-1 ring-slate-200 hover:bg-slate-50">JSON</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div id="dataSourceAlert" class="mb-6 hidden rounded-xl border border-amber-200 bg-amber-50 px-5 py-4 text-sm text-amber-800 shadow-sm">
+                <p class="font-medium">Datos cargados desde el HTML</p>
+                <p class="mt-1">No se ha encontrado
+                    <b>fondos.json</b>. Se usan datos incrustados.
+                </p>
+            </div>
+            <section>
+                <h2 class="mb-1 text-xl font-semibold text-graphite">Fondos y ETFs disponibles</h2>
+                <p id="resultCount" class="mb-4 text-sm text-slate-500">Mostrando 0 elementos</p>
+                <div class="hidden overflow-x-auto rounded-xl bg-white shadow-sm ring-1 ring-slate-200/60 lg:block">
+                    <table class="min-w-full divide-y divide-slate-100">
+                        <thead class="bg-slate-50">
+                            <tr>
+                                <th class="px-5 py-4 text-left text-xs font-semibold tracking-wider text-slate-500">
+                                    <button class="sort-button flex gap-1" data-sort-key="nombre">Fondo / ETF
+                                        <span data-sort-icon="nombre">↕</span>
+                                    </button>
+                                </th>
+                                <th class="px-5 py-4 text-left text-xs font-semibold tracking-wider text-slate-500">
+                                    <button class="sort-button flex gap-1" data-sort-key="vehiculoInversion">Vehículo
+                                        <span data-sort-icon="vehiculoInversion">↕</span>
+                                    </button>
+                                </th>
+                                <th class="px-5 py-4 text-left text-xs font-semibold tracking-wider text-slate-500">
+                                    <button class="sort-button flex gap-1" data-sort-key="anioRegistro">Registro
+                                        <span data-sort-icon="anioRegistro">↕</span>
+                                    </button>
+                                </th>
+                                <th class="px-5 py-4 text-left text-xs font-semibold tracking-wider text-slate-500">
+                                    <button class="sort-button flex gap-1" data-sort-key="isin">ISIN
+                                        <span data-sort-icon="isin">↕</span>
+                                    </button>
+                                </th>
+                                <th class="px-5 py-4 text-left text-xs font-semibold tracking-wider text-slate-500">
+                                    <button class="sort-button flex gap-1" data-sort-key="tipoFondo">Tipo
+                                        <span data-sort-icon="tipoFondo">↕</span>
+                                    </button>
+                                </th>
+                                <th class="px-5 py-4 text-right text-xs font-semibold tracking-wider text-slate-500">
+                                    <button class="sort-button ml-auto flex gap-1" data-sort-key="morningstarEstrellas">Morningstar
+                                        <span data-sort-icon="morningstarEstrellas">↕</span>
+                                    </button>
+                                </th>
+                                <th class="px-5 py-4 text-right text-xs font-semibold tracking-wider text-slate-500">
+                                    <button class="sort-button ml-auto flex gap-1" data-sort-key="rentabilidadAnual">Rentabilidad anual
+                                        <span data-sort-icon="rentabilidadAnual">↕</span>
+                                    </button>
+                                </th>
+                                <th class="px-5 py-4 text-center text-xs font-semibold tracking-wider text-slate-500">Más datos</th>
+                                <th class="px-5 py-4 text-center text-xs font-semibold tracking-wider text-slate-500">Obs.</th>
+                                <th class="px-5 py-4 text-center text-xs font-semibold tracking-wider text-slate-500">Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody id="fundsTableBody" class="divide-y divide-slate-100"></tbody>
+                    </table>
+                </div>
+                <div id="fundsCardsContainer" class="grid gap-4 lg:hidden"></div>
+                <div id="emptyState" class="hidden rounded-xl bg-white p-8 text-center shadow-sm ring-1 ring-slate-200/60">No se encontraron elementos.</div>
+            </section>
+        </main>
+        <div id="genericModal" class="fixed inset-0 z-50 hidden items-center justify-center bg-slate-900/30 px-4 py-6 backdrop-blur-sm">
+            <div class="w-full max-w-4xl rounded-2xl bg-white shadow-xl ring-1 ring-slate-200">
+                <div class="flex items-start justify-between gap-4 border-b border-slate-100 px-6 py-5">
+                    <div>
+                        <h3 id="genericModalTitle" class="text-lg font-semibold text-graphite"></h3>
+                        <p id="genericModalSubtitle" class="mt-1 text-sm text-slate-500"></p>
+                    </div>
+                    <button id="closeGenericModalButton" type="button" class="rounded-xl bg-slate-100 px-3 py-2 text-sm font-medium text-slate-600 hover:bg-slate-200">Cerrar</button>
+                </div>
+                <div id="genericModalBody" class="max-h-[70vh] overflow-y-auto px-6 py-5"></div>
+            </div>
+        </div>
+        <div id="fundFormModal" class="fixed inset-0 z-50 hidden items-center justify-center bg-slate-900/30 px-4 py-6 backdrop-blur-sm">
+            <div class="w-full max-w-5xl rounded-2xl bg-white shadow-xl ring-1 ring-slate-200">
+                <div class="flex justify-between border-b border-slate-100 px-6 py-5">
+                    <div>
+                        <h3 id="fundFormTitle" class="text-lg font-semibold text-graphite">Nuevo fondo / ETF</h3>
+                        <p class="mt-1 text-sm text-slate-500">Las métricas avanzadas se editan como JSON por periodo.</p>
+                    </div>
+                    <button id="closeFundFormButton" type="button" class="rounded-xl bg-slate-100 px-3 py-2 text-sm font-medium text-slate-600">Cerrar</button>
+                </div>
+                <form id="fundForm" class="max-h-[75vh] overflow-y-auto px-6 py-5">
+                    <input id="formFundId" type="hidden">
+                    <div class="mb-4 rounded-xl bg-amber-50 p-4 ring-1 ring-amber-100">
+                        <label class="flex items-center gap-3 text-sm font-medium text-amber-900">
+                            <input id="formDestacado" type="checkbox" class="h-4 w-4 rounded border-amber-300 text-amber-600"> Fondo destacado
+                        </label>
+                        <p class="mt-1 text-sm text-amber-800">Úsalo para marcar elementos importantes o que requieren revisión.</p>
+                    </div>
+                    <div class="grid gap-4 md:grid-cols-3">
+                        <label class="text-sm text-slate-500">Nombre
+                            <input id="formNombre" required class="mt-1 w-full rounded-xl border border-slate-200 bg-slate-50 px-3 py-2 text-slate-700">
+                        </label>
+                        <label class="text-sm text-slate-500">Veh. Inversión
+                            <select id="formVehiculo" class="mt-1 w-full rounded-xl border border-slate-200 bg-slate-50 px-3 py-2 text-slate-700">
+                                <option value="Fondo">Fondo</option>
+                                <option value="ETF">ETF</option>
+                            </select>
+                        </label>
+                        <label class="text-sm text-slate-500">ISIN
+                            <input id="formIsin" required class="mt-1 w-full rounded-xl border border-slate-200 bg-slate-50 px-3 py-2 text-slate-700">
+                        </label>
+                        <label class="text-sm text-slate-500">Tipo
+                            <input id="formTipoFondo" required class="mt-1 w-full rounded-xl border border-slate-200 bg-slate-50 px-3 py-2 text-slate-700">
+                        </label>
+                        <label class="text-sm text-slate-500">Año registro
+                            <input
+                                id="formAnioRegistro"
+                                type="number"
+                                required
+                                class="mt-1 w-full rounded-xl border border-slate-200 bg-slate-50 px-3 py-2 text-slate-700"
+                            >
+                        </label>
+                        <label class="text-sm text-slate-500">Morningstar
+                            <input
+                                id="formMorningstar"
+                                type="number"
+                                min="0"
+                                max="5"
+                                class="mt-1 w-full rounded-xl border border-slate-200 bg-slate-50 px-3 py-2 text-slate-700"
+                            >
+                        </label>
+                        <label class="text-sm text-slate-500">Rentabilidad anual %
+                            <input id="formRentabilidad" type="text" class="mt-1 w-full rounded-xl border border-slate-200 bg-slate-50 px-3 py-2 text-slate-700">
+                        </label>
+                        <label class="text-sm text-slate-500">Morningstar URL
+                            <input id="formMorningstarUrl" class="mt-1 w-full rounded-xl border border-slate-200 bg-slate-50 px-3 py-2 text-slate-700">
+                        </label>
+                        <label class="text-sm text-slate-500">Finect URL
+                            <input id="formFinectUrl" class="mt-1 w-full rounded-xl border border-slate-200 bg-slate-50 px-3 py-2 text-slate-700">
+                        </label>
+                    </div>
+                    <div class="mt-4 grid gap-4 md:grid-cols-3">
+                        <label class="text-sm text-slate-500">Rentabilidades por año JSON
+                            <textarea
+                                id="formRentabilidades"
+                                rows="10"
+                                required
+                                class="mt-1 w-full rounded-xl border border-slate-200 bg-slate-50 px-3 py-2 font-mono text-sm text-slate-700"
+                            ></textarea>
+                        </label>
+                        <label class="text-sm text-slate-500">Métricas por periodo JSON
+                            <textarea
+                                id="formMetricas"
+                                rows="10"
+                                required
+                                class="mt-1 w-full rounded-xl border border-slate-200 bg-slate-50 px-3 py-2 font-mono text-sm text-slate-700"
+                            ></textarea>
+                        </label>
+                        <label class="text-sm text-slate-500">Observaciones, una por línea
+                            <textarea id="formObservaciones" rows="10" class="mt-1 w-full rounded-xl border border-slate-200 bg-slate-50 px-3 py-2 text-slate-700"></textarea>
+                        </label>
+                    </div>
+                    <div class="mt-5 flex justify-end gap-3 border-t border-slate-100 pt-4">
+                        <button id="cancelFundFormButton" type="button" class="rounded-xl bg-white px-4 py-2 text-sm font-medium text-slate-700 ring-1 ring-slate-200">Cancelar</button>
+                        <button type="submit" class="rounded-xl bg-slate-900 px-4 py-2 text-sm font-medium text-white">Guardar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <footer class="border-t border-slate-200/70">
+            <div class="mx-auto max-w-7xl px-5 py-6 text-sm text-slate-500">Los datos se gestionan mediante JSON.</div>
+        </footer>
+        <script id="fallback-data" type="application/json">[
+  {
+    "id": 1,
+    "nombre": "SoftFund Global Equity",
+    "vehiculoInversion": "Fondo",
+    "anioRegistro": 2021,
+    "tipoFondo": "Renta Variable",
+    "isin": "ES0100000001",
+    "morningstarEstrellas": 4,
+    "rentabilidadAnual": 8.42,
+    "destacado": false,
+    "rentabilidadesPorAnio": [
+      {
+        "anio": 2025,
+        "rentabilidad": 8.42
+      },
+      {
+        "anio": 2024,
+        "rentabilidad": 11.25
+      },
+      {
+        "anio": 2023,
+        "rentabilidad": 6.88
+      },
+      {
+        "anio": 2022,
+        "rentabilidad": -7.14
+      }
+    ],
+    "metricasPorPeriodo": {
+      "12M": {
+        "alfa": 1.35,
+        "beta": 1.12,
+        "ratioSharpe": 0.78,
+        "volatilidad": 13.45,
+        "maximaCaida": -15.72,
+        "trackingError": 3.42,
+        "rCuadrado": 0.86,
+        "correlacion": 0.91
+      },
+      "3A": {
+        "alfa": 1.15,
+        "beta": 1.1,
+        "ratioSharpe": 0.72,
+        "volatilidad": 13.99,
+        "maximaCaida": -17.29,
+        "trackingError": 3.59,
+        "rCuadrado": 0.84,
+        "correlacion": 0.9
+      },
+      "5A": {
+        "alfa": 0.94,
+        "beta": 1.06,
+        "ratioSharpe": 0.67,
+        "volatilidad": 14.53,
+        "maximaCaida": -19.18,
+        "trackingError": 3.83,
+        "rCuadrado": 0.83,
+        "correlacion": 0.89
+      },
+      "10A": {
+        "alfa": 0.74,
+        "beta": 1.03,
+        "ratioSharpe": 0.62,
+        "volatilidad": 15.06,
+        "maximaCaida": -22.01,
+        "trackingError": 4.1,
+        "rCuadrado": 0.81,
+        "correlacion": 0.88
+      }
+    },
+    "links": {
+      "morningstar": "https://www.morningstar.es/es/funds/snapshot/snapshot.aspx?id=ES0100000001",
+      "finect": "https://www.finect.com/fondos-inversion/ES0100000001"
+    },
+    "observaciones": [
+      "Fondo orientado a crecimiento global."
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Iberia Bonos Conservador",
+    "vehiculoInversion": "Fondo",
+    "anioRegistro": 2022,
+    "tipoFondo": "Renta Fija",
+    "isin": "ES0100000002",
+    "morningstarEstrellas": 3,
+    "rentabilidadAnual": 2.74,
+    "destacado": false,
+    "rentabilidadesPorAnio": [
+      {
+        "anio": 2025,
+        "rentabilidad": 2.74
+      },
+      {
+        "anio": 2024,
+        "rentabilidad": 3.18
+      },
+      {
+        "anio": 2023,
+        "rentabilidad": 1.95
+      },
+      {
+        "anio": 2022,
+        "rentabilidad": -1.22
+      }
+    ],
+    "metricasPorPeriodo": {
+      "12M": {
+        "alfa": 0.22,
+        "beta": 0.31,
+        "ratioSharpe": 0.52,
+        "volatilidad": 4.12,
+        "maximaCaida": -3.86,
+        "trackingError": 1.15,
+        "rCuadrado": 0.42,
+        "correlacion": 0.44
+      },
+      "3A": {
+        "alfa": 0.19,
+        "beta": 0.3,
+        "ratioSharpe": 0.48,
+        "volatilidad": 4.28,
+        "maximaCaida": -4.25,
+        "trackingError": 1.21,
+        "rCuadrado": 0.41,
+        "correlacion": 0.44
+      },
+      "5A": {
+        "alfa": 0.15,
+        "beta": 0.29,
+        "ratioSharpe": 0.45,
+        "volatilidad": 4.45,
+        "maximaCaida": -4.71,
+        "trackingError": 1.29,
+        "rCuadrado": 0.4,
+        "correlacion": 0.43
+      },
+      "10A": {
+        "alfa": 0.12,
+        "beta": 0.29,
+        "ratioSharpe": 0.42,
+        "volatilidad": 4.61,
+        "maximaCaida": -5.4,
+        "trackingError": 1.38,
+        "rCuadrado": 0.39,
+        "correlacion": 0.43
+      }
+    },
+    "links": {
+      "morningstar": "https://www.morningstar.es/es/funds/snapshot/snapshot.aspx?id=ES0100000002",
+      "finect": "https://www.finect.com/fondos-inversion/ES0100000002"
+    },
+    "observaciones": [
+      "Fondo defensivo con foco en bonos."
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "Europa Index MSCI Core",
+    "vehiculoInversion": "Fondo",
+    "anioRegistro": 2020,
+    "tipoFondo": "Indexado",
+    "isin": "IE00B0000003",
+    "morningstarEstrellas": 5,
+    "rentabilidadAnual": 6.15,
+    "destacado": false,
+    "rentabilidadesPorAnio": [
+      {
+        "anio": 2025,
+        "rentabilidad": 6.15
+      },
+      {
+        "anio": 2024,
+        "rentabilidad": 9.72
+      },
+      {
+        "anio": 2023,
+        "rentabilidad": 7.34
+      },
+      {
+        "anio": 2022,
+        "rentabilidad": -8.41
+      }
+    ],
+    "metricasPorPeriodo": {
+      "12M": {
+        "alfa": 0.05,
+        "beta": 0.98,
+        "ratioSharpe": 0.61,
+        "volatilidad": 11.28,
+        "maximaCaida": -13.94,
+        "trackingError": 0.42,
+        "rCuadrado": 0.96,
+        "correlacion": 0.98
+      },
+      "3A": {
+        "alfa": 0.04,
+        "beta": 0.96,
+        "ratioSharpe": 0.56,
+        "volatilidad": 11.73,
+        "maximaCaida": -15.33,
+        "trackingError": 0.44,
+        "rCuadrado": 0.94,
+        "correlacion": 0.97
+      },
+      "5A": {
+        "alfa": 0.03,
+        "beta": 0.93,
+        "ratioSharpe": 0.52,
+        "volatilidad": 12.18,
+        "maximaCaida": -17.01,
+        "trackingError": 0.47,
+        "rCuadrado": 0.92,
+        "correlacion": 0.96
+      },
+      "10A": {
+        "alfa": 0.03,
+        "beta": 0.9,
+        "ratioSharpe": 0.49,
+        "volatilidad": 12.63,
+        "maximaCaida": -19.52,
+        "trackingError": 0.5,
+        "rCuadrado": 0.9,
+        "correlacion": 0.95
+      }
+    },
+    "links": {
+      "morningstar": "https://www.morningstar.es/es/funds/snapshot/snapshot.aspx?id=IE00B0000003",
+      "finect": "https://www.finect.com/fondos-inversion/IE00B0000003"
+    },
+    "observaciones": [
+      "Vehículo indexado de bajo coste."
+    ]
+  }
+]
+        </script>
+        <script>
+const FONDOS_JSON_FILE='fondos.json',PERIODS=['12M','3A','5A','10A'];let fondosInversion=[];const state={searchTerm:'',activeFilter:'Todos',vehicleFilter:'Todos',sortKey:'nombre',sortDirection:'asc'};const $=id=>document.getElementById(id);const svgPlus='<svg class="h-4 w-4" viewBox="0 0 24 24" fill="none"><path d="M12 5V19M5 12H19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>',svgChart='<svg class="h-4 w-4" viewBox="0 0 24 24" fill="none"><path d="M4 19V5M4 19H20M7 15L11 11L14 13L19 7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>',svgEdit='<svg class="h-4 w-4" viewBox="0 0 24 24" fill="none"><path d="M4 20H8L19 9L15 5L4 16V20Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>',svgDel='<svg class="h-4 w-4" viewBox="0 0 24 24" fill="none"><path d="M5 7H19M9 7V5H15V7M8 10V19M16 10V19M6.5 7L7.5 21H16.5L17.5 7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>',svgStar='<svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12 3.2l2.55 5.17 5.7.83-4.12 4.02.97 5.68L12 16.22 6.9 18.9l.97-5.68L3.75 9.2l5.7-.83L12 3.2z"/></svg>';
+function isMissing(v){return v===undefined||v===null||v===''}function isDash(v){return v==='--'}function normalizeDisplay(v){if(isDash(v))return'n/a';if(isMissing(v))return'';return v}function normVehicle(v){const x=String(normalizeDisplay(v)).toLowerCase();if(['etf','etfs'].includes(x))return'ETF';if(['fondo','fondos'].includes(x))return'Fondo';return normalizeDisplay(v)}function vehicleMatches(f){const v=normVehicle(f.vehiculoInversion);return state.vehicleFilter==='Todos'||(state.vehicleFilter==='Fondos'&&v==='Fondo')||(state.vehicleFilter==='Etfs'&&v==='ETF')}function toNumberOrNull(v){if(isMissing(v)||isDash(v))return null;const n=Number(v);return Number.isFinite(n)?n:null}function escapeHtml(v){return String(normalizeDisplay(v)).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#039;')}function fmtNumber(v){if(isDash(v))return'n/a';if(isMissing(v))return'';const n=toNumberOrNull(v);return n===null?escapeHtml(v):n.toFixed(2)}function fmtPercent(v){if(isDash(v))return'n/a';if(isMissing(v))return'';const n=toNumberOrNull(v);return n===null?escapeHtml(v):`${n.toFixed(2)}%`}function negClass(v){const n=toNumberOrNull(v);return n!==null&&n<0?'rounded-full bg-red-50 px-2 py-1 font-semibold text-red-700':'text-slate-700'}function cellValue(v,p=false){return`<span class="${negClass(v)}">${p?fmtPercent(v):fmtNumber(v)}</span>`}function normalizeStars(v){if(isMissing(v)||isDash(v))return null;const n=Number(v);return Number.isFinite(n)?Math.min(Math.max(Math.round(n),0),5):null}function renderStars(v){const s=normalizeStars(v);if(s===null)return escapeHtml(v);return`<span class="text-amber-500">${'★'.repeat(s)}</span><span class="text-slate-300">${'☆'.repeat(5-s)}</span> <span class="text-slate-500">${s}/5</span>`}function iconButton(cls,svg,label,call){return`<button type="button" class="inline-flex h-9 w-9 items-center justify-center rounded-xl ${cls} ring-1 transition" title="${label}" aria-label="${label}" onclick="${call}">${svg}</button>`}function fundById(id){return fondosInversion.find(f=>Number(f.id)===Number(id))}function replaceDashDeep(v){if(v==='--')return'n/a';if(Array.isArray(v))return v.map(replaceDashDeep);if(v&&typeof v==='object')return Object.fromEntries(Object.entries(v).map(([k,val])=>[k,replaceDashDeep(val)]));return v}
+async function loadFundsData(){try{const r=await fetch(FONDOS_JSON_FILE,{cache:'no-store'});if(!r.ok)throw Error(`HTTP ${r.status}`);const d=await r.json();if(!Array.isArray(d))throw Error('JSON inválido');fondosInversion=d;$('dataSourceAlert').classList.add('hidden')}catch(e){fondosInversion=JSON.parse($('fallback-data').textContent);$('dataSourceAlert').classList.remove('hidden')}}function average(p){const nums=fondosInversion.filter(vehicleMatches).map(f=>toNumberOrNull(f[p])).filter(n=>n!==null);return nums.length?nums.reduce((a,n)=>a+n,0)/nums.length:null}function renderKPIs(){$('kpiTotalFondos').textContent=getFilteredFunds().length;$('kpiRentabilidadMedia').textContent=average('rentabilidadAnual')===null?'':fmtPercent(average('rentabilidadAnual'));$('kpiRatingMedio').textContent=average('morningstarEstrellas')===null?'':`${fmtNumber(average('morningstarEstrellas'))}/5`}function typesForVehicle(){return[...new Set(fondosInversion.filter(vehicleMatches).map(f=>f.tipoFondo).filter(v=>!isMissing(v)&&!isDash(v)))].sort((a,b)=>String(a).localeCompare(String(b),'es'))}function renderTypeOptions(){const cur=state.activeFilter;const t=typesForVehicle();$('fundTypeSelect').innerHTML='<option value="Todos">Todos</option>'+t.map(x=>`<option value="${escapeHtml(x)}">${escapeHtml(x)}</option>`).join('');state.activeFilter=cur==='Todos'||t.includes(cur)?cur:'Todos';$('fundTypeSelect').value=state.activeFilter}function getFilteredFunds(){const term=state.searchTerm.toLowerCase();return fondosInversion.filter(f=>vehicleMatches(f)&&[f.nombre,f.isin,f.tipoFondo,f.anioRegistro,f.vehiculoInversion].some(v=>String(normalizeDisplay(v)).toLowerCase().includes(term))&&(state.activeFilter==='Todos'||f.tipoFondo===state.activeFilter))}function compareValue(a,b,k){const va=a[k],vb=b[k];if(isMissing(va)&&isMissing(vb))return 0;if(isMissing(va))return 1;if(isMissing(vb))return-1;const na=toNumberOrNull(va),nb=toNumberOrNull(vb);if(na!==null&&nb!==null)return na-nb;return String(normalizeDisplay(va)).localeCompare(String(normalizeDisplay(vb)),'es')}function getVisibleFunds(){return[...getFilteredFunds()].sort((a,b)=>{const r=compareValue(a,b,state.sortKey);return state.sortDirection==='asc'?r:-r})}function renderSortIcons(){document.querySelectorAll('[data-sort-icon]').forEach(i=>{i.textContent=i.dataset.sortIcon===state.sortKey?(state.sortDirection==='asc'?'↑':'↓'):'↕'})}
+function isHighlighted(f){return f.destacado===true}function highlightRowClass(f){return isHighlighted(f)?'bg-amber-50/70 hover:bg-amber-50 ring-1 ring-inset ring-amber-200':'hover:bg-slate-50/70'}function highlightCardClass(f){return isHighlighted(f)?'bg-amber-50 ring-2 ring-amber-200':'bg-white ring-1 ring-slate-200/60'}function highlightBadge(f){return isHighlighted(f)?'<span class="ml-2 rounded-full bg-amber-100 px-2 py-0.5 text-xs font-medium text-amber-800">Destacado</span>':''}function getHighlightButton(f){const a=isHighlighted(f);return iconButton(a?'bg-amber-100 text-amber-800 ring-amber-200 hover:bg-amber-200':'bg-white text-slate-500 ring-slate-200 hover:bg-amber-50 hover:text-amber-700',svgStar,a?'Quitar destacado':'Marcar como destacado',`toggleHighlight(${Number(f.id)})`)}
+function renderTableRows(list){$('fundsTableBody').innerHTML=list.map(f=>`<tr class="${highlightRowClass(f)}"><td class="px-5 py-5"><div class="text-sm font-semibold text-graphite">${escapeHtml(f.nombre)}${highlightBadge(f)}</div></td><td class="px-5 py-5 text-sm text-slate-600">${escapeHtml(normVehicle(f.vehiculoInversion))}</td><td class="px-5 py-5 text-sm text-slate-600">${escapeHtml(f.anioRegistro)}</td><td class="px-5 py-5"><button type="button" class="text-sm font-medium text-slate-600 underline decoration-slate-300 underline-offset-4 hover:text-slate-900" onclick="openLinksModal(${Number(f.id)})">${escapeHtml(f.isin)}</button></td><td class="px-5 py-5"><span class="rounded-full bg-slate-100 px-3 py-1 text-sm font-medium text-slate-600">${escapeHtml(f.tipoFondo)}</span></td><td class="px-5 py-5 text-right text-sm">${renderStars(f.morningstarEstrellas)}</td><td class="px-5 py-5 text-right">${cellValue(f.rentabilidadAnual,true)} <button type="button" class="text-sm text-slate-500 underline" onclick="openReturnsModal(${Number(f.id)})">Ver años</button></td><td class="px-5 py-5 text-center">${iconButton('bg-slate-50 text-slate-600 ring-slate-200 hover:bg-slate-100',svgChart,'Más datos',`openMoreDataModal(${Number(f.id)})`)}</td><td class="px-5 py-5 text-center">${iconButton('bg-emerald-50 text-emerald-700 ring-emerald-100 hover:bg-emerald-100',svgPlus,'Observaciones',`openObservationsModal(${Number(f.id)})`)}</td><td class="px-5 py-5 text-center"><div class="flex justify-center gap-2">${getHighlightButton(f)}${iconButton('bg-sky-50 text-sky-700 ring-sky-100 hover:bg-sky-100',svgEdit,'Editar',`openEditFundModal(${Number(f.id)})`)}${iconButton('bg-red-50 text-red-700 ring-red-100 hover:bg-red-100',svgDel,'Borrar',`deleteFund(${Number(f.id)})`)}</div></td></tr>`).join('')}function renderCards(list){$('fundsCardsContainer').innerHTML=list.map(f=>`<article class="rounded-xl p-5 shadow-sm ${highlightCardClass(f)}"><div class="flex justify-between gap-4"><div><h3 class="font-semibold text-graphite">${escapeHtml(f.nombre)}${highlightBadge(f)}</h3><button type="button" class="mt-1 text-sm text-slate-500 underline" onclick="openLinksModal(${Number(f.id)})">${escapeHtml(f.isin)}</button></div><span class="h-fit rounded-full bg-slate-100 px-3 py-1 text-sm">${escapeHtml(normVehicle(f.vehiculoInversion))}</span></div><div class="mt-4 grid grid-cols-2 gap-4 text-sm"><div><p class="text-slate-500">Tipo</p><p class="font-medium">${escapeHtml(f.tipoFondo)}</p></div><div><p class="text-slate-500">Morningstar</p><p>${renderStars(f.morningstarEstrellas)}</p></div><div><p class="text-slate-500">Rentabilidad</p><p>${cellValue(f.rentabilidadAnual,true)}</p></div></div><div class="mt-4 flex flex-wrap gap-2 border-t border-slate-100 pt-4">${iconButton('bg-slate-50 text-slate-600 ring-slate-200',svgChart,'Más datos',`openMoreDataModal(${Number(f.id)})`)}${iconButton('bg-emerald-50 text-emerald-700 ring-emerald-100',svgPlus,'Observaciones',`openObservationsModal(${Number(f.id)})`)}${getHighlightButton(f)}${iconButton('bg-sky-50 text-sky-700 ring-sky-100',svgEdit,'Editar',`openEditFundModal(${Number(f.id)})`)}${iconButton('bg-red-50 text-red-700 ring-red-100',svgDel,'Borrar',`deleteFund(${Number(f.id)})`)}</div></article>`).join('')}function render(){const v=getVisibleFunds();renderTableRows(v);renderCards(v);renderSortIcons();renderKPIs();$('resultCount').textContent=v.length===1?'Mostrando 1 elemento':`Mostrando ${v.length} elementos`;$('emptyState').classList.toggle('hidden',v.length>0)}
+function openGenericModal(t,s,b){$('genericModalTitle').textContent=t;$('genericModalSubtitle').textContent=s||'';$('genericModalBody').innerHTML=b;$('genericModal').classList.remove('hidden');$('genericModal').classList.add('flex');document.body.classList.add('overflow-hidden')}function closeGenericModal(){$('genericModal').classList.add('hidden');$('genericModal').classList.remove('flex');document.body.classList.remove('overflow-hidden')}function openLinksModal(id){const f=fundById(id);if(!f)return;const ms=f.links&&f.links.morningstar?f.links.morningstar:'#',fi=f.links&&f.links.finect?f.links.finect:'#';openGenericModal('Enlaces',`${normalizeDisplay(f.nombre)} · ${normalizeDisplay(f.isin)}`,`<div class="grid gap-3 sm:grid-cols-2"><a class="rounded-xl bg-slate-50 p-4 ring-1 ring-slate-100 hover:bg-slate-100" href="${escapeHtml(ms)}" target="_blank" rel="noopener">Morningstar</a><a class="rounded-xl bg-slate-50 p-4 ring-1 ring-slate-100 hover:bg-slate-100" href="${escapeHtml(fi)}" target="_blank" rel="noopener">Finect</a></div>`)}function openReturnsModal(id){const f=fundById(id);if(!f)return;const rows=[...(f.rentabilidadesPorAnio||[])].sort((a,b)=>(toNumberOrNull(b.anio)||0)-(toNumberOrNull(a.anio)||0)).map(x=>`<div class="mb-2 flex justify-between rounded-xl bg-slate-50 p-3"><b>${escapeHtml(x.anio)}</b>${cellValue(x.rentabilidad,true)}</div>`).join('');openGenericModal('Rentabilidades por año',`${normalizeDisplay(f.nombre)} · ${normalizeDisplay(f.isin)}`,rows||'<p>No hay datos.</p>')}function openObservationsModal(id){const f=fundById(id);if(!f)return;const obs=Array.isArray(f.observaciones)?f.observaciones:[];openGenericModal('Observaciones',`${normalizeDisplay(f.nombre)} · ${normalizeDisplay(f.isin)}`,obs.length?obs.map((x,i)=>`<div class="mb-2 rounded-xl bg-slate-50 p-4"><p class="text-xs uppercase text-slate-400">Observación ${i+1}</p><p>${escapeHtml(x)}</p></div>`).join(''):'<p>No hay observaciones.</p>')}function openMoreDataModal(id){const f=fundById(id);if(!f)return;const h=['Periodo','Alfa','Beta','Ratio Sharpe','Volatilidad','Máxima caída','Tracking error','R²','Correlación'];const rows=PERIODS.map(p=>{const m=(f.metricasPorPeriodo&&f.metricasPorPeriodo[p])||{};return`<tr><td class="px-4 py-3 font-semibold">${p}</td><td class="px-4 py-3 text-right">${cellValue(m.alfa)}</td><td class="px-4 py-3 text-right">${cellValue(m.beta)}</td><td class="px-4 py-3 text-right">${cellValue(m.ratioSharpe)}</td><td class="px-4 py-3 text-right">${cellValue(m.volatilidad,true)}</td><td class="px-4 py-3 text-right">${cellValue(m.maximaCaida,true)}</td><td class="px-4 py-3 text-right">${cellValue(m.trackingError,true)}</td><td class="px-4 py-3 text-right">${cellValue(m.rCuadrado)}</td><td class="px-4 py-3 text-right">${cellValue(m.correlacion)}</td></tr>`}).join('');openGenericModal('Más datos',`${normalizeDisplay(f.nombre)} · ${normalizeDisplay(f.isin)}`,`<div class="mb-4 flex justify-end"><button type="button" class="text-sm font-medium text-slate-500 underline" onclick="openLegendModal()">Ver leyenda de métricas</button></div><div class="overflow-x-auto rounded-xl ring-1 ring-slate-200"><table class="min-w-full divide-y divide-slate-100"><thead class="bg-slate-50"><tr>${h.map(x=>`<th class="px-4 py-3 text-right text-xs font-semibold uppercase text-slate-500 first:text-left">${x}</th>`).join('')}</tr></thead><tbody class="divide-y divide-slate-100">${rows}</tbody></table></div>`)}function openLegendModal(){const body='<div class="space-y-4"><p class="text-sm text-slate-600">Leyenda de métricas: volatilidad, máxima caída, Sharpe, alfa, beta, correlación, R² y tracking error.</p><p class="text-sm text-slate-600"><b>Valores negativos</b> se resaltan en rojo para facilitar su identificación.</p></div>';openGenericModal('Leyenda de métricas','Definición y lectura práctica de los principales indicadores',body)}
+function getNextId(){return fondosInversion.length?Math.max(...fondosInversion.map(f=>Number(f.id)||0))+1:1}function parseJsonArray(t){const d=JSON.parse(t);if(!Array.isArray(d))throw Error('Debe ser un array');return d}function parseJsonObject(t){const d=JSON.parse(t);if(!d||Array.isArray(d)||typeof d!=='object')throw Error('Debe ser un objeto');return d}function defaultMetrics(){return Object.fromEntries(PERIODS.map(p=>[p,{alfa:0,beta:0,ratioSharpe:0,volatilidad:0,maximaCaida:0,trackingError:0,rCuadrado:0,correlacion:0}]))}function parseEditableNumber(v){if(isDash(v))return'n/a';if(isMissing(v))return'';const n=Number(v);return Number.isFinite(n)?n:v}function fillForm(f){$('formFundId').value=f?f.id:'';$('formDestacado').checked=f?isHighlighted(f):false;$('formNombre').value=f?normalizeDisplay(f.nombre):'';$('formVehiculo').value=f?normVehicle(f.vehiculoInversion)||'Fondo':'Fondo';$('formIsin').value=f?normalizeDisplay(f.isin):'';$('formTipoFondo').value=f?normalizeDisplay(f.tipoFondo):'';$('formAnioRegistro').value=f?normalizeDisplay(f.anioRegistro):new Date().getFullYear();$('formMorningstar').value=f?normalizeDisplay(f.morningstarEstrellas):'';$('formRentabilidad').value=f?normalizeDisplay(f.rentabilidadAnual):'';$('formMorningstarUrl').value=f&&f.links?normalizeDisplay(f.links.morningstar):'';$('formFinectUrl').value=f&&f.links?normalizeDisplay(f.links.finect):'';$('formRentabilidades').value=JSON.stringify(f?replaceDashDeep(f.rentabilidadesPorAnio||[]):[{anio:new Date().getFullYear(),rentabilidad:0}],null,2);$('formMetricas').value=JSON.stringify(f?replaceDashDeep(f.metricasPorPeriodo||defaultMetrics()):defaultMetrics(),null,2);$('formObservaciones').value=f&&Array.isArray(f.observaciones)?f.observaciones.map(normalizeDisplay).join('\n'):''}function openCreateFundModal(){$('fundFormTitle').textContent='Nuevo fondo / ETF';fillForm(null);$('fundFormModal').classList.remove('hidden');$('fundFormModal').classList.add('flex');document.body.classList.add('overflow-hidden')}function openEditFundModal(id){const f=fundById(id);if(!f)return;$('fundFormTitle').textContent='Editar fondo / ETF';fillForm(f);$('fundFormModal').classList.remove('hidden');$('fundFormModal').classList.add('flex');document.body.classList.add('overflow-hidden')}function closeFundFormModal(){$('fundFormModal').classList.add('hidden');$('fundFormModal').classList.remove('flex');document.body.classList.remove('overflow-hidden')}function saveFund(e){e.preventDefault();try{const id=Number($('formFundId').value)||getNextId();const f={id,destacado:$('formDestacado').checked,nombre:$('formNombre').value.trim(),vehiculoInversion:$('formVehiculo').value,anioRegistro:parseEditableNumber($('formAnioRegistro').value),tipoFondo:$('formTipoFondo').value.trim(),isin:$('formIsin').value.trim(),morningstarEstrellas:parseEditableNumber($('formMorningstar').value),rentabilidadAnual:parseEditableNumber($('formRentabilidad').value),rentabilidadesPorAnio:replaceDashDeep(parseJsonArray($('formRentabilidades').value)),metricasPorPeriodo:replaceDashDeep(parseJsonObject($('formMetricas').value)),links:{morningstar:$('formMorningstarUrl').value.trim(),finect:$('formFinectUrl').value.trim()},observaciones:$('formObservaciones').value.split('\n').map(x=>x.trim()).filter(Boolean)};if(!f.nombre||!f.isin||!f.tipoFondo)throw Error('Nombre, ISIN y tipo son obligatorios.');const idx=fondosInversion.findIndex(x=>Number(x.id)===id);if(idx>=0)fondosInversion[idx]=f;else fondosInversion.push(f);renderTypeOptions();render();closeFundFormModal()}catch(err){alert(`No se ha podido guardar: ${err.message}`)}}function toggleHighlight(id){const f=fundById(id);if(!f)return;f.destacado=!isHighlighted(f);render()}function deleteFund(id){const f=fundById(id);if(!f)return;if(confirm(`¿Borrar "${normalizeDisplay(f.nombre)}"?`)){fondosInversion=fondosInversion.filter(x=>Number(x.id)!==Number(id));renderTypeOptions();render()}}
+function exportToJson(){const data=getVisibleFunds().map(replaceDashDeep);const blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json;charset=utf-8'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download=`softfund-fondos-etfs-${new Date().toISOString().slice(0,10)}.json`;a.click();URL.revokeObjectURL(url)}function exportToExcel(){const data=getVisibleFunds().map(replaceDashDeep);if(!data.length)return;if(typeof XLSX==='undefined'){alert('No se ha cargado la librería Excel.');return}const years=[...new Set(data.flatMap(f=>(f.rentabilidadesPorAnio||[]).map(r=>r.anio)))].filter(y=>!isMissing(y)).sort((a,b)=>Number(b)-Number(a));const rows=data.map(f=>{const row={ID:f.id,Destacado:f.destacado?'Sí':'','Veh. Inversión':normVehicle(f.vehiculoInversion),Nombre:f.nombre||'',ISIN:f.isin||'','Tipo':f.tipoFondo||'','Año registro':f.anioRegistro||'','Estrellas Morningstar':f.morningstarEstrellas||'','Rentabilidad anual (%)':f.rentabilidadAnual||'','Link Morningstar':f.links?.morningstar||'','Link Finect':f.links?.finect||'',Observaciones:(f.observaciones||[]).join(' | ')};PERIODS.forEach(p=>{const m=(f.metricasPorPeriodo&&f.metricasPorPeriodo[p])||{};['alfa','beta','ratioSharpe','volatilidad','maximaCaida','trackingError','rCuadrado','correlacion'].forEach(k=>row[`${p} ${k}`]=m[k]??'')});years.forEach(y=>{const r=(f.rentabilidadesPorAnio||[]).find(x=>String(x.anio)===String(y));row[`Rentabilidad ${y} (%)`]=r?r.rentabilidad:''});return row});const ws=XLSX.utils.json_to_sheet(rows);const wb=XLSX.utils.book_new();XLSX.utils.book_append_sheet(wb,ws,'Fondos y ETFs');XLSX.writeFile(wb,`softfund-fondos-etfs-${new Date().toISOString().slice(0,10)}.xlsx`)}
+async function init(){await loadFundsData();renderTypeOptions();render();$('searchInput').addEventListener('input',e=>{state.searchTerm=e.target.value.trim();render()});$('vehicleSelect').addEventListener('change',e=>{state.vehicleFilter=e.target.value;state.activeFilter='Todos';renderTypeOptions();render()});$('fundTypeSelect').addEventListener('change',e=>{state.activeFilter=e.target.value;render()});document.querySelectorAll('.sort-button').forEach(b=>b.addEventListener('click',()=>{const k=b.dataset.sortKey;if(state.sortKey===k)state.sortDirection=state.sortDirection==='asc'?'desc':'asc';else{state.sortKey=k;state.sortDirection='asc'}render()}));$('createFundButton').addEventListener('click',openCreateFundModal);$('legendButton').addEventListener('click',openLegendModal);$('fundForm').addEventListener('submit',saveFund);$('exportJsonButton').addEventListener('click',exportToJson);$('exportExcelButton').addEventListener('click',exportToExcel);$('closeGenericModalButton').addEventListener('click',closeGenericModal);$('closeFundFormButton').addEventListener('click',closeFundFormModal);$('cancelFundFormButton').addEventListener('click',closeFundFormModal);['genericModal','fundFormModal'].forEach(id=>$(id).addEventListener('click',e=>{if(e.target===$(id)){closeGenericModal();closeFundFormModal()}}));document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeGenericModal();closeFundFormModal()}})}document.addEventListener('DOMContentLoaded',init);
+        </script>
+    </body>
+</html>
