@@ -2011,5 +2011,77 @@
         "observaciones": [
             "Es un fondo que se enmarca en la categoría de RV Sector Energía Alternativa. Su estrategia de inversión sostenible tiene como objetivo principal impulsar la transformación y descarbonización del sector energético global. Para ello, invierte principalmente en empresas que contribuyen a la producción de energía limpia, el desarrollo de productos e infraestructuras eficientes energéticamente, y tecnologías que apoyan la electrificación de los sectores industrial, del transporte y de la calefacción. El Robeco Smart Energy busca avanzar en varios Objetivos de Desarrollo Sostenible (ODS) de las Naciones Unidas, incluyendo la energía asequible y no contaminante (ODS 7), la industria, innovación e infraestructura (ODS 9) y la acción por el clima (ODS 13), entre otros. Además de su enfoque sostenible, el fondo persigue el crecimiento del capital a largo plazo, dirigiéndose a inversores interesados en la transición energética y el impacto positivo."
         ]
+    },
+    {
+        "id": 25,
+        "nombre": "Echiquier Space B",
+        "vehiculoInversion": "Fondo",
+        "anioRegistro": 2026,
+        "tipoFondo": "Renta Variable Aeroespacial",
+        "isin": "LU2466448532",
+        "morningstarEstrellas": 4,
+        "rentabilidadAnual": 26.52,
+        "destacado": true,
+        "rentabilidadesPorAnio": [
+            {
+                "anio": 2022,
+                "rentabilidad": -38.36
+            },
+            {
+                "anio": 2023,
+                "rentabilidad": 25.32
+            },
+            {
+                "anio": 2024,
+                "rentabilidad": 69.35
+            },
+            {
+                "anio": 2025,
+                "rentabilidad": 22.40
+            },
+            {
+                "anio": 2026,
+                "rentabilidad": 26.52
+            }
+        ],
+        "metricasPorPeriodo": {
+            "12M": {
+                "alfa": 19.45,
+                "beta": 0.82,
+                "ratioSharpe": 2.19,
+                "volatilidad": 27.14,
+                "maximaCaida": -7.31,
+                "trackingError": 18.00,
+                "rCuadrado": 63.26,
+                "correlacion": 79.54
+            },
+            "3A": {
+                "alfa": 17.51,
+                "beta": 0.82,
+                "ratioSharpe": 1.66,
+                "volatilidad": 23.63,
+                "maximaCaida": -13.34,
+                "trackingError": 16.14,
+                "rCuadrado": 57.22,
+                "correlacion": 75.64
+            },
+            "5A": {
+                "alfa": 0.06,
+                "beta": 0.92,
+                "ratioSharpe": 0.75,
+                "volatilidad": 26.40,
+                "maximaCaida": -44.89,
+                "trackingError": 16.18,
+                "rCuadrado": 64.47,
+                "correlacion": 80.29
+            }
+        },
+        "links": {
+            "morningstar": "https://global.morningstar.com/es/inversiones/fondos/0P0001Q89W/cotizacion",
+            "finect": "https://www.finect.com/fondos-inversion/LU2466448532-Echiquier_space_b"
+        },
+        "observaciones": [
+            "Es un fondo de inversión de gestión activa que busca generar rentabilidad a largo plazo. Su estrategia se centra en la exposición a los mercados de renta variable internacionales, invirtiendo de forma específica en compañías del innovador sector de la industria espacial. Este producto está diseñado para inversores que desean participar en el crecimiento de la economía espacial y que poseen un horizonte de inversión a largo plazo, asumiendo la volatilidad inherente a la inversión en renta variable sectorial. El fondo Echiquier Space cumple con los requisitos del Artículo 8 del Reglamento de Divulgación de Finanzas Sostenibles (SFDR), integrando criterios de sostenibilidad en su proceso de inversión."
+        ]
     }
 ]
