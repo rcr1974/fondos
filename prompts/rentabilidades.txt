@@ -18,3 +18,48 @@ Reglas:
 - Convertir coma decimal a punto.
 - Si el valor es "-" o "—", usar null.
 - No añadir explicaciones ni texto adicional.
+- Presenta el resultado en formato json bien formateado
+
+Ejemplo de como devolver el resulatado:
+"""
+"rentabilidadesPorAnio": [
+	{
+		"anio": 2025,
+		"rentabilidad": -7.59
+	},
+	{
+		"anio": 2024,
+		"rentabilidad": 13.46
+	},
+	{
+		"anio": 2023,
+		"rentabilidad": 18.21
+	},
+	{
+		"anio": 2022,
+		"rentabilidad": -16.23
+	},
+	{
+		"anio": 2021,
+		"rentabilidad": 25.35
+	},
+	{
+		"anio": 2020,
+		"rentabilidad": 17.00
+	},
+	{
+		"anio": 2019,
+		"rentabilidad": 39.13
+	},
+	{
+		"anio": 2018,
+		"rentabilidad": -1.72
+	},
+	{
+		"anio": 2017,
+		"rentabilidad": 3.14
+	}
+]
+
+"""
+
