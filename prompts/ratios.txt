@@ -1,0 +1,22 @@
+Analiza la imagen y extrae los ratios financieros visibles.
+
+Devuelve únicamente un JSON con este formato:
+
+{
+  "periodo": "12M|3A|5A",
+  "alfa": null,
+  "beta": null,
+  "ratioSharpe": null,
+  "volatilidad": null,
+  "maximaCaida": null,
+  "trackingError": null,
+  "rCuadrado": null,
+  "correlacion": null
+}
+
+Reglas:
+- Convertir comas decimales a puntos.
+- Eliminar el símbolo %.
+- Mantener signos negativos.
+- Usar null para valores no visibles.
+- No añadir texto fuera del JSON.
