@@ -2083,5 +2083,76 @@
         "observaciones": [
             "Es un fondo de inversión de gestión activa que busca generar rentabilidad a largo plazo. Su estrategia se centra en la exposición a los mercados de renta variable internacionales, invirtiendo de forma específica en compañías del innovador sector de la industria espacial. Este producto está diseñado para inversores que desean participar en el crecimiento de la economía espacial y que poseen un horizonte de inversión a largo plazo, asumiendo la volatilidad inherente a la inversión en renta variable sectorial. El fondo Echiquier Space cumple con los requisitos del Artículo 8 del Reglamento de Divulgación de Finanzas Sostenibles (SFDR), integrando criterios de sostenibilidad en su proceso de inversión."
         ]
+    },
+    {
+        "id": 26,
+        "nombre": "DWS Euro Ultra Short Fixed Income Fund NC",
+        "vehiculoInversion": "Fondo",
+        "anioRegistro": 2026,
+        "tipoFondo": "Renta Fija Corto Plazo",
+        "isin": "LU0080237943",
+        "morningstarEstrellas": 4,
+        "rentabilidadAnual": 1.18,
+        "destacado": true,
+        "rentabilidadesPorAnio": [
+            {"anio":2017,"rentabilidad":-0.18},
+            {"anio":2018,"rentabilidad":-0.45},
+            {"anio":2019,"rentabilidad":-0.08},
+            {"anio":2020,"rentabilidad":0.09},
+            {"anio":2021,"rentabilidad":-0.33},
+            {"anio":2022,"rentabilidad":-1.61},
+            {"anio":2023,"rentabilidad":4.28},
+            {"anio":2024,"rentabilidad":4.48},
+            {"anio":2025,"rentabilidad":2.77},
+            {"anio":2026,"rentabilidad":1.18}],
+        "metricasPorPeriodo": {
+            "12M": {
+        		"alfa": 0.01,
+        		"beta": 16.85,
+        		"ratioSharpe": 2.4,
+        		"volatilidad": 0.25,
+        		"maximaCaida": -0.15,
+        		"trackingError": 0.25,
+        		"rCuadrado": 29.91,
+        		"correlacion": 54.69
+        	  },
+        	"3A": {
+        		"alfa": 0.02,
+        		"beta": 11.54,
+        		"ratioSharpe": 3.01,
+        		"volatilidad": 0.38,
+        		"maximaCaida": -0.15,
+        		"trackingError": 0.24,
+        		"rCuadrado": 0.78,
+        		"correlacion": 8.86
+        	  },
+        	"5A":{
+        		"alfa": 0,
+        		"beta": 11.42,
+        		"ratioSharpe": 0.46,
+        		"volatilidad": 0.83,
+        		"maximaCaida": -2.38,
+        		"trackingError": 0.5,
+        		"rCuadrado": 0.93,
+        		"correlacion": 9.66
+        	  },
+            "10A": {
+                "alfa": 0.09,
+                "beta": 3.77,
+                "ratioSharpe": 0.34,
+                "volatilidad": "--",
+                "maximaCaida": "--",
+                "trackingError": "--",
+                "rCuadrado": 0.72,
+                "correlacion": "--"
+            }
+        },
+        "links": {
+            "morningstar": "https://global.morningstar.com/es/inversiones/fondos/0P00000B50/cotizacion",
+            "finect": "https://www.finect.com/fondos-inversion/LU0080237943-Dws_euro_ultra_short_fixed_inc_nc"
+        },
+        "observaciones": [
+            "Es un fondo de inversión de renta fija de ultra corto plazo, diseñado para inversores que buscan estabilidad y una gestión conservadora de su capital. Su estrategia se centra en la preservación del valor y la búsqueda de una rentabilidad modesta, característica de los productos de su categoría. Este fondo invierte principalmente en Euro-bonos, obligaciones convertibles y otros bonos con plazos fijos o variables, todos ellos denominados en euros. La selección de activos se orienta a mantener una duración muy corta, lo que contribuye a mitigar el riesgo de tipo de interés. El DWS Euro Ultra Short Fixed Income Fund se dirige a inversores con un perfil conservador que priorizan la liquidez y la baja volatilidad, buscando una alternativa a los depósitos o una solución para sus necesidades de inversión a corto plazo."
+        ]
     }
 ]
