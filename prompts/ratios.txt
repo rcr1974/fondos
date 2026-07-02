@@ -1,3 +1,4 @@
+
 Analiza la imagen y extrae los ratios financieros visibles.
 
 Devuelve únicamente un JSON con este formato:
@@ -20,3 +21,40 @@ Reglas:
 - Mantener signos negativos.
 - Usar null para valores no visibles.
 - No añadir texto fuera del JSON.
+- Presenta el resultado en json bien formateado
+
+Ejemplo de como devolver el resulatado:
+"""
+{
+  "12M": {
+    "alfa": 7.99,
+    "beta": 2.11,
+    "ratioSharpe": 1.58,
+    "volatilidad": 9.07,
+    "maximaCaida": -5.27,
+    "trackingError": 6.21,
+    "rCuadrado": 73.58,
+    "correlacion": 85.78
+  },
+  "3A": {
+    "alfa": 3.36,
+    "beta": 1.52,
+    "ratioSharpe": 0.85,
+    "volatilidad": 7.72,
+    "maximaCaida": -5.27,
+    "trackingError": 4.96,
+    "rCuadrado": 66.89,
+    "correlacion": 81.79
+  },
+  "5A": {
+    "alfa": 3.49,
+    "beta": 1.28,
+    "ratioSharpe": 0.35,
+    "volatilidad": 8.33,
+    "maximaCaida": -13.06,
+    "trackingError": 4.81,
+    "rCuadrado": 69.26,
+    "correlacion": 83.22
+  }
+}
+"""
