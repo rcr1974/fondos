@@ -1,0 +1,20 @@
+Analiza la tabla de rentabilidades anuales del fondo.
+
+Devuelve únicamente un JSON con este formato:
+
+{
+  "rentabilidades": [
+    {
+      "anio": 2025,
+      "rentabilidad": 2.74
+    }
+  ]
+}
+
+Reglas:
+- Extraer todos los años visibles.
+- Mantener el orden cronológico.
+- Eliminar el símbolo %.
+- Convertir coma decimal a punto.
+- Si el valor es "-" o "—", usar null.
+- No añadir explicaciones ni texto adicional.
