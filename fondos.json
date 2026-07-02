@@ -2234,5 +2234,94 @@
         "observaciones": [
             "Es un fondo de inversión de la categoría RF Diversificada Corto Plazo EUR, gestionado por Neuberger Berman Asset Management Ireland Limited. Su estrategia principal es invertir en una cartera diversificada de valores de deuda a corto plazo, tanto de tipo fijo como flotante, denominados en euros. El fondo busca ofrecer una rentabilidad atractiva superior a la del efectivo en euros en un horizonte de un año, independientemente del entorno de mercado. Para ello, invierte en bonos denominados en euros de una amplia variedad de sectores y vencimientos. La gestora aplica un proceso de inversión disciplinado que combina estrategias top-down, centradas en consideraciones macroeconómicas y análisis de países y sectores, con estrategias bottom-up, que evalúan las características de instrumentos o emisores individuales. Este enfoque dual permite identificar múltiples fuentes de valor en el mercado de renta fija europea de corta duración. Se dirige a inversores que buscan exposición a bonos europeos de corta duración con un perfil de riesgo moderado."
         ]
-    }
+    },
+	{
+		"id": 28,
+		"nombre": "Assenagon I - Multi Asset Conservative P2 EUR Accumulation",
+		"vehiculoInversion": "Fondo",
+		"anioRegistro": 2026,
+		"tipoFondo": "Mixtos Defensivos",
+		"isin": "LU2794620414",
+		"morningstarEstrellas": 5,
+		"rentabilidadAnual": 4.22,
+		"destacado": true,
+		"rentabilidadesPorAnio":  [
+			{
+			  "anio": 2018,
+			  "rentabilidad": -5.81
+			},
+			{
+			  "anio": 2019,
+			  "rentabilidad": 9.84
+			},
+			{
+			  "anio": 2020,
+			  "rentabilidad": 12.28
+			},
+			{
+			  "anio": 2021,
+			  "rentabilidad": 6.07
+			},
+			{
+			  "anio": 2022,
+			  "rentabilidad": -9.36
+			},
+			{
+			  "anio": 2023,
+			  "rentabilidad": 8.77
+			},
+			{
+			  "anio": 2024,
+			  "rentabilidad": 9.41
+			},
+			{
+			  "anio": 2025,
+			  "rentabilidad": 10.89
+			},
+			{
+			  "anio": 2026,
+			  "rentabilidad": 4.22
+			}
+		],
+		"metricasPorPeriodo": {
+		  "12M": {
+			"alfa": 7.24,
+			"beta": 1.28,
+			"ratioSharpe": 2.13,
+			"volatilidad": 5.22,
+			"maximaCaida": -3.32,
+			"trackingError": 2.45,
+			"rCuadrado": 81.82,
+			"correlacion": 90.45
+		  },
+		  "3A": {
+			"alfa": 5.25,
+			"beta": 1.06,
+			"ratioSharpe": 1.49,
+			"volatilidad": 5.03,
+			"maximaCaida": -3.32,
+			"trackingError": 2.44,
+			"rCuadrado": 76.72,
+			"correlacion": 87.59
+		  },
+		  "5A": {
+			"alfa": 3.75,
+			"beta": 0.86,
+			"ratioSharpe": 0.62,
+			"volatilidad": 5.54,
+			"maximaCaida": -11.26,
+			"trackingError": 2.86,
+			"rCuadrado": 73.85,
+			"correlacion": 85.94
+		  }
+		},
+		"links": {
+			"morningstar": "https://global.morningstar.com/es/inversiones/fondos/0P0001SWCW/cotizacion",
+			"finect": "https://www.finect.com/fondos-inversion/LU2794620414-Assenagon_i_multi_asset_cnsrv_p2_eur_acc"
+		},
+		"observaciones": [
+			"Es un fondo de inversión de la categoría Mixtos Defensivos EUR - Global. Su objetivo principal es generar un crecimiento de capital sostenible mediante una estrategia de inversión flexible en diversas clases de activos e instrumentos. Este fondo multi activo integra criterios ESG (ambientales, sociales y de gobernanza) y considera los riesgos de sostenibilidad, promoviendo activamente características medioambientales y sociales para cumplir con los requisitos de inversión sostenible. Se gestiona de forma activa, sin estar vinculado a ningún índice de referencia. Dada su denominación "Conservative" y su categoría de "Mixtos Defensivos", se dirige a inversores que buscan una aproximación más prudente al mercado, priorizando la estabilidad y un crecimiento de capital moderado a largo plazo."
+		]
+	}
+
 ]
