@@ -1,0 +1,49 @@
+Analiza la imagen y extrae exclusivamente los datos financieros visibles.
+
+Reglas:
+
+1. Devuelve ÚNICAMENTE un JSON válido.
+2. No añadas explicaciones, comentarios ni texto adicional.
+3. Convierte los porcentajes a números decimales manteniendo el valor porcentual (ejemplo: "9,58%" → 9.58).
+4. Sustituye la coma decimal por punto.
+5. Si un dato no existe o no es visible, usa null.
+6. Conserva los signos negativos.
+7. Extrae únicamente los valores que aparezcan realmente en la imagen.
+8. Si la imagen corresponde a una pestaña de ratios (12 meses, 3 años o 5 años), devuelve este formato:
+
+{
+  "periodo": "12M|3A|5A",
+  "ratios": {
+    "alfa": null,
+    "beta": null,
+    "ratioSharpe": null,
+    "volatilidad": null,
+    "maximaCaida": null,
+    "trackingError": null,
+    "rCuadrado": null,
+    "correlacion": null
+  }
+}
+
+9. Si la imagen corresponde a la tabla de rentabilidades anuales, devuelve este formato:
+
+{
+  "rentabilidades": [
+    {
+      "anio": 2025,
+      "rentabilidad": 2.74
+    }
+  ]
+}
+
+10. Si la imagen contiene una tabla completa de años, extrae TODOS los años visibles.
+11. Si un año aparece con "-", "—" o sin valor, devuelve:
+
+{
+  "anio": XXXX,
+  "rentabilidad": null
+}
+
+12. No inventes datos ni realices cálculos.
+
+Devuelve únicamente el JSON resultante.
