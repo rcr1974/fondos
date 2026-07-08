@@ -2869,5 +2869,429 @@
         "observaciones": [
             "Es un fondo de inversión de renta variable sectorial que tiene como objetivo principal ofrecer a los inversores un crecimiento del capital a largo plazo. Su estrategia se basa en invertir mayoritariamente en títulos de renta variable de empresas de todo el mundo. El fondo se enfoca específicamente en compañías activas en la investigación, desarrollo, fabricación, distribución, suministro o venta de materiales, equipos, productos o servicios. Estas actividades deben estar relacionadas con industrias cíclicas y de recursos naturales. Este producto se dirige a inversores que buscan exposición global a los sectores industriales y de materiales, con una perspectiva de inversión a largo plazo."
         ]
+    },
+		{
+        "id": 35,
+        "nombre": "Incometric Equam Global Value B",
+        "vehiculoInversion": "Fondo",
+        "anioRegistro": 2026,
+        "tipoFondo": "Renta Variable Small Cups Europa",
+        "isin": "LU0933684283",
+        "morningstarEstrellas": 4,
+        "rentabilidadAnual": 5.02,
+        "destacado": true,
+        "rentabilidadesPorAnio": [
+			{
+			  "anio": 2021,
+			  "rentabilidad": 23.90
+			},
+			{
+			  "anio": 2022,
+			  "rentabilidad": -4.55
+			},
+			{
+			  "anio": 2023,
+			  "rentabilidad": 23.44
+			},
+			{
+			  "anio": 2024,
+			  "rentabilidad": 2.38
+			},
+			{
+			  "anio": 2025,
+			  "rentabilidad": 6.20
+			},
+			{
+			  "anio": 2026,
+			  "rentabilidad": 5.02
+			}
+        ],
+        "metricasPorPeriodo": {
+		  "12M": {
+			"alfa": -10.11,
+			"beta": 1.01,
+			"ratioSharpe": 0.02,
+			"volatilidad": 13.91,
+			"maximaCaida": -8.15,
+			"trackingError": 5.62,
+			"rCuadrado": 83.67,
+			"correlacion": 91.47
+		  },
+		  "3A": {
+			"alfa": -2.45,
+			"beta": 0.78,
+			"ratioSharpe": 0.41,
+			"volatilidad": 11.63,
+			"maximaCaida": -8.15,
+			"trackingError": 6.30,
+			"rCuadrado": 76.30,
+			"correlacion": 87.35
+		  },
+		  "5A": {
+			"alfa": 2.36,
+			"beta": 0.77,
+			"ratioSharpe": 0.35,
+			"volatilidad": 13.77,
+			"maximaCaida": -18.36,
+			"trackingError": 7.52,
+			"rCuadrado": 76.85,
+			"correlacion": 87.66
+		  }
+	  },
+        "links": {
+            "morningstar": "https://global.morningstar.com/es/inversiones/fondos/0P000159IF/cotizacion",
+            "finect": "https://www.finect.com/fondos-inversion/LU0933684283-Incometric_equam_global_value_b"
+        },
+        "observaciones": [
+            "Es un fondo de inversión de gestión activa cuyo objetivo principal es la revalorización del capital a medio plazo. Este producto, clasificado en la categoría de RV Europa Capitalización Pequeña, busca alcanzar su meta invirtiendo principalmente en una combinación de renta variable y renta fija. La estrategia de inversión del fondo se centra en activos emitidos mayoritariamente en países miembros de la OCDE. Aunque su categoría principal se enfoca en la renta variable europea de pequeña capitalización, su universo de inversión es más amplio, abarcando tanto acciones como instrumentos de deuda. Está dirigido a inversores que buscan crecimiento del capital en un horizonte temporal intermedio y que están dispuestos a asumir el riesgo asociado a la inversión en mercados de renta variable y fija internacionales. La gestión corre a cargo de Quintet Private Bank (Europe) S.A"
+        ]
+    },
+	{
+        "id": 36,
+        "nombre": "DIP - Paradigma Value Catalyst Equity A EUR Acc",
+        "vehiculoInversion": "Fondo",
+        "anioRegistro": 2026,
+        "tipoFondo": "Renta Variable",
+        "isin": "LU2388163516",
+        "morningstarEstrellas": 5,
+        "rentabilidadAnual": 39.85,
+        "destacado": true,
+        "rentabilidadesPorAnio": [
+			{
+			  "anio": 2022,
+			  "rentabilidad": 11.82
+			},
+			{
+			  "anio": 2023,
+			  "rentabilidad": 12.90
+			},
+			{
+			  "anio": 2024,
+			  "rentabilidad": 0.03
+			},
+			{
+			  "anio": 2025,
+			  "rentabilidad": 17.88
+			},
+			{
+			  "anio": 2026,
+			  "rentabilidad": 39.85
+			}
+        ],
+        "metricasPorPeriodo": {
+		  "12M": {
+			"alfa": 25.71,
+			"beta": 1.04,
+			"ratioSharpe": 3.01,
+			"volatilidad": 16.39,
+			"maximaCaida": -2.59,
+			"trackingError": 12.65,
+			"rCuadrado": 56.76,
+			"correlacion": 75.34
+		  },
+		  "3A": {
+			"alfa": 4.74,
+			"beta": 0.99,
+			"ratioSharpe": 1.14,
+			"volatilidad": 16.10,
+			"maximaCaida": -17.00,
+			"trackingError": 12.60,
+			"rCuadrado": 50.26,
+			"correlacion": 70.89
+		  }
+	  },
+        "links": {
+            "morningstar": "https://global.morningstar.com/es/inversiones/fondos/0P0001NLM6/cotizacion",
+            "finect": "https://www.finect.com/fondos-inversion/LU2388163516-Dip_value_catalyst_equity_a_eur_acc"
+        },
+        "observaciones": [
+            "Es un fondo de inversión de renta variable global de capitalización flexible, gestionado por Quintet Private Bank (Europe) S.A. Su objetivo es generar retornos positivos a largo plazo para sus inversores, a través de la revalorización del capital y los dividendos, invirtiendo en acciones de empresas de todo el mundo. La estrategia de inversión de este fondo se fundamenta en la creencia de que, si bien los mercados de renta variable son eficientes a largo plazo, a corto plazo pueden presentar ineficiencias. El fondo busca identificar oportunidades donde el mercado tarda en reflejar el impacto de catalizadores específicos, como inversiones empresariales, perspectivas de negocio o ciclos económicos. Esta aproximación permite al DIP - Paradigma Value Catalyst Equity buscar retornos ajustados al riesgo superiores para inversores con un horizonte temporal de al menos 4-5 años, interesados en la renta variable global"
+        ]
+    },
+	{
+        "id": 37,
+        "nombre": "Sifter Fund - Global RA",
+        "vehiculoInversion": "Fondo",
+        "anioRegistro": 2026,
+        "tipoFondo": "Renta Variable",
+        "isin": "LU2905591629",
+        "morningstarEstrellas": 0,
+        "rentabilidadAnual": 20.3,
+        "destacado": true,
+        "rentabilidadesPorAnio": [
+			{
+			  "anio": 2025,
+			  "rentabilidad": 5.10
+			},
+			{
+			  "anio": 2026,
+			  "rentabilidad": 20.30
+			}
+        ],
+        "metricasPorPeriodo": {
+			"12M": {
+				"alfa": 6.11,
+				"beta": 0.85,
+				"ratioSharpe": 1.69,
+				"volatilidad": 14.77,
+				"maximaCaida": -7.57,
+				"trackingError": 8.90,
+				"rCuadrado": 77.98,
+				"correlacion": 88.31
+			  }
+	  },
+        "links": {
+            "morningstar": "https://global.morningstar.com/es/inversiones/fondos/0P0001NLM6/cotizacion",
+            "finect": "https://www.finect.com/fondos-inversion/LU2388163516-Dip_value_catalyst_equity_a_eur_acc"
+        },
+        "observaciones": [
+            "Es un fondo de inversión de renta variable global de capitalización flexible, gestionado por Quintet Private Bank (Europe) S.A. Su objetivo es generar retornos positivos a largo plazo para sus inversores, a través de la revalorización del capital y los dividendos, invirtiendo en acciones de empresas de todo el mundo. La estrategia de inversión de este fondo se fundamenta en la creencia de que, si bien los mercados de renta variable son eficientes a largo plazo, a corto plazo pueden presentar ineficiencias. El fondo busca identificar oportunidades donde el mercado tarda en reflejar el impacto de catalizadores específicos, como inversiones empresariales, perspectivas de negocio o ciclos económicos. Esta aproximación permite al DIP - Paradigma Value Catalyst Equity buscar retornos ajustados al riesgo superiores para inversores con un horizonte temporal de al menos 4-5 años, interesados en la renta variable global"
+        ]
+    },
+	{
+        "id": 38,
+        "nombre": "DWS Top Dividende LC",
+        "vehiculoInversion": "Fondo",
+        "anioRegistro": 2026,
+        "tipoFondo": "Renta Variable Alto Dividendo",
+        "isin": "DE000DWS1U90",
+        "morningstarEstrellas": 3,
+        "rentabilidadAnual": 13.23,
+        "destacado": true,
+        "rentabilidadesPorAnio": [
+            {
+			  "anio": 2017,
+			  "rentabilidad": 0.66
+			},
+			{
+			  "anio": 2018,
+			  "rentabilidad": -2.93
+			},
+			{
+			  "anio": 2019,
+			  "rentabilidad": 20.48
+			},
+			{
+			  "anio": 2020,
+			  "rentabilidad": -9.52
+			},
+			{
+			  "anio": 2021,
+			  "rentabilidad": 22.25
+			},
+			{
+			  "anio": 2022,
+			  "rentabilidad": 0.46
+			},
+			{
+			  "anio": 2023,
+			  "rentabilidad": 1.29
+			},
+			{
+			  "anio": 2024,
+			  "rentabilidad": 9.49
+			},
+			{
+			  "anio": 2025,
+			  "rentabilidad": 13.45
+			},
+			{
+			  "anio": 2026,
+			  "rentabilidad": 13.23
+			}
+        ],
+        "metricasPorPeriodo": {
+              "12M": {
+				"alfa": -3.94,
+				"beta": 1.05,
+				"ratioSharpe": 2.05,
+				"volatilidad": 10.08,
+				"maximaCaida": -4.50,
+				"trackingError": 5.32,
+				"rCuadrado": 82.78,
+				"correlacion": 90.98
+			  },
+			  "3A": {
+				"alfa": -1.22,
+				"beta": 0.81,
+				"ratioSharpe": 1.09,
+				"volatilidad": 8.53,
+				"maximaCaida": -4.58,
+				"trackingError": 5.93,
+				"rCuadrado": 71.70,
+				"correlacion": 84.68
+			  },
+			  "5A": {
+				"alfa": -1.24,
+				"beta": 0.84,
+				"ratioSharpe": 0.83,
+				"volatilidad": 9.19,
+				"maximaCaida": -8.46,
+				"trackingError": 5.38,
+				"rCuadrado": 83.30,
+				"correlacion": 91.27
+			  },
+            "10A": {
+                "alfa": -1.77,
+                "beta": 0.77,
+                "ratioSharpe": 0.39,
+                "volatilidad": "--",
+                "maximaCaida": "--",
+                "trackingError": "--",
+                "rCuadrado": 84.20,
+                "correlacion": "--"
+            }
+        },
+        "links": {
+            "morningstar": "https://global.morningstar.com/es/inversiones/fondos/0P0001BNEM/cotizacion",
+            "finect": "https://www.finect.com/fondos-inversion/DE000DWS1U90-Dws_top_dividende_lc"
+        },
+        "observaciones": [
+            "Es un fondo de inversión gestionado por DWS Investment GmbH, enmarcado en la categoría de Renta Variable Global Alto Dividendo. Su estrategia de inversión se centra en seleccionar acciones de empresas con capitalizaciones de mercado consideradas "blue chips" a nivel mundial. Este fondo busca invertir en compañías grandes, consolidadas y con una trayectoria financiera robusta, que además se caractericen por su capacidad para distribuir dividendos elevados o estables. De este modo, el DWS Top Dividende invierte en renta variable de mercados internacionales, con el propósito de generar ingresos a través de los dividendos que reparten estas empresas. Se dirige a inversores que buscan exposición a la renta variable global, valorando la estabilidad y el potencial de ingresos recurrentes que ofrecen las grandes corporaciones."
+        ]
+    },
+	{
+        "id": 39,
+        "nombre": "Goehring & Rozencwajg Resources Fund Class A EUR Accumulating",
+        "vehiculoInversion": "Fondo",
+        "anioRegistro": 2026,
+        "tipoFondo": "Renta Variable Recursos Naturales",
+        "isin": "IE000ON4Z2S8",
+        "morningstarEstrellas": 0,
+        "rentabilidadAnual": 4.53,
+        "destacado": true,
+        "rentabilidadesPorAnio": [
+			{
+			  "anio": 2025,
+			  "rentabilidad": 40.72
+			},
+			{
+			  "anio": 2026,
+			  "rentabilidad": 4.53
+			}
+        ],
+        "metricasPorPeriodo": {
+              
+			 "12M": {
+				"alfa": 0.56,
+				"beta": 1.32,
+				"ratioSharpe": 1.32,
+				"volatilidad": 24.49,
+				"maximaCaida": -16.01,
+				"trackingError": 14.92,
+				"rCuadrado": 74.60,
+				"correlacion": 86.37
+			  }
+
+        },
+        "links": {
+            "morningstar": "https://global.morningstar.com/es/inversiones/fondos/0P0001TK3P/cotizacion",
+            "finect": "https://www.finect.com/fondos-inversion/IE000ON4Z2S8-Goehring__rozencwajg_res_a_eur_acc"
+        },
+        "observaciones": [
+            "Es un fondo de inversión gestionado por Goehring & Rozencwajg Associates LLC. Su estrategia principal se centra en maximizar el retorno total para el inversor, combinando la generación de ingresos a partir de sus inversiones con la apreciación del capital a largo plazo. Este fondo de renta variable sectorial invierte principalmente en activos relacionados con el sector de recursos naturales. Busca identificar oportunidades en empresas vinculadas a materias primas, energía, metales preciosos y otros recursos esenciales a nivel global. Dada su especialización sectorial y su enfoque en renta variable, se dirige a inversores que buscan exposición a este segmento del mercado y que están dispuestos a asumir un perfil de riesgo acorde con las fluctuaciones propias de los mercados de recursos naturales y la renta variable."
+        ]
+    },
+	{
+        "id": 40,
+        "nombre": "Evli Corporate Bond B",
+        "vehiculoInversion": "Fondo",
+        "anioRegistro": 2026,
+        "tipoFondo": "Renta Fija Corporativa",
+        "isin": "FI0008801097",
+        "morningstarEstrellas": 4,
+        "rentabilidadAnual": 1.24,
+        "destacado": true,
+        "rentabilidadesPorAnio": [
+            {
+			  "anio": 2017,
+			  "rentabilidad": 4.48
+			},
+			{
+			  "anio": 2018,
+			  "rentabilidad": -2.73
+			},
+			{
+			  "anio": 2019,
+			  "rentabilidad": 6.10
+			},
+			{
+			  "anio": 2020,
+			  "rentabilidad": 2.50
+			},
+			{
+			  "anio": 2021,
+			  "rentabilidad": 0.11
+			},
+			{
+			  "anio": 2022,
+			  "rentabilidad": -13.81
+			},
+			{
+			  "anio": 2023,
+			  "rentabilidad": 9.29
+			},
+			{
+			  "anio": 2024,
+			  "rentabilidad": 5.95
+			},
+			{
+			  "anio": 2025,
+			  "rentabilidad": 3.35
+			},
+			{
+			  "anio": 2026,
+			  "rentabilidad": 1.24
+			}
+        ],
+        "metricasPorPeriodo": {
+		  "12M": {
+			"alfa": 0.50,
+			"beta": 1.13,
+			"ratioSharpe": 0.31,
+			"volatilidad": 3.57,
+			"maximaCaida": -2.75,
+			"trackingError": 0.71,
+			"rCuadrado": 97.41,
+			"correlacion": 98.70
+		  },
+		  "3A": {
+			"alfa": 1.08,
+			"beta": 0.95,
+			"ratioSharpe": 0.84,
+			"volatilidad": 3.36,
+			"maximaCaida": -2.75,
+			"trackingError": 0.80,
+			"rCuadrado": 94.54,
+			"correlacion": 97.23
+		  },
+		  "5A": {
+			"alfa": 0.75,
+			"beta": 0.97,
+			"ratioSharpe": -0.18,
+			"volatilidad": 5.66,
+			"maximaCaida": -17.90,
+			"trackingError": 1.65,
+			"rCuadrado": 91.09,
+			"correlacion": 95.44
+		  },    
+            "10A": {
+                "alfa": 0.95,
+                "beta": 1.01,
+                "ratioSharpe": 0.23,
+                "volatilidad": "--",
+                "maximaCaida": "--",
+                "trackingError": "--",
+                "rCuadrado": 89.57,
+                "correlacion": "--"
+            }
+        },
+        "links": {
+            "morningstar": "https://global.morningstar.com/es/inversiones/fondos/0P00000KA4/cotizacion",
+            "finect": "https://www.finect.com/fondos-inversion/FI0008801097-Evli_corporate_bond_b"
+        },
+        "observaciones": [
+            "Es un fondo de inversión de deuda corporativa a largo plazo, con ISIN FI0008801097. Su estrategia se centra en la inversión en bonos corporativos. Principalmente, invierte en bonos denominados en euros emitidos por compañías europeas. No obstante, su universo de inversión se extiende a bonos de estados miembros de la OCDE o de empresas no europeas con domicilio en un país de la OCDE. El fondo combina bonos con calificaciones crediticias tanto elevadas (Investment Grade) como más bajas (High Yield). Se busca que la calificación crediticia media de los bonos sea al menos BBB- o equivalente. En condiciones de mercado neutrales, el objetivo es destinar el 75% de los activos a bonos Investment Grade y el 25% a bonos High Yield. Para gestionar el riesgo de divisa en inversiones fuera del euro, se utilizan derivados de cobertura. Este fondo, clasificado como RF Deuda Corporativa EUR, se dirige a inversores que buscan exposición a la deuda corporativa europea con un enfoque diversificado en cuanto a la calidad crediticia."
+        ]
     }
 ]
