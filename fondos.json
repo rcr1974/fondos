@@ -2353,5 +2353,521 @@
         "observaciones": [
             "Es un fondo de inversión de la categoría Mixtos Defensivos EUR - Global. Su objetivo principal es generar un crecimiento de capital sostenible mediante una estrategia de inversión flexible en diversas clases de activos e instrumentos. Este fondo multi activo integra criterios ESG (ambientales, sociales y de gobernanza) y considera los riesgos de sostenibilidad, promoviendo activamente características medioambientales y sociales para cumplir con los requisitos de inversión sostenible. Se gestiona de forma activa, sin estar vinculado a ningún índice de referencia. Dada su denominación 'Conservative' y su categoría de 'Mixtos Defensivos', se dirige a inversores que buscan una aproximación más prudente al mercado, priorizando la estabilidad y un crecimiento de capital moderado a largo plazo."
         ]
+    },
+        {
+        "id": 29,
+        "nombre": "Ábaco Renta Fija Mixta Global R FI",
+        "vehiculoInversion": "Fondo",
+        "anioRegistro": 2026,
+        "tipoFondo": "Mixtos Defensivos",
+        "isin": "ES0140072010",
+        "morningstarEstrellas": 5,
+        "rentabilidadAnual": 1.19,
+        "destacado": false,
+        "rentabilidadesPorAnio": [
+            {
+			  "anio": 2017,
+			  "rentabilidad": 3.68
+			},
+			{
+			  "anio": 2018,
+			  "rentabilidad": -13.91
+			},
+			{
+			  "anio": 2019,
+			  "rentabilidad": 8.06
+			},
+			{
+			  "anio": 2020,
+			  "rentabilidad": -7.11
+			},
+			{
+			  "anio": 2021,
+			  "rentabilidad": 14.98
+			},
+			{
+			  "anio": 2022,
+			  "rentabilidad": 8.04
+			},
+			{
+			  "anio": 2023,
+			  "rentabilidad": 9.23
+			},
+			{
+			  "anio": 2024,
+			  "rentabilidad": 2.22
+			},
+			{
+			  "anio": 2025,
+			  "rentabilidad": 6.67
+			},
+			{
+			  "anio": 2026,
+			  "rentabilidad": 1.19
+			}
+        ],
+        "metricasPorPeriodo": {
+		  "12M": {
+			"alfa": 1.22,
+			"beta": 0.51,
+			"ratioSharpe": 0.76,
+			"volatilidad": 3.73,
+			"maximaCaida": -2.18,
+			"trackingError": 3.68,
+			"rCuadrado": 25.75,
+			"correlacion": 50.75
+		  },
+		  "3A": {
+			"alfa": 2.16,
+			"beta": 0.23,
+			"ratioSharpe": 0.80,
+			"volatilidad": 3.37,
+			"maximaCaida": -2.18,
+			"trackingError": 4.55,
+			"rCuadrado": 8.45,
+			"correlacion": 29.06
+		  },
+		  "5A": {
+			"alfa": 3.25,
+			"beta": 0.09,
+			"ratioSharpe": 0.70,
+			"volatilidad": 4.56,
+			"maximaCaida": -4.67,
+			"trackingError": 6.66,
+			"rCuadrado": 1.14,
+			"correlacion": 10.68
+		},
+		"10A": {
+			"alfa": 2.97,
+			"beta": 0.60,
+			"ratioSharpe": 0.43,
+			"volatilidad": "--",
+			"maximaCaida": "--",
+			"trackingError": "--",
+			"rCuadrado": 9.10,
+			"correlacion": "--"
+		}
+	  },
+        "links": {
+            "morningstar": "https://global.morningstar.com/es/inversiones/fondos/0P0001956M/cotizacion",
+            "finect": "https://www.finect.com/fondos-inversion/ES0140072010-Abaco_renta_fija_mixta_global_r_fi"
+        },
+        "observaciones": [
+            "Su estrategia de inversión se basa en una gestión activa y flexible, sin un índice de referencia predeterminado. Invierte, de forma directa o indirecta a través de IIC, hasta un 30% de su exposición total en renta variable. El resto de la cartera se destina a activos de renta fija, tanto pública como privada, incluyendo depósitos e instrumentos del mercado monetario. La política de inversión del Ábaco Renta Fija Mixta Global FI permite invertir en emisores y mercados de países OCDE o emergentes, sin limitaciones geográficas o sectoriales predeterminadas, aunque puntualmente podría existir concentración. En renta fija, puede invertir en activos de cualquier calificación crediticia, incluso sin calificar, pudiendo estar toda la cartera en baja calidad. No existe predeterminación sobre la duración media de la cartera de renta fija, pudiendo ser negativa en ciertos momentos. El riesgo divisa puede oscilar entre el 0% y el 50% de la exposición total. Este fondo se dirige a inversores que buscan una exposición global con un componente defensivo, pero que aceptan la flexibilidad en la calidad crediticia de la renta fija y la exposición a mercados emergentes."
+        ]
+    },
+	{
+        "id": 30,
+        "nombre": "Evli Short Corporate Bond B",
+        "vehiculoInversion": "Fondo",
+        "anioRegistro": 2026,
+        "tipoFondo": "Renta Fija Corporativa",
+        "isin": "FI0008800503",
+        "morningstarEstrellas": 5,
+        "rentabilidadAnual": 1.21,
+        "destacado": false,
+        "rentabilidadesPorAnio": [
+            {
+			  "anio": 2017,
+			  "rentabilidad": 1.56
+			},
+			{
+			  "anio": 2018,
+			  "rentabilidad": -1.23
+			},
+			{
+			  "anio": 2019,
+			  "rentabilidad": 3.44
+			},
+			{
+			  "anio": 2020,
+			  "rentabilidad": 0.51
+			},
+			{
+			  "anio": 2021,
+			  "rentabilidad": 0.88
+			},
+			{
+			  "anio": 2022,
+			  "rentabilidad": -6.31
+			},
+			{
+			  "anio": 2023,
+			  "rentabilidad": 7.44
+			},
+			{
+			  "anio": 2024,
+			  "rentabilidad": 5.47
+			},
+			{
+			  "anio": 2025,
+			  "rentabilidad": 3.8
+			},
+			{
+			  "anio": 2026,
+			  "rentabilidad": 1.21
+			}
+        ],
+        "metricasPorPeriodo": {
+		   "12M": {
+				"alfa": 0.59,
+				"beta": 0.75,
+				"ratioSharpe": 0.41,
+				"volatilidad": 2.40,
+				"maximaCaida": -1.81,
+				"trackingError": 0.94,
+				"rCuadrado": 94.78,
+				"correlacion": 97.35
+			  },
+			  "3A": {
+				"alfa": 1.14,
+				"beta": 0.48,
+				"ratioSharpe": 1.12,
+				"volatilidad": 1.84,
+				"maximaCaida": -1.81,
+				"trackingError": 1.93,
+				"rCuadrado": 82.67,
+				"correlacion": 90.92
+			  },
+			  "5A": {
+				"alfa": 1.12,
+				"beta": 0.47,
+				"ratioSharpe": 0.09,
+				"volatilidad": 3.02,
+				"maximaCaida": -8.80,
+				"trackingError": 3.10,
+				"rCuadrado": 80.90,
+				"correlacion": 89.95
+			  },
+			"10A": {
+				"alfa": 0.26,
+				"beta": 1.73,
+				"ratioSharpe": 0.32,
+				"volatilidad": "--",
+				"maximaCaida": "--",
+				"trackingError": "--",
+				"rCuadrado": 82.42,
+				"correlacion": "--"
+			}
+	  },
+        "links": {
+            "morningstar": "https://global.morningstar.com/es/inversiones/fondos/0P00000M9F/cotizacion",
+            "finect": "https://www.finect.com/fondos-inversion/FI0008800511-Evli_short_corporate_bond_b"
+        },
+        "observaciones": [
+            "Es un fondo de inversión de renta fija corporativa de corto plazo. Su estrategia principal se centra en la inversión en bonos denominados en euros, emitidos por empresas y bancos europeos, que poseen una duración residual corta. Adicionalmente, puede incluir otras inversiones de renta fija. El fondo invierte en bonos con diversas calificaciones crediticias, abarcando tanto el grado de inversión como el alto rendimiento (high yield). La calificación crediticia media de las inversiones se mantendrá al menos en B- o un nivel de riesgo equivalente, lo que implica un riesgo de crédito sustancial. Para mitigar este riesgo, el fondo diversifica sus inversiones entre decenas de emisores diferentes. Además, la duración media de las inversiones de renta fija no superará los 2,5 años, y para las inversiones individuales, no excederá los 5 años, contribuyendo así a la gestión del riesgo"
+        ]
+    },
+	{
+        "id": 31,
+        "nombre": "La Française Carbon Impact Floating Rates R",
+        "vehiculoInversion": "Fondo",
+        "anioRegistro": 2026,
+        "tipoFondo": "Bonos",
+        "isin": "FR0013439148",
+        "morningstarEstrellas": 4,
+        "rentabilidadAnual": 1.20,
+        "destacado": false,
+        "rentabilidadesPorAnio": [
+            {
+			  "anio": 2022,
+			  "rentabilidad": -2.68
+			},
+			{
+			  "anio": 2023,
+			  "rentabilidad": 6.28
+			},
+			{
+			  "anio": 2024,
+			  "rentabilidad": 5.61
+			},
+			{
+			  "anio": 2025,
+			  "rentabilidad": 3.52
+			},
+			{
+			  "anio": 2026,
+			  "rentabilidad": 1.20
+			}
+        ],
+        "metricasPorPeriodo": {
+		   "12M": {
+				"alfa": 0.9,
+				"beta": 0.29,
+				"ratioSharpe": 1.03,
+				"volatilidad": 1.02,
+				"maximaCaida": -0.55,
+				"trackingError": 2.26,
+				"rCuadrado": 77.73,
+				"correlacion": 88.17
+			  },
+			  "3A": {
+				"alfa": 1.38,
+				"beta": 0.11,
+				"ratioSharpe": 1.83,
+				"volatilidad": 0.94,
+				"maximaCaida": -0.55,
+				"trackingError": 3.12,
+				"rCuadrado": 20.2,
+				"correlacion": 44.95
+			  }
+		},
+        "links": {
+            "morningstar": "https://global.morningstar.com/es/inversiones/fondos/0P0001JRD9/cotizacion",
+            "finect": "https://www.finect.com/fondos-inversion/FR0013439148-La_francaise_carbon_impct_flt_rt_r"
+        },
+        "observaciones": [
+            "Es un fondo de inversión La Française Carbon Impact Floating Rates, identificado con el ISIN FR0013439148, tiene como objetivo principal superar los TME (Tipos Medios de Emisión) a medio plazo. Su estrategia de inversión se especializa en la gestión de bonos indexados y valores indexados a la inflación, centrándose exclusivamente en la zona euro. Este producto está diseñado para inversores que buscan una exposición a activos ligados a la evolución de la inflación en la eurozona. Al invertir en bonos y valores indexados a la inflación, La Française Carbon Impact Floating Rates ofrece una propuesta para aquellos con un horizonte de inversión de medio plazo interesados en la dinámica de la deuda que ajusta su valor en función de los precios. Se dirige a inversores que desean proteger su capital de la inflación o beneficiarse de su comportamiento en el mercado europeo."
+        ]
+    },
+	{
+        "id": 32,
+        "nombre": "B&H Deuda FI",
+        "vehiculoInversion": "Fondo",
+        "anioRegistro": 2026,
+        "tipoFondo": "Renta Fija Flexible",
+        "isin": "ES0112618006",
+        "morningstarEstrellas": 4,
+        "rentabilidadAnual": 1.00,
+        "destacado": false,
+        "rentabilidadesPorAnio": [
+            {
+			  "anio": 2021,
+			  "rentabilidad": 5.10
+			},
+			{
+			  "anio": 2022,
+			  "rentabilidad": -2.34
+			},
+			{
+			  "anio": 2023,
+			  "rentabilidad": 6.95
+			},
+			{
+			  "anio": 2024,
+			  "rentabilidad": 5.61
+			},
+			{
+			  "anio": 2025,
+			  "rentabilidad": 3.24
+			},
+			{
+			  "anio": 2026,
+			  "rentabilidad": 1.00
+			}
+        ],
+        "metricasPorPeriodo": {
+		     "12M": {
+				"alfa": 0.51,
+				"beta": 0.41,
+				"ratioSharpe": 0.27,
+				"volatilidad": 1.55,
+				"maximaCaida": -1.13,
+				"trackingError": 2.13,
+				"rCuadrado": 86.19,
+				"correlacion": 92.84
+			  },
+			  "3A": {
+				"alfa": 1.68,
+				"beta": 0.26,
+				"ratioSharpe": 1.33,
+				"volatilidad": 1.42,
+				"maximaCaida": -1.13,
+				"trackingError": 3.30,
+				"rCuadrado": 70.00,
+				"correlacion": 83.66
+			  },
+			  "5A": {
+				"alfa": 2.04,
+				"beta": 0.27,
+				"ratioSharpe": 0.50,
+				"volatilidad": 2.43,
+				"maximaCaida": -4.64,
+				"trackingError": 4.69,
+				"rCuadrado": 47.85,
+				"correlacion": 69.18
+			  }
+	  },
+        "links": {
+            "morningstar": "https://global.morningstar.com/es/inversiones/fondos/0P0001J92Q/cotizacion",
+            "finect": "https://www.finect.com/fondos-inversion/ES0112618006-Bh_deuda_fi"
+        },
+        "observaciones": [
+            "de inversión de la categoría RF Flexible EUR gestionado por Buy & Hold Capital SGIIC. Su estrategia de inversión tiene una vocación global y se centra en la renta fija. Este fondo invierte el 100% de su exposición total principalmente en deuda privada y, en menor medida, en deuda pública. Su cartera puede incluir depósitos e instrumentos del mercado monetario, bonos convertibles (siempre seleccionando la opción de no conversión), pagarés cotizados hasta un 20% y deuda subordinada hasta un 25%, con preferencia de cobro posterior a los acreedores comunes. En cuanto a la calidad crediticia, al menos el 50% de la exposición total se destina a activos de al menos media calidad (mínimo BBB- según S&P o equivalente). Sin embargo, el fondo puede invertir hasta el 50% en activos de baja calidad crediticia (inferior a BBB-), sin calificación, y en bonos convertibles contingentes (CoCos), estos últimos con un límite del 15%. La inclusión de activos de menor calidad y deuda subordinada sugiere un perfil de inversor dispuesto a asumir un riesgo superior en busca de rentabilidad"
+        ]
+    },
+	{
+        "id": 33,
+        "nombre": "Echiquier Space",
+        "vehiculoInversion": "Fondo",
+        "anioRegistro": 2026,
+        "tipoFondo": "Renta Variable Tecnología",
+        "isin": "LU2466448532",
+        "morningstarEstrellas": 3,
+        "rentabilidadAnual": 26.55,
+        "destacado": false,
+        "rentabilidadesPorAnio": [
+            {
+			  "anio": 2022,
+			  "rentabilidad": -38.36
+			},
+			{
+			  "anio": 2023,
+			  "rentabilidad": 25.32
+			},
+			{
+			  "anio": 2024,
+			  "rentabilidad": 69.35
+			},
+			{
+			  "anio": 2025,
+			  "rentabilidad": 22.40
+			},
+			{
+			  "anio": 2026,
+			  "rentabilidad": 26.55
+			}
+        ],
+        "metricasPorPeriodo": {
+		  "12M": {
+			"alfa": -2.67,
+			"beta": 0.94,
+			"ratioSharpe": 1.15,
+			"volatilidad": 33.83,
+			"maximaCaida": -15.10,
+			"trackingError": 24.43,
+			"rCuadrado": 53.57,
+			"correlacion": 73.19
+		  },
+		  "3A": {
+			"alfa": 10.78,
+			"beta": 0.87,
+			"ratioSharpe": 1.28,
+			"volatilidad": 25.96,
+			"maximaCaida": -15.10,
+			"trackingError": 18.78,
+			"rCuadrado": 51.67,
+			"correlacion": 71.88
+		  },
+		  "5A": {
+			"alfa": -3.46,
+			"beta": 0.93,
+			"ratioSharpe": 0.55,
+			"volatilidad": 27.25,
+			"maximaCaida": -44.89,
+			"trackingError": 17.60,
+			"rCuadrado": 61.14,
+			"correlacion": 78.20
+		  }
+	  },
+        "links": {
+            "morningstar": "https://global.morningstar.com/es/inversiones/fondos/0P0001Q89W/cotizacion",
+            "finect": "https://www.finect.com/fondos-inversion/LU2466448532-Echiquier_space_b"
+        },
+        "observaciones": [
+            "Es un fondo de inversión de gestión activa que busca generar rentabilidad a largo plazo. Su estrategia se centra en la exposición a los mercados de renta variable internacionales, invirtiendo de forma específica en compañías del innovador sector de la industria espacial. Este producto está diseñado para inversores que desean participar en el crecimiento de la economía espacial y que poseen un horizonte de inversión a largo plazo, asumiendo la volatilidad inherente a la inversión en renta variable sectorial. El fondo Echiquier Space cumple con los requisitos del Artículo 8 del Reglamento de Divulgación de Finanzas Sostenibles (SFDR), integrando criterios de sostenibilidad en su proceso de inversión."
+        ]
+    },
+	{
+        "id": 34,
+        "nombre": "Fidelity Funds - Global Industrials Fund Y-Acc-EUR",
+        "vehiculoInversion": "Fondo",
+        "anioRegistro": 2026,
+        "tipoFondo": "Renta Variable Materiales Industriales",
+        "isin": "LU0346389181",
+        "morningstarEstrellas": 5,
+        "rentabilidadAnual": 21.17,
+        "destacado": true,
+        "rentabilidadesPorAnio": [
+            {
+			  "anio": 2017,
+			  "rentabilidad": -1.83
+			},
+			{
+			  "anio": 2018,
+			  "rentabilidad": -6.87
+			},
+			{
+			  "anio": 2019,
+			  "rentabilidad": 23.05
+			},
+			{
+			  "anio": 2020,
+			  "rentabilidad": 1.77
+			},
+			{
+			  "anio": 2021,
+			  "rentabilidad": 28.94
+			},
+			{
+			  "anio": 2022,
+			  "rentabilidad": 6.71
+			},
+			{
+			  "anio": 2023,
+			  "rentabilidad": 17.98
+			},
+			{
+			  "anio": 2024,
+			  "rentabilidad": 17.17
+			},
+			{
+			  "anio": 2025,
+			  "rentabilidad": 5.69
+			},
+			{
+			  "anio": 2026,
+			  "rentabilidad": 21.17
+			}
+        ],
+        "metricasPorPeriodo": {
+		  "12M": {
+			"alfa": 7.83,
+			"beta": 0.57,
+			"ratioSharpe": 2.04,
+			"volatilidad": 12.13,
+			"maximaCaida": -4.08,
+			"trackingError": 11.33,
+			"rCuadrado": 78.86,
+			"correlacion": 88.80
+		  },
+		  "3A": {
+			"alfa": 8.66,
+			"beta": 0.63,
+			"ratioSharpe": 1.03,
+			"volatilidad": 13.08,
+			"maximaCaida": -13.90,
+			"trackingError": 9.94,
+			"rCuadrado": 69.95,
+			"correlacion": 83.64
+		  },
+		  "5A": {
+			"alfa": 8.75,
+			"beta": 0.71,
+			"ratioSharpe": 0.94,
+			"volatilidad": 14.37,
+			"maximaCaida": -13.90,
+			"trackingError": 9.83,
+			"rCuadrado": 75.07,
+			"correlacion": 86.64
+		  },
+			"10A": {
+				"alfa": 8.86,
+				"beta": 0.63,
+				"ratioSharpe": 0.97,
+				"volatilidad": "--",
+				"maximaCaida": "--",
+				"trackingError": "--",
+				"rCuadrado": 70.16,
+				"correlacion": "--"
+			}
+	  },
+        "links": {
+            "morningstar": "https://global.morningstar.com/es/inversiones/fondos/0P0000CO6N/cotizacion",
+            "finect": "https://www.finect.com/fondos-inversion/LU0346389181-Fidelity_global_industrials_yacceur"
+        },
+        "observaciones": [
+            "Es un fondo de inversión de renta variable sectorial que tiene como objetivo principal ofrecer a los inversores un crecimiento del capital a largo plazo. Su estrategia se basa en invertir mayoritariamente en títulos de renta variable de empresas de todo el mundo. El fondo se enfoca específicamente en compañías activas en la investigación, desarrollo, fabricación, distribución, suministro o venta de materiales, equipos, productos o servicios. Estas actividades deben estar relacionadas con industrias cíclicas y de recursos naturales. Este producto se dirige a inversores que buscan exposición global a los sectores industriales y de materiales, con una perspectiva de inversión a largo plazo."
+        ]
     }
 ]
