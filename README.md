@@ -5,7 +5,6 @@ Listado de seguimiento de fondos
 - LU3303517059 DWS Invest Essential MAterials Producers LC
 
 # Fondos a meter em la aplicación
-- LU0933684283 Incometric Equam Global Value B -> https://www.finect.com/fondos-inversion/LU0933684283-Incometric_equam_global_value_b
 - LU2388163516 DIP - Paradigma Value Catalyst Equity A EUR Acc -> https://www.finect.com/fondos-inversion/LU2388163516-Dip_value_catalyst_equity_a_eur_acc
 - LU2905591629 Sifter Fund - Global RA -> https://www.finect.com/fondos-inversion/LU2905591629-Sifter_fund__global_ra
 - DE000DWS1U90 DWS Top Dividende LC -> https://www.finect.com/fondos-inversion/DE000DWS1U90-Dws_top_dividende_lc
