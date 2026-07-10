@@ -8,7 +8,7 @@
         "isin": "LU0918140210",
         "morningstarEstrellas": 3,
         "rentabilidadAnual": 10.74,
-        "destacado": false,
+        "destacado": true,
         "rentabilidadesPorAnio": [
             {
                 "anio": 2025,
@@ -94,7 +94,8 @@
             "finect": "https://www.finect.com/fondos-inversion/LU0918140210-T_rowe_price_us_smlr_cm_eq_a_eur"
         },
         "observaciones": [
-            "Es un fondo de inversión clasificado dentro de la categoría de Renta Variable USA de Capitalización Pequeña. Su estrategia se centra en la búsqueda de una plusvalía de capital a largo plazo. Este fondo invierte principalmente en una cartera ampliamente diversificada de acciones, tanto ordinarias como preferentes, de pequeñas empresas con sede en Estados Unidos. La capitalización bursátil de estas compañías se encuentra dentro o por debajo del rango de las empresas incluidas en el Índice Russell 2500. La selección de los valores combina un enfoque de inversión en crecimiento con una perspectiva de inversión valor. Dirigido a inversores con un horizonte temporal a largo plazo, este producto ofrece exposición al segmento de empresas de menor tamaño del mercado estadounidense. La gestora de este fondo es J.P. Morgan SE, Luxembourg Branch"
+            "Es un fondo de inversión clasificado dentro de la categoría de Renta Variable USA de Capitalización Pequeña. Su estrategia se centra en la búsqueda de una plusvalía de capital a largo plazo. Este fondo invierte principalmente en una cartera ampliamente diversificada de acciones, tanto ordinarias como preferentes, de pequeñas empresas con sede en Estados Unidos. La capitalización bursátil de estas compañías se encuentra dentro o por debajo del rango de las empresas incluidas en el Índice Russell 2500. La selección de los valores combina un enfoque de inversión en crecimiento con una perspectiva de inversión valor. Dirigido a inversores con un horizonte temporal a largo plazo, este producto ofrece exposición al segmento de empresas de menor tamaño del mercado estadounidense. La gestora de este fondo es J.P. Morgan SE, Luxembourg Branch",
+            "Invierte en small caps que están entre los segmentos más baratos de Estados Unidos"
         ]
     },
     {
