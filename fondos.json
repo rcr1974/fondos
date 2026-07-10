@@ -3121,660 +3121,660 @@
         ]
     },
     {
-	"id": 40,
-	"nombre": "Fidelity Funds - Global Technology Fund Y-Acc-EUR (hedged)",
-	"vehiculoInversion": "Fondo",
-	"anioRegistro": 2026,
-	"tipoFondo": "Renta Variable Tecnología",
-	"isin": "LU1482751903",
-	"morningstarEstrellas": 0,
-	"rentabilidadAnual": 10.90,
-	"destacado": true,
-	"rentabilidadesPorAnio": [
-	   {
-		  "anio": 2017,
-		  "rentabilidad": 31.56
-		},
-		{
-		  "anio": 2018,
-		  "rentabilidad": -5.26
-		},
-		{
-		  "anio": 2019,
-		  "rentabilidad": 41.98
-		},
-		{
-		  "anio": 2020,
-		  "rentabilidad": 40.55
-		},
-		{
-		  "anio": 2021,
-		  "rentabilidad": 24.2
-		},
-		{
-		  "anio": 2022,
-		  "rentabilidad": -23.47
-		},
-		{
-		  "anio": 2023,
-		  "rentabilidad": 42.66
-		},
-		{
-		  "anio": 2024,
-		  "rentabilidad": 19.62
-		},
-		{
-		  "anio": 2025,
-		  "rentabilidad": 20.96
-		},
-		{
-		  "anio": 2026,
-		  "rentabilidad": 10.9
-		}
-	],
-	"metricasPorPeriodo": {
-		  "12M": {
-			"alfa": "--",
-			"beta": "--",
-			"ratioSharpe": 1.07,
-			"volatilidad": 21.03,
-			"maximaCaida": -8.49,
-			"trackingError": "--",
-			"rCuadrado": "--",
-			"correlacion": "--"
-		  },
-		  "3A": {
-			"alfa": "--",
-			"beta": "--",
-			"ratioSharpe": 1.09,
-			"volatilidad": 16.88,
-			"maximaCaida": -9.7,
-			"trackingError": "--",
-			"rCuadrado": "--",
-			"correlacion": "--"
-		  },
-		  "5A": {
-			"alfa": "--",
-			"beta": "--",
-			"ratioSharpe": 0.66,
-			"volatilidad": 17.93,
-			"maximaCaida": -24.49,
-			"trackingError": "--",
-			"rCuadrado": "--",
-			"correlacion": "--"
-		  }
-	},
-	"links": {
-		"morningstar": "https://global.morningstar.com/es/inversiones/fondos/0P00018NPY/cotizacion",
-		"finect": "https://www.finect.com/fondos-inversion/LU1482751903-Fidelity_global_technology_yacceur_h"
-	},
-	"observaciones": [
-		"Es un fondo de inversión de la categoría RV Sector Tecnología, gestionado por Brown Brothers Harriman (Lux) SCA. Su objetivo principal es facilitar a los inversores un crecimiento de capital a largo plazo. La estrategia de inversión de este fondo se centra en valores de renta variable de empresas de todo el mundo. Invierte en compañías que ya desarrollan, o tienen el potencial de desarrollar, productos, procesos o servicios que se benefician directamente de los avances y mejoras tecnológicas. Por tanto, se dirige a inversores que buscan exposición al sector tecnológico global y están dispuestos a asumir el riesgo inherente a la inversión en renta variable con un horizonte temporal a largo plazo",
-		"Busca exposición al sector tecnológico sin concentrarse únicamente en las compañías más de moda.<br/>Mantiene valoraciones más bajas que la media de fondos comparables.",
-		"Inversores que quieren seguir expuestos a tecnología pero con una filosofía más razonable en valoración y menor dependencia de las compañías más sobrevaloradas"
-	]
-},
-{
-	"id": 41,
-	"nombre": "Janus Henderson Horizon Global Smaller Companies Fund A2 EUR",
-	"vehiculoInversion": "Fondo",
-	"anioRegistro": 2026,
-	"tipoFondo": "Renta Variable Small Caps",
-	"isin": "LU1984712320",
-	"morningstarEstrellas": 4,
-	"rentabilidadAnual": 11.92,
-	"destacado": true,
-	"rentabilidadesPorAnio": [
-		{
-		  "anio": 2020,
-		  "rentabilidad": 9.85
-		},
-		{
-		  "anio": 2021,
-		  "rentabilidad": 32.08
-		},
-		{
-		  "anio": 2022,
-		  "rentabilidad": -15.10
-		},
-		{
-		  "anio": 2023,
-		  "rentabilidad": 22.36
-		},
-		{
-		  "anio": 2024,
-		  "rentabilidad": 26.65
-		},
-		{
-		  "anio": 2025,
-		  "rentabilidad": 10.60
-		},
-		{
-		  "anio": 2026,
-		  "rentabilidad": 11.92
-		}
-	],
-	"metricasPorPeriodo": {
-		  "12M": {
-			"alfa": -1.13,
-			"beta": 1.19,
-			"ratioSharpe": 1.85,
-			"volatilidad": 12.66,
-			"maximaCaida": -6.86,
-			"trackingError": 4.88,
-			"rCuadrado": 92.71,
-			"correlacion": 96.29
-		  },
-		  "3A": {
-			"alfa": 3.88,
-			"beta": 1.10,
-			"ratioSharpe": 1.10,
-			"volatilidad": 14.86,
-			"maximaCaida": -14.30,
-			"trackingError": 4.99,
-			"rCuadrado": 91.56,
-			"correlacion": 95.69
-		  },
-		  "5A": {
-			"alfa": 4.01,
-			"beta": 1.05,
-			"ratioSharpe": 0.72,
-			"volatilidad": 15.65,
-			"maximaCaida": -18.68,
-			"trackingError": 5.00,
-			"rCuadrado": 92.15,
-			"correlacion": 96.00
-		  }
-	},
-	"links": {
-		"morningstar": "https://global.morningstar.com/es/inversiones/fondos/0P0001I1JP/cotizacion",
-		"finect": "https://www.finect.com/fondos-inversion/LU1984712320-Janus_henderson_hrzn_glb_sc_a2_eur_acc"
-	},
-	"observaciones": [
-		"Es un fondo de inversión de la gestora Janus Henderson Investors, enmarcado en la categoría de RV Global Capitalización Pequeña. Su estrategia principal es buscar el crecimiento de capital a largo plazo. Para lograr este objetivo, el fondo invierte al menos el 80% de sus activos netos en acciones o instrumentos relacionados con acciones de empresas de pequeña capitalización. Estas compañías pueden pertenecer a cualquier sector industrial y estar ubicadas en cualquier país del mundo. La definición de "pequeña capitalización" se establece en función de que su capitalización de mercado, en el momento de la compra inicial, se encuentre dentro del rango de las empresas incluidas en el índice MSCI World Small Cap. Este producto se dirige a inversores con un horizonte temporal amplio que buscan exposición a compañías con potencial de crecimiento global y que están dispuestos a asumir el riesgo inherente a la inversión en empresas de menor tamaño.",
-		"Busca oportunidades en small caps de distintos países.",
-		"Menor concentración en las grandes compañías que dominan los índices globales.",
-		"Forma parte del grupo de fondos que podrían beneficiarse si continúa ampliándose el liderazgo de mercado más allá de las grandes tecnológicas"
-	]
-},
-{
-	"id": 42,
-	"nombre": "Candriam Equities L Biotechnology Class I EUR Hedged Cap",
-	"vehiculoInversion": "Fondo",
-	"anioRegistro": 2026,
-	"tipoFondo": "Renta Variable Biotecnología",
-	"isin": "LU1006082199",
-	"morningstarEstrellas": 4,
-	"rentabilidadAnual": 11.92,
-	"destacado": true,
-	"rentabilidadesPorAnio": [
-		{
-		  "anio": 2017,
-		  "rentabilidad": 24.87
-		},
-		{
-		  "anio": 2018,
-		  "rentabilidad": -13.02
-		},
-		{
-		  "anio": 2019,
-		  "rentabilidad": 30.43
-		},
-		{
-		  "anio": 2020,
-		  "rentabilidad": 18.93
-		},
-		{
-		  "anio": 2021,
-		  "rentabilidad": -2.71
-		},
-		{
-		  "anio": 2022,
-		  "rentabilidad": -5.50
-		},
-		{
-		  "anio": 2023,
-		  "rentabilidad": 4.95
-		},
-		{
-		  "anio": 2024,
-		  "rentabilidad": 1.09
-		},
-		{
-		  "anio": 2025,
-		  "rentabilidad": 35.09
-		},
-		{
-		  "anio": 2026,
-		  "rentabilidad": 21.53
-		}
-	],
-	"metricasPorPeriodo": {
-	  "12M": {
-		"alfa": "--",
-		"beta": "--",
-		"ratioSharpe": 3.10,
-		"volatilidad": 16.34,
-		"maximaCaida": -2.40,
-		"trackingError": "--",
-		"rCuadrado": "--",
-		"correlacion": "--"
-	  },
-	  "3A": {
-		"alfa": "--",
-		"beta": "--",
-		"ratioSharpe": 0.91,
-		"volatilidad": 17.87,
-		"maximaCaida": -18.11,
-		"trackingError": "--",
-		"rCuadrado": "--",
-		"correlacion": "--"
-	  },
-	  "5A": {
-		"alfa": "--",
-		"beta": "--",
-		"ratioSharpe": 0.46,
-		"volatilidad": 17.09,
-		"maximaCaida": -23.10,
-		"trackingError": "--",
-		"rCuadrado": "--",
-		"correlacion"
-	  },
-	  "10A": {
-		"alfa": "--",
-		"beta": "--",
-		"ratioSharpe": 0.8,
-		"volatilidad": "--",
-		"maximaCaida": "--",
-		"trackingError": "--",
-		"rCuadrado": "--",
-		"correlacion": "--"
-	  }
-	},
-	"links": {
-		"morningstar": "https://global.morningstar.com/es/inversiones/fondos/0P0001753B/cotizacion",
-		"finect": "https://www.finect.com/fondos-inversion/LU1006082199-Candriam_eqs_l_biotech_i_eur_hedged_cap"
-	},
-	"observaciones": [
-		"El fondo de inversión Candriam Equities L Biotechnology (LU1006082199) es un producto de Renta Variable Sector Biotecnología gestionado por Candriam. Su estrategia de inversión se centra en empresas del sector biotecnológico y actividades relacionadas, como el diagnóstico molecular y el equipamiento científico. Este fondo invierte a nivel global, aunque destina la mayor parte de sus activos a Estados Unidos, dada la posición de liderazgo del sector biotecnológico estadounidense en innovación. Candriam Equities L Biotechnology no se gestiona tomando como referencia un índice específico, lo que permite una gestión activa en la selección de valores. Está dirigido a inversores que buscan exposición a un sector especializado y con potencial de crecimiento, asumiendo el riesgo inherente a la inversión en renta variable sectorial."
-	]
-},
-{
-	"id": 43,
-	"nombre": "Polar Capital Funds PLC - Biotechnology Fund I Inc",
-	"vehiculoInversion": "Fondo",
-	"anioRegistro": 2026,
-	"tipoFondo": "Renta Variable Biotecnología",
-	"isin": "LU1006082199",
-	"morningstarEstrellas": 0,
-	"rentabilidadAnual": 29,13,
-	"destacado": false,
-	"rentabilidadesPorAnio": [
-		{
-		  "anio": 2017,
-		  "rentabilidad": 14.87
-		},
-		{
-		  "anio": 2018,
-		  "rentabilidad": 1.03
-		},
-		{
-		  "anio": 2019,
-		  "rentabilidad": 33.69
-		},
-		{
-		  "anio": 2020,
-		  "rentabilidad": 29.19
-		},
-		{
-		  "anio": 2021,
-		  "rentabilidad": 12.65
-		},
-		{
-		  "anio": 2022,
-		  "rentabilidad": -1.08
-		},
-		{
-		  "anio": 2023,
-		  "rentabilidad": null
-		},
-		{
-		  "anio": 2024,
-		  "rentabilidad": null
-		},
-		{
-		  "anio": 2025,
-		  "rentabilidad": null
-		},
-		{
-		  "anio": 2026,
-		  "rentabilidad": 29.13
-		}
-	],
-	"metricasPorPeriodo": {
-	  "12M": {
-		"alfa": -6.50,
-		"beta": 0.66,
-		"ratioSharpe": -0.54,
-		"volatilidad": 10.07,
-		"maximaCaida": -6.79,
-		"trackingError": 9.70,
-		"rCuadrado": 60.58,
-		"correlacion": 77.83
-	  },
-	  "3A": {
-		"alfa": 2.92,
-		"beta": 0.81,
-		"ratioSharpe": 0.59,
-		"volatilidad": 15.40,
-		"maximaCaida": -16.47,
-		"trackingError": 10.51,
-		"rCuadrado": 66.93,
-		"correlacion": 81.81
-	  },
-	  "5A": {
-		"alfa": 2.20,
-		"beta": 0.96,
-		"ratioSharpe": null,
-		"volatilidad": 19.80,
-		"maximaCaida": -16.91,
-		"trackingError": 10.75,
-		"rCuadrado": 74.84,
-		"correlacion": 86.51
-	  }
-	},
-	"links": {
-		"morningstar": "https://global.morningstar.com/es/inversiones/fondos/0P0000ZVJP/cotizacion",
-		"finect": "https://www.finect.com/fondos-inversion/IE00B3WVRB16-Polar_capital_biotech_i_inc"
-	},
-	"observaciones": [
-		"El Polar Capital Funds PLC - Biotechnology Fund (ISIN: IE00B3WVRB16) es un fondo de inversión de renta variable sectorial cuyo objetivo es la preservación del capital y su crecimiento a largo plazo. Su estrategia se basa en la inversión en acciones de empresas de todo el mundo, enfocándose en los sectores biotecnológico, de diagnóstico y de ciencias de la vida. El fondo se caracteriza por una amplia diversificación por países, por subsectores biotecnológicos y por capitalización de mercado. Busca superar la rentabilidad de su índice de referencia, el NASDAQ Biotechnology Index. Adicionalmente, puede emplear instrumentos financieros derivados con fines de cobertura, para la reducción de riesgos, una gestión más eficiente o para obtener exposición a títulos de forma eficaz. Este producto está diseñado para inversores que buscan exposición al potencial de crecimiento a largo plazo del sector biotecnológico global."
-	]
-},
-{
-	"id": 44,
-	"nombre": "Federated Hermes Asia ex-Japan Equity Fund Class R EUR Accumulating Hedged",
-	"vehiculoInversion": "Fondo",
-	"anioRegistro": 2026,
-	"tipoFondo": "Renta Variable",
-	"isin": "IE00BBL4VX78",
-	"morningstarEstrellas": 0,
-	"rentabilidadAnual": 14,54,
-	"destacado": true,
-	"rentabilidadesPorAnio": [
-		{
-		  "anio": 2017,
-		  "rentabilidad": 42.12
-		},
-		{
-		  "anio": 2018,
-		  "rentabilidad": -18.23
-		},
-		{
-		  "anio": 2019,
-		  "rentabilidad": 9.29
-		},
-		{
-		  "anio": 2020,
-		  "rentabilidad": 7.70
-		},
-		{
-		  "anio": 2021,
-		  "rentabilidad": 4.88
-		},
-		{
-		  "anio": 2022,
-		  "rentabilidad": -13.89
-		},
-		{
-		  "anio": 2023,
-		  "rentabilidad": 5.35
-		},
-		{
-		  "anio": 2024,
-		  "rentabilidad": 8.76
-		},
-		{
-		  "anio": 2025,
-		  "rentabilidad": 31.52
-		},
-		{
-		  "anio": 2026,
-		  "rentabilidad": 12.54
-		}
-	],
-	"metricasPorPeriodo": {
-	  "12M": {
-		"alfa": "--",
-		"beta": "--",
-		"ratioSharpe": 1.14,
-		"volatilidad": 23.11,
-		"maximaCaida": -13.49,
-		"trackingError": "--",
-		"rCuadrado": "--",
-		"correlacion": "--"
-	  },
-	  "3A": {
-		"alfa": "--",
-		"beta": "--",
-		"ratioSharpe": 0.84,
-		"volatilidad": 18.13,
-		"maximaCaida": -13.49,
-		"trackingError": "--",
-		"rCuadrado": "--",
-		"correlacion": "--"
-	  },
-	  "5A": {
-		"alfa": "--",
-		"beta": "--",
-		"ratioSharpe": 0.29,
-		"volatilidad": 18.79,
-		"maximaCaida": -34.36,
-		"trackingError": "--",
-		"rCuadrado": "--",
-		"correlacion": "--"
-	  }
-	},
-	"links": {
-		"morningstar": "https://global.morningstar.com/es/inversiones/fondos/0P000134LI/cotizacion",
-		"finect": "https://www.finect.com/fondos-inversion/IE00BBL4VX78-Federated_hermes_asia_exjpn_eq_r_euracch"
-	},
-	"observaciones": [
-		"El Federated Hermes Asia ex-Japan Equity Fund (ISIN: IE00BBL4VX78) es un fondo de inversión cuyo objetivo principal es la revalorización del capital a largo plazo. Su estrategia se centra en invertir al menos el 80% de sus activos en una cartera de valores de renta variable y otros instrumentos relacionados con acciones de empresas con sede o que generan una parte sustancial de sus ingresos en la región de Asia, excluyendo Japón. Las compañías en las que invierte cotizan o se negocian en mercados regulados a nivel mundial. Este fondo está dirigido a inversores que buscan exposición a las economías asiáticas (sin Japón) y están dispuestos a asumir el riesgo inherente a la inversión en renta variable con un horizonte temporal a largo plazo.",
-		"El gestor da mucha importancia a las valoraciones.",
-		"Ajusta la cartera según cambia el atractivo relativo de cada región.",
-		"Anteriormente aumentó China cuando estaba barata y posteriormente incorporó más India",
-		"Inversores que quieren exposición a Asia con gestión activa basada en valoración"
-	]
-},
-{
-	"id": 45,
-	"nombre": "Hamco SICAV - Global Value F EUR Acc",
-	"vehiculoInversion": "Fondo",
-	"anioRegistro": 2026,
-	"tipoFondo": "Renta Variable Small Caps",
-	"isin": "LU3038482157",
-	"morningstarEstrellas": 4,
-	"rentabilidadAnual": 5.55,
-	"destacado": false,
-	"rentabilidadesPorAnio": [
-		{
-		  "anio": 2020,
-		  "rentabilidad": 10.46
-		},
-		{
-		  "anio": 2021,
-		  "rentabilidad": 43.54
-		},
-		{
-		  "anio": 2022,
-		  "rentabilidad": 32.15
-		},
-		{
-		  "anio": 2023,
-		  "rentabilidad": 11.04
-		},
-		{
-		  "anio": 2024,
-		  "rentabilidad": 11.15
-		},
-		{
-		  "anio": 2025,
-		  "rentabilidad": 7.72
-		},
-		{
-		  "anio": 2026,
-		  "rentabilidad": 5.55
-		}
-	],
-	"metricasPorPeriodo": {
-	  "12M": {
-		"alfa": -12.21,
-		"beta": 1.01,
-		"ratioSharpe": 0.73,
-		"volatilidad": 12.60,
-		"maximaCaida": -7.03,
-		"trackingError": 9.87,
-		"rCuadrado": 63.16,
-		"correlacion": 79.47
-	  },
-	  "3A": {
-		"alfa": -0.47,
-		"beta": 0.64,
-		"ratioSharpe": 0.65,
-		"volatilidad": 10.47,
-		"maximaCaida": -8.21,
-		"trackingError": 10.11,
-		"rCuadrado": 52.05,
-		"correlacion": 72.14
-	  },
-	  "5A": {
-		"alfa": 6.35,
-		"beta": 0.67,
-		"ratioSharpe": 0.91,
-		"volatilidad": 12.88,
-		"maximaCaida": -8.21,
-		"trackingError": 12.10,
-		"rCuadrado": 49.49,
-		"correlacion": 70.35
-	  }
-	},
-	"links": {
-		"morningstar": "https://global.morningstar.com/es/inversiones/fondos/0P0001YE67/cotizacion",
-		"finect": "https://www.finect.com/fondos-inversion/LU3038482157-Hamco_global_value_f_eur_acc"
-	},
-	"observaciones": [
-		"Hamco SICAV Global Value (ISIN LU3038482157) es un fondo de inversión de la categoría RV Global Cap. Pequeña, gestionado por HAMCO AM, SGIIC, SA. Este producto se adhiere a una filosofía de inversión en valor, buscando empresas globales que el mercado infravalora y que presentan un potencial de revalorización. La estrategia de inversión se centra en la selección de compañías basándose en un análisis exhaustivo de diversos criterios cuantitativos y cualitativos. Estos incluyen el historial de rentabilidad, el nivel de endeudamiento, la capitalización, la liquidez, las expectativas de crecimiento, el momento en el ciclo de negocio, el uso del capital, la generación de caja y los márgenes. El objetivo principal es la priorización del crecimiento del capital a largo plazo. Hamco SICAV Global Value está diseñado para inversores que buscan exposición a mercados globales a través de una estrategia de valor, con un horizonte de inversión a largo plazo.",
-		"Puede quedarse rezagado durante largos periodos cuando el mercado favorece crecimiento y tecnología.",
-		"Inversores con fuerte convicción value y horizonte de largo plazo"
-	]
-},
-{
-	"id": 46,
-	"nombre": "Fidelity Active Strategy - FAST - Global Fund A-PF-ACC-EUR",
-	"vehiculoInversion": "Fondo",
-	"anioRegistro": 2026,
-	"tipoFondo": "Renta Variable Small Caps",
-	"isin": "LU1048657123",
-	"morningstarEstrellas": 3,
-	"rentabilidadAnual": 9.59,
-	"destacado": true,
-	"rentabilidadesPorAnio": [
-		{
-		  "anio": 2017,
-		  "rentabilidad": 8.85
-		},
-		{
-		  "anio": 2018,
-		  "rentabilidad": -3.14
-		},
-		{
-		  "anio": 2019,
-		  "rentabilidad": 27.64
-		},
-		{
-		  "anio": 2020,
-		  "rentabilidad": -7.03
-		},
-		{
-		  "anio": 2021,
-		  "rentabilidad": 36.90
-		},
-		{
-		  "anio": 2022,
-		  "rentabilidad": 22.40
-		},
-		{
-		  "anio": 2023,
-		  "rentabilidad": 12.59
-		},
-		{
-		  "anio": 2024,
-		  "rentabilidad": 0.89
-		},
-		{
-		  "anio": 2025,
-		  "rentabilidad": -2.36
-		},
-		{
-		  "anio": 2026,
-		  "rentabilidad": 9.59
-		}
-	],
-	"metricasPorPeriodo": {
-	  "12M": {
-		"alfa": -7.12,
-		"beta": 0.51,
-		"ratioSharpe": 0.62,
-		"volatilidad": 10.39,
-		"maximaCaida": -5.47,
-		"trackingError": 15.40,
-		"rCuadrado": 21.02,
-		"correlacion": 45.84
-	  },
-	  "3A": {
-		"alfa": -3.15,
-		"beta": 0.48,
-		"ratioSharpe": 0.25,
-		"volatilidad": 13.41,
-		"maximaCaida": -15.80,
-		"trackingError": 16.19,
-		"rCuadrado": 14.76,
-		"correlacion": 38.42
-	  },
-	  "5A": {
-		"alfa": 1.35,
-		"beta": 0.56,
-		"ratioSharpe": 0.53,
-		"volatilidad": 14.26,
-		"maximaCaida": -15.80,
-		"trackingError": 16.40,
-		"rCuadrado": 23.78,
-		"correlacion": 48.77
-	  },
-	  "10A": {
-		"alfa": -0.18,
-		"beta": 0.94,
-		"ratioSharpe": 0.46,
-		"volatilidad": "--",
-		"maximaCaida": "--",
-		"trackingError": "--",
-		"rCuadrado": 49.78,
-		"correlacion": "--"
-	  }
-	},
-	"links": {
-		"morningstar": "https://global.morningstar.com/es/inversiones/fondos/0P00012L75/cotizacion",
-		"finect": "https://www.finect.com/fondos-inversion/LU1048657123-Fidelity_fast_global_aacceur"
-	},
-	"observaciones": [
-		"El Fidelity Active Strategy - FAST - Global Fund (ISIN: LU1048657123) es un fondo de inversión de la categoría RV Global Capital Flexible, gestionado por Brown Brothers Harriman (Lux) SCA. Su objetivo principal es la búsqueda del crecimiento del capital a largo plazo. Para lograrlo, el fondo invierte como mínimo un 70% de sus activos en acciones e instrumentos relacionados que ofrecen exposición a empresas de todo el mundo. Esta estrategia global y flexible en renta variable lo posiciona para inversores que buscan una exposición diversificada al mercado bursátil internacional con un horizonte de inversión a largo plazo y una tolerancia al riesgo acorde con la inversión en acciones.",
-		"Investigar compañías muy castigadas o con tesis bajistas.",
-		"Comprar aquellas donde considera que el mercado se equivoca.",
-		"Mantener coberturas recurrentes contra el mercado",
-		"Brilló especialmente en 2022 cuando los mercados cayeron.",
-		"No busca ser el fondo más rentable en mercados alcistas extremos, sino proteger mejor en periodos difíciles.",
-		"Es para inversores preocupados por una posible corrección importante del mercado"
-	]
-}
+        "id": 40,
+        "nombre": "Fidelity Funds - Global Technology Fund Y-Acc-EUR (hedged)",
+        "vehiculoInversion": "Fondo",
+        "anioRegistro": 2026,
+        "tipoFondo": "Renta Variable Tecnología",
+        "isin": "LU1482751903",
+        "morningstarEstrellas": 0,
+        "rentabilidadAnual": 10.90,
+        "destacado": true,
+        "rentabilidadesPorAnio": [
+            {
+                "anio": 2017,
+                "rentabilidad": 31.56
+            },
+            {
+                "anio": 2018,
+                "rentabilidad": -5.26
+            },
+            {
+                "anio": 2019,
+                "rentabilidad": 41.98
+            },
+            {
+                "anio": 2020,
+                "rentabilidad": 40.55
+            },
+            {
+                "anio": 2021,
+                "rentabilidad": 24.2
+            },
+            {
+                "anio": 2022,
+                "rentabilidad": -23.47
+            },
+            {
+                "anio": 2023,
+                "rentabilidad": 42.66
+            },
+            {
+                "anio": 2024,
+                "rentabilidad": 19.62
+            },
+            {
+                "anio": 2025,
+                "rentabilidad": 20.96
+            },
+            {
+                "anio": 2026,
+                "rentabilidad": 10.9
+            }
+        ],
+        "metricasPorPeriodo": {
+            "12M": {
+                "alfa": "--",
+                "beta": "--",
+                "ratioSharpe": 1.07,
+                "volatilidad": 21.03,
+                "maximaCaida": -8.49,
+                "trackingError": "--",
+                "rCuadrado": "--",
+                "correlacion": "--"
+            },
+            "3A": {
+                "alfa": "--",
+                "beta": "--",
+                "ratioSharpe": 1.09,
+                "volatilidad": 16.88,
+                "maximaCaida": -9.7,
+                "trackingError": "--",
+                "rCuadrado": "--",
+                "correlacion": "--"
+            },
+            "5A": {
+                "alfa": "--",
+                "beta": "--",
+                "ratioSharpe": 0.66,
+                "volatilidad": 17.93,
+                "maximaCaida": -24.49,
+                "trackingError": "--",
+                "rCuadrado": "--",
+                "correlacion": "--"
+            }
+        },
+        "links": {
+            "morningstar": "https://global.morningstar.com/es/inversiones/fondos/0P00018NPY/cotizacion",
+            "finect": "https://www.finect.com/fondos-inversion/LU1482751903-Fidelity_global_technology_yacceur_h"
+        },
+        "observaciones": [
+            "Es un fondo de inversión de la categoría RV Sector Tecnología, gestionado por Brown Brothers Harriman (Lux) SCA. Su objetivo principal es facilitar a los inversores un crecimiento de capital a largo plazo. La estrategia de inversión de este fondo se centra en valores de renta variable de empresas de todo el mundo. Invierte en compañías que ya desarrollan, o tienen el potencial de desarrollar, productos, procesos o servicios que se benefician directamente de los avances y mejoras tecnológicas. Por tanto, se dirige a inversores que buscan exposición al sector tecnológico global y están dispuestos a asumir el riesgo inherente a la inversión en renta variable con un horizonte temporal a largo plazo",
+            "Busca exposición al sector tecnológico sin concentrarse únicamente en las compañías más de moda.<br/>Mantiene valoraciones más bajas que la media de fondos comparables.",
+            "Inversores que quieren seguir expuestos a tecnología pero con una filosofía más razonable en valoración y menor dependencia de las compañías más sobrevaloradas"
+        ]
+    },
+    {
+        "id": 41,
+        "nombre": "Janus Henderson Horizon Global Smaller Companies Fund A2 EUR",
+        "vehiculoInversion": "Fondo",
+        "anioRegistro": 2026,
+        "tipoFondo": "Renta Variable Small Caps",
+        "isin": "LU1984712320",
+        "morningstarEstrellas": 4,
+        "rentabilidadAnual": 11.92,
+        "destacado": true,
+        "rentabilidadesPorAnio": [
+            {
+                "anio": 2020,
+                "rentabilidad": 9.85
+            },
+            {
+                "anio": 2021,
+                "rentabilidad": 32.08
+            },
+            {
+                "anio": 2022,
+                "rentabilidad": -15.10
+            },
+            {
+                "anio": 2023,
+                "rentabilidad": 22.36
+            },
+            {
+                "anio": 2024,
+                "rentabilidad": 26.65
+            },
+            {
+                "anio": 2025,
+                "rentabilidad": 10.60
+            },
+            {
+                "anio": 2026,
+                "rentabilidad": 11.92
+            }
+        ],
+        "metricasPorPeriodo": {
+            "12M": {
+                "alfa": -1.13,
+                "beta": 1.19,
+                "ratioSharpe": 1.85,
+                "volatilidad": 12.66,
+                "maximaCaida": -6.86,
+                "trackingError": 4.88,
+                "rCuadrado": 92.71,
+                "correlacion": 96.29
+            },
+            "3A": {
+                "alfa": 3.88,
+                "beta": 1.10,
+                "ratioSharpe": 1.10,
+                "volatilidad": 14.86,
+                "maximaCaida": -14.30,
+                "trackingError": 4.99,
+                "rCuadrado": 91.56,
+                "correlacion": 95.69
+            },
+            "5A": {
+                "alfa": 4.01,
+                "beta": 1.05,
+                "ratioSharpe": 0.72,
+                "volatilidad": 15.65,
+                "maximaCaida": -18.68,
+                "trackingError": 5.00,
+                "rCuadrado": 92.15,
+                "correlacion": 96.00
+            }
+        },
+        "links": {
+            "morningstar": "https://global.morningstar.com/es/inversiones/fondos/0P0001I1JP/cotizacion",
+            "finect": "https://www.finect.com/fondos-inversion/LU1984712320-Janus_henderson_hrzn_glb_sc_a2_eur_acc"
+        },
+        "observaciones": [
+            "Es un fondo de inversión de la gestora Janus Henderson Investors, enmarcado en la categoría de RV Global Capitalización Pequeña. Su estrategia principal es buscar el crecimiento de capital a largo plazo. Para lograr este objetivo, el fondo invierte al menos el 80% de sus activos netos en acciones o instrumentos relacionados con acciones de empresas de pequeña capitalización. Estas compañías pueden pertenecer a cualquier sector industrial y estar ubicadas en cualquier país del mundo. La definición de 'pequeña capitalización' se establece en función de que su capitalización de mercado, en el momento de la compra inicial, se encuentre dentro del rango de las empresas incluidas en el índice MSCI World Small Cap. Este producto se dirige a inversores con un horizonte temporal amplio que buscan exposición a compañías con potencial de crecimiento global y que están dispuestos a asumir el riesgo inherente a la inversión en empresas de menor tamaño.",
+            "Busca oportunidades en small caps de distintos países.",
+            "Menor concentración en las grandes compañías que dominan los índices globales.",
+            "Forma parte del grupo de fondos que podrían beneficiarse si continúa ampliándose el liderazgo de mercado más allá de las grandes tecnológicas"
+        ]
+    },
+    {
+        "id": 42,
+        "nombre": "Candriam Equities L Biotechnology Class I EUR Hedged Cap",
+        "vehiculoInversion": "Fondo",
+        "anioRegistro": 2026,
+        "tipoFondo": "Renta Variable Biotecnología",
+        "isin": "LU1006082199",
+        "morningstarEstrellas": 4,
+        "rentabilidadAnual": 11.92,
+        "destacado": true,
+        "rentabilidadesPorAnio": [
+            {
+                "anio": 2017,
+                "rentabilidad": 24.87
+            },
+            {
+                "anio": 2018,
+                "rentabilidad": -13.02
+            },
+            {
+                "anio": 2019,
+                "rentabilidad": 30.43
+            },
+            {
+                "anio": 2020,
+                "rentabilidad": 18.93
+            },
+            {
+                "anio": 2021,
+                "rentabilidad": -2.71
+            },
+            {
+                "anio": 2022,
+                "rentabilidad": -5.50
+            },
+            {
+                "anio": 2023,
+                "rentabilidad": 4.95
+            },
+            {
+                "anio": 2024,
+                "rentabilidad": 1.09
+            },
+            {
+                "anio": 2025,
+                "rentabilidad": 35.09
+            },
+            {
+                "anio": 2026,
+                "rentabilidad": 21.53
+            }
+        ],
+        "metricasPorPeriodo": {
+            "12M": {
+                "alfa": "--",
+                "beta": "--",
+                "ratioSharpe": 3.10,
+                "volatilidad": 16.34,
+                "maximaCaida": -2.40,
+                "trackingError": "--",
+                "rCuadrado": "--",
+                "correlacion": "--"
+            },
+            "3A": {
+                "alfa": "--",
+                "beta": "--",
+                "ratioSharpe": 0.91,
+                "volatilidad": 17.87,
+                "maximaCaida": -18.11,
+                "trackingError": "--",
+                "rCuadrado": "--",
+                "correlacion": "--"
+            },
+            "5A": {
+                "alfa": "--",
+                "beta": "--",
+                "ratioSharpe": 0.46,
+                "volatilidad": 17.09,
+                "maximaCaida": -23.10,
+                "trackingError": "--",
+                "rCuadrado": "--",
+                "correlacion": "--"
+            },
+            "10A": {
+                "alfa": "--",
+                "beta": "--",
+                "ratioSharpe": 0.8,
+                "volatilidad": "--",
+                "maximaCaida": "--",
+                "trackingError": "--",
+                "rCuadrado": "--",
+                "correlacion": "--"
+            }
+        },
+        "links": {
+            "morningstar": "https://global.morningstar.com/es/inversiones/fondos/0P0001753B/cotizacion",
+            "finect": "https://www.finect.com/fondos-inversion/LU1006082199-Candriam_eqs_l_biotech_i_eur_hedged_cap"
+        },
+        "observaciones": [
+            "El fondo de inversión Candriam Equities L Biotechnology (LU1006082199) es un producto de Renta Variable Sector Biotecnología gestionado por Candriam. Su estrategia de inversión se centra en empresas del sector biotecnológico y actividades relacionadas, como el diagnóstico molecular y el equipamiento científico. Este fondo invierte a nivel global, aunque destina la mayor parte de sus activos a Estados Unidos, dada la posición de liderazgo del sector biotecnológico estadounidense en innovación. Candriam Equities L Biotechnology no se gestiona tomando como referencia un índice específico, lo que permite una gestión activa en la selección de valores. Está dirigido a inversores que buscan exposición a un sector especializado y con potencial de crecimiento, asumiendo el riesgo inherente a la inversión en renta variable sectorial."
+        ]
+    },
+    {
+        "id": 43,
+        "nombre": "Polar Capital Funds PLC - Biotechnology Fund I Inc",
+        "vehiculoInversion": "Fondo",
+        "anioRegistro": 2026,
+        "tipoFondo": "Renta Variable Biotecnología",
+        "isin": "LU1006082199",
+        "morningstarEstrellas": 0,
+        "rentabilidadAnual": 29.13,
+        "destacado": false,
+        "rentabilidadesPorAnio": [
+            {
+                "anio": 2017,
+                "rentabilidad": 14.87
+            },
+            {
+                "anio": 2018,
+                "rentabilidad": 1.03
+            },
+            {
+                "anio": 2019,
+                "rentabilidad": 33.69
+            },
+            {
+                "anio": 2020,
+                "rentabilidad": 29.19
+            },
+            {
+                "anio": 2021,
+                "rentabilidad": 12.65
+            },
+            {
+                "anio": 2022,
+                "rentabilidad": -1.08
+            },
+            {
+                "anio": 2023,
+                "rentabilidad": null
+            },
+            {
+                "anio": 2024,
+                "rentabilidad": null
+            },
+            {
+                "anio": 2025,
+                "rentabilidad": null
+            },
+            {
+                "anio": 2026,
+                "rentabilidad": 29.13
+            }
+        ],
+        "metricasPorPeriodo": {
+            "12M": {
+                "alfa": -6.50,
+                "beta": 0.66,
+                "ratioSharpe": -0.54,
+                "volatilidad": 10.07,
+                "maximaCaida": -6.79,
+                "trackingError": 9.70,
+                "rCuadrado": 60.58,
+                "correlacion": 77.83
+            },
+            "3A": {
+                "alfa": 2.92,
+                "beta": 0.81,
+                "ratioSharpe": 0.59,
+                "volatilidad": 15.40,
+                "maximaCaida": -16.47,
+                "trackingError": 10.51,
+                "rCuadrado": 66.93,
+                "correlacion": 81.81
+            },
+            "5A": {
+                "alfa": 2.20,
+                "beta": 0.96,
+                "ratioSharpe": null,
+                "volatilidad": 19.80,
+                "maximaCaida": -16.91,
+                "trackingError": 10.75,
+                "rCuadrado": 74.84,
+                "correlacion": 86.51
+            }
+        },
+        "links": {
+            "morningstar": "https://global.morningstar.com/es/inversiones/fondos/0P0000ZVJP/cotizacion",
+            "finect": "https://www.finect.com/fondos-inversion/IE00B3WVRB16-Polar_capital_biotech_i_inc"
+        },
+        "observaciones": [
+            "El Polar Capital Funds PLC - Biotechnology Fund (ISIN: IE00B3WVRB16) es un fondo de inversión de renta variable sectorial cuyo objetivo es la preservación del capital y su crecimiento a largo plazo. Su estrategia se basa en la inversión en acciones de empresas de todo el mundo, enfocándose en los sectores biotecnológico, de diagnóstico y de ciencias de la vida. El fondo se caracteriza por una amplia diversificación por países, por subsectores biotecnológicos y por capitalización de mercado. Busca superar la rentabilidad de su índice de referencia, el NASDAQ Biotechnology Index. Adicionalmente, puede emplear instrumentos financieros derivados con fines de cobertura, para la reducción de riesgos, una gestión más eficiente o para obtener exposición a títulos de forma eficaz. Este producto está diseñado para inversores que buscan exposición al potencial de crecimiento a largo plazo del sector biotecnológico global."
+        ]
+    },
+    {
+        "id": 44,
+        "nombre": "Federated Hermes Asia ex-Japan Equity Fund Class R EUR Accumulating Hedged",
+        "vehiculoInversion": "Fondo",
+        "anioRegistro": 2026,
+        "tipoFondo": "Renta Variable",
+        "isin": "IE00BBL4VX78",
+        "morningstarEstrellas": 0,
+        "rentabilidadAnual": 14.54,
+        "destacado": true,
+        "rentabilidadesPorAnio": [
+            {
+                "anio": 2017,
+                "rentabilidad": 42.12
+            },
+            {
+                "anio": 2018,
+                "rentabilidad": -18.23
+            },
+            {
+                "anio": 2019,
+                "rentabilidad": 9.29
+            },
+            {
+                "anio": 2020,
+                "rentabilidad": 7.70
+            },
+            {
+                "anio": 2021,
+                "rentabilidad": 4.88
+            },
+            {
+                "anio": 2022,
+                "rentabilidad": -13.89
+            },
+            {
+                "anio": 2023,
+                "rentabilidad": 5.35
+            },
+            {
+                "anio": 2024,
+                "rentabilidad": 8.76
+            },
+            {
+                "anio": 2025,
+                "rentabilidad": 31.52
+            },
+            {
+                "anio": 2026,
+                "rentabilidad": 12.54
+            }
+        ],
+        "metricasPorPeriodo": {
+            "12M": {
+                "alfa": "--",
+                "beta": "--",
+                "ratioSharpe": 1.14,
+                "volatilidad": 23.11,
+                "maximaCaida": -13.49,
+                "trackingError": "--",
+                "rCuadrado": "--",
+                "correlacion": "--"
+            },
+            "3A": {
+                "alfa": "--",
+                "beta": "--",
+                "ratioSharpe": 0.84,
+                "volatilidad": 18.13,
+                "maximaCaida": -13.49,
+                "trackingError": "--",
+                "rCuadrado": "--",
+                "correlacion": "--"
+            },
+            "5A": {
+                "alfa": "--",
+                "beta": "--",
+                "ratioSharpe": 0.29,
+                "volatilidad": 18.79,
+                "maximaCaida": -34.36,
+                "trackingError": "--",
+                "rCuadrado": "--",
+                "correlacion": "--"
+            }
+        },
+        "links": {
+            "morningstar": "https://global.morningstar.com/es/inversiones/fondos/0P000134LI/cotizacion",
+            "finect": "https://www.finect.com/fondos-inversion/IE00BBL4VX78-Federated_hermes_asia_exjpn_eq_r_euracch"
+        },
+        "observaciones": [
+            "El Federated Hermes Asia ex-Japan Equity Fund (ISIN: IE00BBL4VX78) es un fondo de inversión cuyo objetivo principal es la revalorización del capital a largo plazo. Su estrategia se centra en invertir al menos el 80% de sus activos en una cartera de valores de renta variable y otros instrumentos relacionados con acciones de empresas con sede o que generan una parte sustancial de sus ingresos en la región de Asia, excluyendo Japón. Las compañías en las que invierte cotizan o se negocian en mercados regulados a nivel mundial. Este fondo está dirigido a inversores que buscan exposición a las economías asiáticas (sin Japón) y están dispuestos a asumir el riesgo inherente a la inversión en renta variable con un horizonte temporal a largo plazo.",
+            "El gestor da mucha importancia a las valoraciones.",
+            "Ajusta la cartera según cambia el atractivo relativo de cada región.",
+            "Anteriormente aumentó China cuando estaba barata y posteriormente incorporó más India",
+            "Inversores que quieren exposición a Asia con gestión activa basada en valoración"
+        ]
+    },
+    {
+        "id": 45,
+        "nombre": "Hamco SICAV - Global Value F EUR Acc",
+        "vehiculoInversion": "Fondo",
+        "anioRegistro": 2026,
+        "tipoFondo": "Renta Variable Small Caps",
+        "isin": "LU3038482157",
+        "morningstarEstrellas": 4,
+        "rentabilidadAnual": 5.55,
+        "destacado": false,
+        "rentabilidadesPorAnio": [
+            {
+                "anio": 2020,
+                "rentabilidad": 10.46
+            },
+            {
+                "anio": 2021,
+                "rentabilidad": 43.54
+            },
+            {
+                "anio": 2022,
+                "rentabilidad": 32.15
+            },
+            {
+                "anio": 2023,
+                "rentabilidad": 11.04
+            },
+            {
+                "anio": 2024,
+                "rentabilidad": 11.15
+            },
+            {
+                "anio": 2025,
+                "rentabilidad": 7.72
+            },
+            {
+                "anio": 2026,
+                "rentabilidad": 5.55
+            }
+        ],
+        "metricasPorPeriodo": {
+            "12M": {
+                "alfa": -12.21,
+                "beta": 1.01,
+                "ratioSharpe": 0.73,
+                "volatilidad": 12.60,
+                "maximaCaida": -7.03,
+                "trackingError": 9.87,
+                "rCuadrado": 63.16,
+                "correlacion": 79.47
+            },
+            "3A": {
+                "alfa": -0.47,
+                "beta": 0.64,
+                "ratioSharpe": 0.65,
+                "volatilidad": 10.47,
+                "maximaCaida": -8.21,
+                "trackingError": 10.11,
+                "rCuadrado": 52.05,
+                "correlacion": 72.14
+            },
+            "5A": {
+                "alfa": 6.35,
+                "beta": 0.67,
+                "ratioSharpe": 0.91,
+                "volatilidad": 12.88,
+                "maximaCaida": -8.21,
+                "trackingError": 12.10,
+                "rCuadrado": 49.49,
+                "correlacion": 70.35
+            }
+        },
+        "links": {
+            "morningstar": "https://global.morningstar.com/es/inversiones/fondos/0P0001YE67/cotizacion",
+            "finect": "https://www.finect.com/fondos-inversion/LU3038482157-Hamco_global_value_f_eur_acc"
+        },
+        "observaciones": [
+            "Hamco SICAV Global Value (ISIN LU3038482157) es un fondo de inversión de la categoría RV Global Cap. Pequeña, gestionado por HAMCO AM, SGIIC, SA. Este producto se adhiere a una filosofía de inversión en valor, buscando empresas globales que el mercado infravalora y que presentan un potencial de revalorización. La estrategia de inversión se centra en la selección de compañías basándose en un análisis exhaustivo de diversos criterios cuantitativos y cualitativos. Estos incluyen el historial de rentabilidad, el nivel de endeudamiento, la capitalización, la liquidez, las expectativas de crecimiento, el momento en el ciclo de negocio, el uso del capital, la generación de caja y los márgenes. El objetivo principal es la priorización del crecimiento del capital a largo plazo. Hamco SICAV Global Value está diseñado para inversores que buscan exposición a mercados globales a través de una estrategia de valor, con un horizonte de inversión a largo plazo.",
+            "Puede quedarse rezagado durante largos periodos cuando el mercado favorece crecimiento y tecnología.",
+            "Inversores con fuerte convicción value y horizonte de largo plazo"
+        ]
+    },
+    {
+        "id": 46,
+        "nombre": "Fidelity Active Strategy - FAST - Global Fund A-PF-ACC-EUR",
+        "vehiculoInversion": "Fondo",
+        "anioRegistro": 2026,
+        "tipoFondo": "Renta Variable Small Caps",
+        "isin": "LU1048657123",
+        "morningstarEstrellas": 3,
+        "rentabilidadAnual": 9.59,
+        "destacado": true,
+        "rentabilidadesPorAnio": [
+            {
+                "anio": 2017,
+                "rentabilidad": 8.85
+            },
+            {
+                "anio": 2018,
+                "rentabilidad": -3.14
+            },
+            {
+                "anio": 2019,
+                "rentabilidad": 27.64
+            },
+            {
+                "anio": 2020,
+                "rentabilidad": -7.03
+            },
+            {
+                "anio": 2021,
+                "rentabilidad": 36.90
+            },
+            {
+                "anio": 2022,
+                "rentabilidad": 22.40
+            },
+            {
+                "anio": 2023,
+                "rentabilidad": 12.59
+            },
+            {
+                "anio": 2024,
+                "rentabilidad": 0.89
+            },
+            {
+                "anio": 2025,
+                "rentabilidad": -2.36
+            },
+            {
+                "anio": 2026,
+                "rentabilidad": 9.59
+            }
+        ],
+        "metricasPorPeriodo": {
+            "12M": {
+                "alfa": -7.12,
+                "beta": 0.51,
+                "ratioSharpe": 0.62,
+                "volatilidad": 10.39,
+                "maximaCaida": -5.47,
+                "trackingError": 15.40,
+                "rCuadrado": 21.02,
+                "correlacion": 45.84
+            },
+            "3A": {
+                "alfa": -3.15,
+                "beta": 0.48,
+                "ratioSharpe": 0.25,
+                "volatilidad": 13.41,
+                "maximaCaida": -15.80,
+                "trackingError": 16.19,
+                "rCuadrado": 14.76,
+                "correlacion": 38.42
+            },
+            "5A": {
+                "alfa": 1.35,
+                "beta": 0.56,
+                "ratioSharpe": 0.53,
+                "volatilidad": 14.26,
+                "maximaCaida": -15.80,
+                "trackingError": 16.40,
+                "rCuadrado": 23.78,
+                "correlacion": 48.77
+            },
+            "10A": {
+                "alfa": -0.18,
+                "beta": 0.94,
+                "ratioSharpe": 0.46,
+                "volatilidad": "--",
+                "maximaCaida": "--",
+                "trackingError": "--",
+                "rCuadrado": 49.78,
+                "correlacion": "--"
+            }
+        },
+        "links": {
+            "morningstar": "https://global.morningstar.com/es/inversiones/fondos/0P00012L75/cotizacion",
+            "finect": "https://www.finect.com/fondos-inversion/LU1048657123-Fidelity_fast_global_aacceur"
+        },
+        "observaciones": [
+            "El Fidelity Active Strategy - FAST - Global Fund (ISIN: LU1048657123) es un fondo de inversión de la categoría RV Global Capital Flexible, gestionado por Brown Brothers Harriman (Lux) SCA. Su objetivo principal es la búsqueda del crecimiento del capital a largo plazo. Para lograrlo, el fondo invierte como mínimo un 70% de sus activos en acciones e instrumentos relacionados que ofrecen exposición a empresas de todo el mundo. Esta estrategia global y flexible en renta variable lo posiciona para inversores que buscan una exposición diversificada al mercado bursátil internacional con un horizonte de inversión a largo plazo y una tolerancia al riesgo acorde con la inversión en acciones.",
+            "Investigar compañías muy castigadas o con tesis bajistas.",
+            "Comprar aquellas donde considera que el mercado se equivoca.",
+            "Mantener coberturas recurrentes contra el mercado",
+            "Brilló especialmente en 2022 cuando los mercados cayeron.",
+            "No busca ser el fondo más rentable en mercados alcistas extremos, sino proteger mejor en periodos difíciles.",
+            "Es para inversores preocupados por una posible corrección importante del mercado"
+        ]
+    }
 ]
