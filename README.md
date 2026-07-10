@@ -30,7 +30,7 @@ Inversores que quieren seguir expuestos a tecnología pero con una filosofía m�
 
 ***
 
-## 2. T. Rowe Price US Smaller Companies
+## 2. T. Rowe Price US Smaller Companies (HECHO!!!!)
 (https://www.finect.com/fondos-inversion/LU0918140210-T_rowe_price_us_smlr_cm_eq_a_eur)
 
 ### ¿Por qué lo menciona?
