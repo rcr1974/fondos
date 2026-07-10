@@ -75,7 +75,7 @@ Inversores que quieren exposición global pero con sesgo hacia empresas de menor
 
 ***
 
-## 4. Janus Henderson Horizon Biotechnology
+## 4. Janus Henderson Horizon Biotechnology (HECHO!!!!)
 (https://www.finect.com/fondos-inversion/LU1897414568-Janus_henderson_horizon_bio_iu2_usd_acc)
 
 ### ¿Por qué lo menciona?
