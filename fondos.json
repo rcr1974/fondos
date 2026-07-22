@@ -3777,500 +3777,500 @@
             "Es para inversores preocupados por una posible corrección importante del mercado"
         ]
     },
-{
-	"id": 47,
-	"nombre": "GAM Star Fund plc - GAM Star Global Rates Class A EUR Accumulation Hedged",
-	"vehiculoInversion": "Fondo",
-	"anioRegistro": 2026,
-	"tipoFondo": "Mixtos Defensivos",
-	"isin": "IE00B59GC072",
-	"morningstarEstrellas": 4,
-	"rentabilidadAnual": 1.15,
-	"destacado": true,
-	"rentabilidadesPorAnio": [
-		{
-		  "anio": 2017,
-		  "rentabilidad": -4.23
-		},
-		{
-		  "anio": 2018,
-		  "rentabilidad": -1.08
-		},
-		{
-		  "anio": 2019,
-		  "rentabilidad": 7.75
-		},
-		{
-		  "anio": 2020,
-		  "rentabilidad": 5.36
-		},
-		{
-		  "anio": 2021,
-		  "rentabilidad": 8.24
-		},
-		{
-		  "anio": 2022,
-		  "rentabilidad": 12.38
-		},
-		{
-		  "anio": 2023,
-		  "rentabilidad": 5.93
-		},
-		{
-		  "anio": 2024,
-		  "rentabilidad": -7.39
-		},
-		{
-		  "anio": 2025,
-		  "rentabilidad": 12.57
-		},
-		{
-		  "anio": 2026,
-		  "rentabilidad": 1.15
-		}
-	],
-	"metricasPorPeriodo": {
-		"12M": {
-			"alfa": -7.12,
-			"beta": 0.51,
-			"ratioSharpe": 0.62,
-			"volatilidad": 10.39,
-			"maximaCaida": -5.47,
-			"trackingError": 15.40,
-			"rCuadrado": 21.02,
-			"correlacion": 45.84
-		},
-		"3A": {
-			"alfa": -3.15,
-			"beta": 0.48,
-			"ratioSharpe": 0.25,
-			"volatilidad": 13.41,
-			"maximaCaida": -15.80,
-			"trackingError": 16.19,
-			"rCuadrado": 14.76,
-			"correlacion": 38.42
-		},
-		"5A": {
-			"alfa": 1.35,
-			"beta": 0.56,
-			"ratioSharpe": 0.53,
-			"volatilidad": 14.26,
-			"maximaCaida": -15.80,
-			"trackingError": 16.40,
-			"rCuadrado": 23.78,
-			"correlacion": 48.77
-		},
-		"10A": {
-			"alfa": 2.55,
-			"beta": 0.52,
-			"ratioSharpe": 0.30,
-			"volatilidad": "--",
-			"maximaCaida": "--",
-			"trackingError": "--",
-			"rCuadrado": 4.51,
-			"correlacion": "--"
-		}
-	},
-	"links": {
-		"morningstar": "https://global.morningstar.com/es/inversiones/fondos/0P0000T2WT/cotizacion",
-		"finect": "https://www.finect.com/fondos-inversion/IE00B59GC072-Gam_star_global_rates_a_eur_acc"
-	},
-	"observaciones": [
-		"El GAM Star Fund plc - GAM Star Global Rates es un fondo de inversión gestionado por GAM London Limited, cuyo objetivo principal es la búsqueda de rendimientos absolutos. Su estrategia se centra en la toma de posiciones largas en valores de renta fija y en monedas (divisas) a nivel global. Enmarcado en la categoría de Macro Trading USD, el fondo implementa un enfoque de inversión macroeconómico, buscando capitalizar movimientos en los tipos de interés y los mercados de divisas. Este producto, identificado con el ISIN IE00B59GC072, se dirige a inversores que buscan exposición a estrategias dinámicas en estos mercados, con un perfil que valora la gestión activa de las fluctuaciones de tipos y divisas."
-	]
-},
-{
-	"id": 48,
-	"nombre": "Helium Fund - Helium Performance S EUR",
-	"vehiculoInversion": "Fondo",
-	"anioRegistro": 2026,
-	"tipoFondo": "Alternativo",
-	"isin": "LU0912262358",
-	"morningstarEstrellas": 0,
-	"rentabilidadAnual": 2.53,
-	"destacado": true,
-	"rentabilidadesPorAnio": [
-		{
-		  "anio": 2017,
-		  "rentabilidad": 2.66
-		},
-		{
-		  "anio": 2018,
-		  "rentabilidad": -2.03
-		},
-		{
-		  "anio": 2019,
-		  "rentabilidad": 3.85
-		},
-		{
-		  "anio": 2020,
-		  "rentabilidad": 3.14
-		},
-		{
-		  "anio": 2021,
-		  "rentabilidad": 8.03
-		},
-		{
-		  "anio": 2022,
-		  "rentabilidad": 0.65
-		},
-		{
-		  "anio": 2023,
-		  "rentabilidad": 5.79
-		},
-		{
-		  "anio": 2024,
-		  "rentabilidad": 4.31
-		},
-		{
-		  "anio": 2025,
-		  "rentabilidad": 6.57
-		},
-		{
-		  "anio": 2026,
-		  "rentabilidad": 2.53
-		}
-	],
-	"metricasPorPeriodo": {
-	  "12M": {
-		"alfa": "--",
-		"beta": "--",
-		"ratioSharpe": 2.95,
-		"volatilidad": 1.05,
-		"maximaCaida": -0.34,
-		"trackingError": "--",
-		"rCuadrado": "--",
-		"correlacion": "--"
-	  },
-	  "3A": {
-		"alfa": "--",
-		"beta": "--",
-		"ratioSharpe": 2.07,
-		"volatilidad": 1.24,
-		"maximaCaida": -0.41,
-		"trackingError": "--",
-		"rCuadrado": "--",
-		"correlacion": "--"
-	  },
-	  "5A": {
-		"alfa": "--",
-		"beta": "--",
-		"ratioSharpe": 1.40,
-		"volatilidad": 1.80,
-		"maximaCaida": -3.26,
-		"trackingError": "--",
-		"rCuadrado": "--",
-		"correlacion": "--"
-	  },
-		"10A": {
-			"alfa": "--",
-			"beta": "--",
-			"ratioSharpe": 0.16,
-			"volatilidad": "--",
-			"maximaCaida": "--",
-			"trackingError": "--",
-			"rCuadrado": "--",
-			"correlacion": "--"
-		}
-	},
-	"links": {
-		"morningstar": "https://global.morningstar.com/es/inversiones/fondos/0P0000ZWX7/cotizacion",
-		"finect": "https://www.finect.com/fondos-inversion/LU0912262358-Helium_fund_performance_s_eur"
-	},
-	"observaciones": [
-		"El Helium Fund - Helium Performance, con ISIN LU0912262275, es un fondo de inversión clasificado en la categoría Alternativa - Event Driven. Gestionado por CACEIS Bank, Luxembourg Branch, su principal objetivo es la consecución de retornos absolutos, buscando desvincularse de la dirección general del mercado. La estrategia de inversión de Helium Fund - Helium Performance se centra en identificar y explotar oportunidades de valoración en una amplia gama de activos financieros. Para ello, invierte en valores, instrumentos financieros derivados y obligaciones de deuda, aprovechando las ineficiencias de precios que pueden surgir de eventos corporativos o situaciones de mercado específicas. Este enfoque está diseñado para inversores que buscan una estrategia especializada y la generación de valor a través de la identificación de oportunidades concretas en el pricing de los activos."
-	]
-},
-{
-	"id": 49,
-	"nombre": "JPMorgan Funds - Europe Equity Absolute Alpha Fund C (perf) (acc) EUR",
-	"vehiculoInversion": "Fondo",
-	"anioRegistro": 2026,
-	"tipoFondo": "Alternativo - Mkt. Neutral",
-	"isin": "LU1001748398",
-	"morningstarEstrellas": 5,
-	"rentabilidadAnual": 2.02,
-	"destacado": true,
-	"rentabilidadesPorAnio": [
-		{
-		  "anio": 2017,
-		  "rentabilidad": 4.53
-		},
-		{
-		  "anio": 2018,
-		  "rentabilidad": -2.60
-		},
-		{
-		  "anio": 2019,
-		  "rentabilidad": 8.10
-		},
-		{
-		  "anio": 2020,
-		  "rentabilidad": -2.66
-		},
-		{
-		  "anio": 2021,
-		  "rentabilidad": 15.72
-		},
-		{
-		  "anio": 2022,
-		  "rentabilidad": 8.31
-		},
-		{
-		  "anio": 2023,
-		  "rentabilidad": 3.00
-		},
-		{
-		  "anio": 2024,
-		  "rentabilidad": 19.35
-		},
-		{
-		  "anio": 2025,
-		  "rentabilidad": 11.96
-		},
-		{
-		  "anio": 2026,
-		  "rentabilidad": 2.02
-		}
-	],
-	"metricasPorPeriodo": {
-	  "12M": {
-		"alfa": 6.48,
-		"beta": -0.21,
-		"ratioSharpe": 1.89,
-		"volatilidad": 3.07,
-		"maximaCaida": -1.20,
-		"trackingError": 5.37,
-		"rCuadrado": 6.30,
-		"correlacion": -25.11
-	  },
-	  "3A": {
-		"alfa": 9.95,
-		"beta": -0.56,
-		"ratioSharpe": 1.72,
-		"volatilidad": 5.09,
-		"maximaCaida": -3.31,
-		"trackingError": 7.92,
-		"rCuadrado": 21.60,
-		"correlacion": -46.47
-	  },
-	  "5A": {
-		"alfa": 7.85,
-		"beta": -0.42,
-		"ratioSharpe": 1.62,
-		"volatilidad": 5.00,
-		"maximaCaida": -3.82,
-		"trackingError": 8.84,
-		"rCuadrado": 20.79,
-		"correlacion": -45.59
-	  },
-		"10A": {
-			"alfa": 6.26,
-			"beta": -0.23,
-			"ratioSharpe": 1.11,
-			"volatilidad": "--",
-			"maximaCaida": "--",
-			"trackingError": "--",
-			"rCuadrado": 3.56,
-			"correlacion": "--"
-		}
-	},
-	"links": {
-		"morningstar": "https://global.morningstar.com/es/inversiones/fondos/0P00013WS8/cotizacion",
-		"finect": "https://www.finect.com/fondos-inversion/LU1001748398-Jpm_europe_eq_abs_alp_c_perf_acc_eur"
-	},
-	"observaciones": [
-		"El JPMorgan Funds - Europe Equity Absolute Alpha Fund (ISIN: LU1176912761) es un fondo de inversión que persigue generar una rentabilidad total mediante una estrategia de inversión activa. Su objetivo principal es conseguir alfa absoluta manteniendo una exposición reducida a los movimientos generales del mercado. Para ello, el fondo invierte en empresas europeas, empleando tanto posiciones largas como cortas en valores de renta variable. La política de inversión del fondo se centra en compañías domiciliadas o que desarrollan la mayor parte de su actividad económica en países europeos. Al menos el 67% de su patrimonio se expone a estos valores, ya sea directamente o mediante el uso de instrumentos financieros derivados. Esta aproximación de "market neutral" o "absolute return" lo posiciona para inversores que buscan descorrelación y un enfoque en la selección de valores, más allá de la dirección del mercado."
-	]
-},
-{
-	"id": 49,
-	"nombre": "Jupiter Merian Global Equity Absolute Return Fund L EUR Hedged Acc",
-	"vehiculoInversion": "Fondo",
-	"anioRegistro": 2026,
-	"tipoFondo": "Alternativo - Mkt. Neutral",
-	"isin": "IE00BLP5S460",
-	"morningstarEstrellas": 4,
-	"rentabilidadAnual": 2.93,
-	"destacado": true,
-	"rentabilidadesPorAnio": [
-		{
-		  "anio": 2017,
-		  "rentabilidad": 5.19
-		},
-		{
-		  "anio": 2018,
-		  "rentabilidad": -4.60
-		},
-		{
-		  "anio": 2019,
-		  "rentabilidad": -14.93
-		},
-		{
-		  "anio": 2020,
-		  "rentabilidad": -4.02
-		},
-		{
-		  "anio": 2021,
-		  "rentabilidad": 17.02
-		},
-		{
-		  "anio": 2022,
-		  "rentabilidad": 7.61
-		},
-		{
-		  "anio": 2023,
-		  "rentabilidad": 7.69
-		},
-		{
-		  "anio": 2024,
-		  "rentabilidad": 8.75
-		},
-		{
-		  "anio": 2025,
-		  "rentabilidad": 13.67
-		},
-		{
-		  "anio": 2026,
-		  "rentabilidad": 2.93
-		}
-	],
-	"metricasPorPeriodo": {
-	  "12M": {
-		"alfa": 5.38,
-		"beta": 0.34,
-		"ratioSharpe": 1.26,
-		"volatilidad": 5.11,
-		"maximaCaida": -2.51,
-		"trackingError": 5.53,
-		"rCuadrado": 5.89,
-		"correlacion": 24.28
-	  },
-	  "3A": {
-		"alfa": 6.54,
-		"beta": -0.14,
-		"ratioSharpe": 1.56,
-		"volatilidad": 3.98,
-		"maximaCaida": -2.51,
-		"trackingError": 6.19,
-		"rCuadrado": 2.14,
-		"correlacion": -14.64
-	  },
-	  "5A": {
-		"alfa": 6.24,
-		"beta": -0.14,
-		"ratioSharpe": 1.61,
-		"volatilidad": 3.95,
-		"maximaCaida": -2.51,
-		"trackingError": 7.24,
-		"rCuadrado": 3.68,
-		"correlacion": -19.18
-	  },
-		"10A": {
-			"alfa": 3.37,
-			"beta": -0.14,
-			"ratioSharpe": 0.61,
-			"volatilidad": "--",
-			"maximaCaida": "--",
-			"trackingError": "--",
-			"rCuadrado": 1.51,
-			"correlacion": "--"
-		}
-	},
-	"links": {
-		"morningstar": "https://global.morningstar.com/es/inversiones/fondos/0P00013398/cotizacion",
-		"finect": "https://www.finect.com/fondos-inversion/IE00BLP5S460-Jupitermerian_glb_eq_absrt_l__h_acc"
-	},
-	"observaciones": [
-		"El Jupiter Merian Global Equity Absolute Return Fund, con ISIN IE00BLP5S460, es un fondo de inversión que tiene como objetivo principal la apreciación del capital mediante un estricto control del riesgo. Su estrategia busca generar retornos absolutos con una baja correlación respecto a los mercados de renta variable y renta fija tradicionales. Este producto invierte fundamentalmente en una cartera de valores de renta variable de compañías de todo el mundo, que cotizan o se negocian en mercados regulados. No se propone concentrar las inversiones en una única región geográfica o sector, promoviendo así la diversificación. Se dirige a inversores que buscan una exposición global a la renta variable, pero con un enfoque en la gestión del riesgo y la obtención de rentabilidades que se desvinculen de las tendencias generales del mercado."
-	]
-},
-{
-	"id": 50,
-	"nombre": "BlackRock Strategic Fds - BlackRock Systematic Asia Pacific Equity Absolute Return Fd A2 EUR Hedged",
-	"vehiculoInversion": "Fondo",
-	"anioRegistro": 2026,
-	"tipoFondo": "Alternativo - Mkt. Neutral",
-	"isin": "LU1508158430",
-	"morningstarEstrellas": 5,
-	"rentabilidadAnual": 2.93,
-	"destacado": true,
-	"rentabilidadesPorAnio": [
-		{
-		  "anio": 2018,
-		  "rentabilidad": 2.34
-		},
-		{
-		  "anio": 2019,
-		  "rentabilidad": -4.85
-		},
-		{
-		  "anio": 2020,
-		  "rentabilidad": 6.70
-		},
-		{
-		  "anio": 2021,
-		  "rentabilidad": 9.61
-		},
-		{
-		  "anio": 2022,
-		  "rentabilidad": 6.38
-		},
-		{
-		  "anio": 2023,
-		  "rentabilidad": 14.50
-		},
-		{
-		  "anio": 2024,
-		  "rentabilidad": 23.91
-		},
-		{
-		  "anio": 2025,
-		  "rentabilidad": 6.13
-		},
-		{
-		  "anio": 2026,
-		  "rentabilidad": 4.00
-		}
-	],
-	"metricasPorPeriodo": {
-	  "12M": {
-		"alfa": 5.91,
-		"beta": -0.41,
-		"ratioSharpe": 1.09,
-		"volatilidad": 4.20,
-		"maximaCaida": -2.04,
-		"trackingError": 6.53,
-		"rCuadrado": 13.24,
-		"correlacion": -36.39
-	  },
-	  "3A": {
-		"alfa": 9.32,
-		"beta": -0.05,
-		"ratioSharpe": 2.05,
-		"volatilidad": 4.58,
-		"maximaCaida": -3.28,
-		"trackingError": 6.29,
-		"rCuadrado": 0.21,
-		"correlacion": -4.56
-	  },
-	  "5A": {
-		"alfa": 7.36,
-		"beta": 0.08,
-		"ratioSharpe": 1.56,
-		"volatilidad": 4.86,
-		"maximaCaida": -6.30,
-		"trackingError": 6.78,
-		"rCuadrado": 0.94,
-		"correlacion": 9.69
-	  }
-	},
-	"links": {
-		"morningstar": "https://global.morningstar.com/es/inversiones/fondos/0P00019UYB/cotizacion",
-		"finect": "https://www.finect.com/fondos-inversion/LU1508158430-Bsf_asia_pacific_divers_eq_ar_a2_eur_h"
-	},
-	"observaciones": [
-		"El BlackRock Strategic Funds - BlackRock Systematic Asia Pacific Equity Absolute Return Fund (ISIN: LU1508158430) es un fondo de inversión que tiene como objetivo principal generar una rentabilidad absoluta positiva para los inversores, independientemente de los movimientos generales del mercado. Su estrategia de inversión se basa en la toma de exposiciones largas, sintéticas largas y sintéticas cortas. El fondo invierte al menos el 70% de su exposición en acciones y valores relacionados con acciones, incluyendo derivados, de empresas constituidas o cotizadas en la región de Asia Pacífico, abarcando mercados como Australia y Japón. Se caracteriza por una alta diversificación dentro del universo de renta variable de esta región, buscando al mismo tiempo minimizar la exposición neta a los mercados de renta variable subyacentes. Este enfoque de 'market neutral' lo posiciona para inversores que buscan descorrelación con los mercados tradicionales y una estrategia de retorno absoluto."
-	]
-}
+    {
+        "id": 47,
+        "nombre": "GAM Star Fund plc - GAM Star Global Rates Class A EUR Accumulation Hedged",
+        "vehiculoInversion": "Fondo",
+        "anioRegistro": 2026,
+        "tipoFondo": "Mixtos Defensivos",
+        "isin": "IE00B59GC072",
+        "morningstarEstrellas": 4,
+        "rentabilidadAnual": 1.15,
+        "destacado": true,
+        "rentabilidadesPorAnio": [
+            {
+                "anio": 2017,
+                "rentabilidad": -4.23
+            },
+            {
+                "anio": 2018,
+                "rentabilidad": -1.08
+            },
+            {
+                "anio": 2019,
+                "rentabilidad": 7.75
+            },
+            {
+                "anio": 2020,
+                "rentabilidad": 5.36
+            },
+            {
+                "anio": 2021,
+                "rentabilidad": 8.24
+            },
+            {
+                "anio": 2022,
+                "rentabilidad": 12.38
+            },
+            {
+                "anio": 2023,
+                "rentabilidad": 5.93
+            },
+            {
+                "anio": 2024,
+                "rentabilidad": -7.39
+            },
+            {
+                "anio": 2025,
+                "rentabilidad": 12.57
+            },
+            {
+                "anio": 2026,
+                "rentabilidad": 1.15
+            }
+        ],
+        "metricasPorPeriodo": {
+            "12M": {
+                "alfa": -7.12,
+                "beta": 0.51,
+                "ratioSharpe": 0.62,
+                "volatilidad": 10.39,
+                "maximaCaida": -5.47,
+                "trackingError": 15.40,
+                "rCuadrado": 21.02,
+                "correlacion": 45.84
+            },
+            "3A": {
+                "alfa": -3.15,
+                "beta": 0.48,
+                "ratioSharpe": 0.25,
+                "volatilidad": 13.41,
+                "maximaCaida": -15.80,
+                "trackingError": 16.19,
+                "rCuadrado": 14.76,
+                "correlacion": 38.42
+            },
+            "5A": {
+                "alfa": 1.35,
+                "beta": 0.56,
+                "ratioSharpe": 0.53,
+                "volatilidad": 14.26,
+                "maximaCaida": -15.80,
+                "trackingError": 16.40,
+                "rCuadrado": 23.78,
+                "correlacion": 48.77
+            },
+            "10A": {
+                "alfa": 2.55,
+                "beta": 0.52,
+                "ratioSharpe": 0.30,
+                "volatilidad": "--",
+                "maximaCaida": "--",
+                "trackingError": "--",
+                "rCuadrado": 4.51,
+                "correlacion": "--"
+            }
+        },
+        "links": {
+            "morningstar": "https://global.morningstar.com/es/inversiones/fondos/0P0000T2WT/cotizacion",
+            "finect": "https://www.finect.com/fondos-inversion/IE00B59GC072-Gam_star_global_rates_a_eur_acc"
+        },
+        "observaciones": [
+            "El GAM Star Fund plc - GAM Star Global Rates es un fondo de inversión gestionado por GAM London Limited, cuyo objetivo principal es la búsqueda de rendimientos absolutos. Su estrategia se centra en la toma de posiciones largas en valores de renta fija y en monedas (divisas) a nivel global. Enmarcado en la categoría de Macro Trading USD, el fondo implementa un enfoque de inversión macroeconómico, buscando capitalizar movimientos en los tipos de interés y los mercados de divisas. Este producto, identificado con el ISIN IE00B59GC072, se dirige a inversores que buscan exposición a estrategias dinámicas en estos mercados, con un perfil que valora la gestión activa de las fluctuaciones de tipos y divisas."
+        ]
+    },
+    {
+        "id": 48,
+        "nombre": "Helium Fund - Helium Performance S EUR",
+        "vehiculoInversion": "Fondo",
+        "anioRegistro": 2026,
+        "tipoFondo": "Alternativo",
+        "isin": "LU0912262358",
+        "morningstarEstrellas": 0,
+        "rentabilidadAnual": 2.53,
+        "destacado": true,
+        "rentabilidadesPorAnio": [
+            {
+                "anio": 2017,
+                "rentabilidad": 2.66
+            },
+            {
+                "anio": 2018,
+                "rentabilidad": -2.03
+            },
+            {
+                "anio": 2019,
+                "rentabilidad": 3.85
+            },
+            {
+                "anio": 2020,
+                "rentabilidad": 3.14
+            },
+            {
+                "anio": 2021,
+                "rentabilidad": 8.03
+            },
+            {
+                "anio": 2022,
+                "rentabilidad": 0.65
+            },
+            {
+                "anio": 2023,
+                "rentabilidad": 5.79
+            },
+            {
+                "anio": 2024,
+                "rentabilidad": 4.31
+            },
+            {
+                "anio": 2025,
+                "rentabilidad": 6.57
+            },
+            {
+                "anio": 2026,
+                "rentabilidad": 2.53
+            }
+        ],
+        "metricasPorPeriodo": {
+            "12M": {
+                "alfa": "--",
+                "beta": "--",
+                "ratioSharpe": 2.95,
+                "volatilidad": 1.05,
+                "maximaCaida": -0.34,
+                "trackingError": "--",
+                "rCuadrado": "--",
+                "correlacion": "--"
+            },
+            "3A": {
+                "alfa": "--",
+                "beta": "--",
+                "ratioSharpe": 2.07,
+                "volatilidad": 1.24,
+                "maximaCaida": -0.41,
+                "trackingError": "--",
+                "rCuadrado": "--",
+                "correlacion": "--"
+            },
+            "5A": {
+                "alfa": "--",
+                "beta": "--",
+                "ratioSharpe": 1.40,
+                "volatilidad": 1.80,
+                "maximaCaida": -3.26,
+                "trackingError": "--",
+                "rCuadrado": "--",
+                "correlacion": "--"
+            },
+            "10A": {
+                "alfa": "--",
+                "beta": "--",
+                "ratioSharpe": 0.16,
+                "volatilidad": "--",
+                "maximaCaida": "--",
+                "trackingError": "--",
+                "rCuadrado": "--",
+                "correlacion": "--"
+            }
+        },
+        "links": {
+            "morningstar": "https://global.morningstar.com/es/inversiones/fondos/0P0000ZWX7/cotizacion",
+            "finect": "https://www.finect.com/fondos-inversion/LU0912262358-Helium_fund_performance_s_eur"
+        },
+        "observaciones": [
+            "El Helium Fund - Helium Performance, con ISIN LU0912262275, es un fondo de inversión clasificado en la categoría Alternativa - Event Driven. Gestionado por CACEIS Bank, Luxembourg Branch, su principal objetivo es la consecución de retornos absolutos, buscando desvincularse de la dirección general del mercado. La estrategia de inversión de Helium Fund - Helium Performance se centra en identificar y explotar oportunidades de valoración en una amplia gama de activos financieros. Para ello, invierte en valores, instrumentos financieros derivados y obligaciones de deuda, aprovechando las ineficiencias de precios que pueden surgir de eventos corporativos o situaciones de mercado específicas. Este enfoque está diseñado para inversores que buscan una estrategia especializada y la generación de valor a través de la identificación de oportunidades concretas en el pricing de los activos."
+        ]
+    },
+    {
+        "id": 49,
+        "nombre": "JPMorgan Funds - Europe Equity Absolute Alpha Fund C (perf) (acc) EUR",
+        "vehiculoInversion": "Fondo",
+        "anioRegistro": 2026,
+        "tipoFondo": "Alternativo - Mkt. Neutral",
+        "isin": "LU1001748398",
+        "morningstarEstrellas": 5,
+        "rentabilidadAnual": 2.02,
+        "destacado": true,
+        "rentabilidadesPorAnio": [
+            {
+                "anio": 2017,
+                "rentabilidad": 4.53
+            },
+            {
+                "anio": 2018,
+                "rentabilidad": -2.60
+            },
+            {
+                "anio": 2019,
+                "rentabilidad": 8.10
+            },
+            {
+                "anio": 2020,
+                "rentabilidad": -2.66
+            },
+            {
+                "anio": 2021,
+                "rentabilidad": 15.72
+            },
+            {
+                "anio": 2022,
+                "rentabilidad": 8.31
+            },
+            {
+                "anio": 2023,
+                "rentabilidad": 3.00
+            },
+            {
+                "anio": 2024,
+                "rentabilidad": 19.35
+            },
+            {
+                "anio": 2025,
+                "rentabilidad": 11.96
+            },
+            {
+                "anio": 2026,
+                "rentabilidad": 2.02
+            }
+        ],
+        "metricasPorPeriodo": {
+            "12M": {
+                "alfa": 6.48,
+                "beta": -0.21,
+                "ratioSharpe": 1.89,
+                "volatilidad": 3.07,
+                "maximaCaida": -1.20,
+                "trackingError": 5.37,
+                "rCuadrado": 6.30,
+                "correlacion": -25.11
+            },
+            "3A": {
+                "alfa": 9.95,
+                "beta": -0.56,
+                "ratioSharpe": 1.72,
+                "volatilidad": 5.09,
+                "maximaCaida": -3.31,
+                "trackingError": 7.92,
+                "rCuadrado": 21.60,
+                "correlacion": -46.47
+            },
+            "5A": {
+                "alfa": 7.85,
+                "beta": -0.42,
+                "ratioSharpe": 1.62,
+                "volatilidad": 5.00,
+                "maximaCaida": -3.82,
+                "trackingError": 8.84,
+                "rCuadrado": 20.79,
+                "correlacion": -45.59
+            },
+            "10A": {
+                "alfa": 6.26,
+                "beta": -0.23,
+                "ratioSharpe": 1.11,
+                "volatilidad": "--",
+                "maximaCaida": "--",
+                "trackingError": "--",
+                "rCuadrado": 3.56,
+                "correlacion": "--"
+            }
+        },
+        "links": {
+            "morningstar": "https://global.morningstar.com/es/inversiones/fondos/0P00013WS8/cotizacion",
+            "finect": "https://www.finect.com/fondos-inversion/LU1001748398-Jpm_europe_eq_abs_alp_c_perf_acc_eur"
+        },
+        "observaciones": [
+            "El JPMorgan Funds - Europe Equity Absolute Alpha Fund (ISIN: LU1176912761) es un fondo de inversión que persigue generar una rentabilidad total mediante una estrategia de inversión activa. Su objetivo principal es conseguir alfa absoluta manteniendo una exposición reducida a los movimientos generales del mercado. Para ello, el fondo invierte en empresas europeas, empleando tanto posiciones largas como cortas en valores de renta variable. La política de inversión del fondo se centra en compañías domiciliadas o que desarrollan la mayor parte de su actividad económica en países europeos. Al menos el 67% de su patrimonio se expone a estos valores, ya sea directamente o mediante el uso de instrumentos financieros derivados. Esta aproximación de 'market neutral' o 'absolute return' lo posiciona para inversores que buscan descorrelación y un enfoque en la selección de valores, más allá de la dirección del mercado."
+        ]
+    },
+    {
+        "id": 49,
+        "nombre": "Jupiter Merian Global Equity Absolute Return Fund L EUR Hedged Acc",
+        "vehiculoInversion": "Fondo",
+        "anioRegistro": 2026,
+        "tipoFondo": "Alternativo - Mkt. Neutral",
+        "isin": "IE00BLP5S460",
+        "morningstarEstrellas": 4,
+        "rentabilidadAnual": 2.93,
+        "destacado": true,
+        "rentabilidadesPorAnio": [
+            {
+                "anio": 2017,
+                "rentabilidad": 5.19
+            },
+            {
+                "anio": 2018,
+                "rentabilidad": -4.60
+            },
+            {
+                "anio": 2019,
+                "rentabilidad": -14.93
+            },
+            {
+                "anio": 2020,
+                "rentabilidad": -4.02
+            },
+            {
+                "anio": 2021,
+                "rentabilidad": 17.02
+            },
+            {
+                "anio": 2022,
+                "rentabilidad": 7.61
+            },
+            {
+                "anio": 2023,
+                "rentabilidad": 7.69
+            },
+            {
+                "anio": 2024,
+                "rentabilidad": 8.75
+            },
+            {
+                "anio": 2025,
+                "rentabilidad": 13.67
+            },
+            {
+                "anio": 2026,
+                "rentabilidad": 2.93
+            }
+        ],
+        "metricasPorPeriodo": {
+            "12M": {
+                "alfa": 5.38,
+                "beta": 0.34,
+                "ratioSharpe": 1.26,
+                "volatilidad": 5.11,
+                "maximaCaida": -2.51,
+                "trackingError": 5.53,
+                "rCuadrado": 5.89,
+                "correlacion": 24.28
+            },
+            "3A": {
+                "alfa": 6.54,
+                "beta": -0.14,
+                "ratioSharpe": 1.56,
+                "volatilidad": 3.98,
+                "maximaCaida": -2.51,
+                "trackingError": 6.19,
+                "rCuadrado": 2.14,
+                "correlacion": -14.64
+            },
+            "5A": {
+                "alfa": 6.24,
+                "beta": -0.14,
+                "ratioSharpe": 1.61,
+                "volatilidad": 3.95,
+                "maximaCaida": -2.51,
+                "trackingError": 7.24,
+                "rCuadrado": 3.68,
+                "correlacion": -19.18
+            },
+            "10A": {
+                "alfa": 3.37,
+                "beta": -0.14,
+                "ratioSharpe": 0.61,
+                "volatilidad": "--",
+                "maximaCaida": "--",
+                "trackingError": "--",
+                "rCuadrado": 1.51,
+                "correlacion": "--"
+            }
+        },
+        "links": {
+            "morningstar": "https://global.morningstar.com/es/inversiones/fondos/0P00013398/cotizacion",
+            "finect": "https://www.finect.com/fondos-inversion/IE00BLP5S460-Jupitermerian_glb_eq_absrt_l__h_acc"
+        },
+        "observaciones": [
+            "El Jupiter Merian Global Equity Absolute Return Fund, con ISIN IE00BLP5S460, es un fondo de inversión que tiene como objetivo principal la apreciación del capital mediante un estricto control del riesgo. Su estrategia busca generar retornos absolutos con una baja correlación respecto a los mercados de renta variable y renta fija tradicionales. Este producto invierte fundamentalmente en una cartera de valores de renta variable de compañías de todo el mundo, que cotizan o se negocian en mercados regulados. No se propone concentrar las inversiones en una única región geográfica o sector, promoviendo así la diversificación. Se dirige a inversores que buscan una exposición global a la renta variable, pero con un enfoque en la gestión del riesgo y la obtención de rentabilidades que se desvinculen de las tendencias generales del mercado."
+        ]
+    },
+    {
+        "id": 50,
+        "nombre": "BlackRock Strategic Fds - BlackRock Systematic Asia Pacific Equity Absolute Return Fd A2 EUR Hedged",
+        "vehiculoInversion": "Fondo",
+        "anioRegistro": 2026,
+        "tipoFondo": "Alternativo - Mkt. Neutral",
+        "isin": "LU1508158430",
+        "morningstarEstrellas": 5,
+        "rentabilidadAnual": 2.93,
+        "destacado": true,
+        "rentabilidadesPorAnio": [
+            {
+                "anio": 2018,
+                "rentabilidad": 2.34
+            },
+            {
+                "anio": 2019,
+                "rentabilidad": -4.85
+            },
+            {
+                "anio": 2020,
+                "rentabilidad": 6.70
+            },
+            {
+                "anio": 2021,
+                "rentabilidad": 9.61
+            },
+            {
+                "anio": 2022,
+                "rentabilidad": 6.38
+            },
+            {
+                "anio": 2023,
+                "rentabilidad": 14.50
+            },
+            {
+                "anio": 2024,
+                "rentabilidad": 23.91
+            },
+            {
+                "anio": 2025,
+                "rentabilidad": 6.13
+            },
+            {
+                "anio": 2026,
+                "rentabilidad": 4.00
+            }
+        ],
+        "metricasPorPeriodo": {
+            "12M": {
+                "alfa": 5.91,
+                "beta": -0.41,
+                "ratioSharpe": 1.09,
+                "volatilidad": 4.20,
+                "maximaCaida": -2.04,
+                "trackingError": 6.53,
+                "rCuadrado": 13.24,
+                "correlacion": -36.39
+            },
+            "3A": {
+                "alfa": 9.32,
+                "beta": -0.05,
+                "ratioSharpe": 2.05,
+                "volatilidad": 4.58,
+                "maximaCaida": -3.28,
+                "trackingError": 6.29,
+                "rCuadrado": 0.21,
+                "correlacion": -4.56
+            },
+            "5A": {
+                "alfa": 7.36,
+                "beta": 0.08,
+                "ratioSharpe": 1.56,
+                "volatilidad": 4.86,
+                "maximaCaida": -6.30,
+                "trackingError": 6.78,
+                "rCuadrado": 0.94,
+                "correlacion": 9.69
+            }
+        },
+        "links": {
+            "morningstar": "https://global.morningstar.com/es/inversiones/fondos/0P00019UYB/cotizacion",
+            "finect": "https://www.finect.com/fondos-inversion/LU1508158430-Bsf_asia_pacific_divers_eq_ar_a2_eur_h"
+        },
+        "observaciones": [
+            "El BlackRock Strategic Funds - BlackRock Systematic Asia Pacific Equity Absolute Return Fund (ISIN: LU1508158430) es un fondo de inversión que tiene como objetivo principal generar una rentabilidad absoluta positiva para los inversores, independientemente de los movimientos generales del mercado. Su estrategia de inversión se basa en la toma de exposiciones largas, sintéticas largas y sintéticas cortas. El fondo invierte al menos el 70% de su exposición en acciones y valores relacionados con acciones, incluyendo derivados, de empresas constituidas o cotizadas en la región de Asia Pacífico, abarcando mercados como Australia y Japón. Se caracteriza por una alta diversificación dentro del universo de renta variable de esta región, buscando al mismo tiempo minimizar la exposición neta a los mercados de renta variable subyacentes. Este enfoque de 'market neutral' lo posiciona para inversores que buscan descorrelación con los mercados tradicionales y una estrategia de retorno absoluto."
+        ]
+    }
 ]
