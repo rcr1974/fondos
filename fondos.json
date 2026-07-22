@@ -3776,5 +3776,209 @@
             "No busca ser el fondo más rentable en mercados alcistas extremos, sino proteger mejor en periodos difíciles.",
             "Es para inversores preocupados por una posible corrección importante del mercado"
         ]
-    }
+    },
+{
+	"id": 47,
+	"nombre": "GAM Star Fund plc - GAM Star Global Rates Class A EUR Accumulation Hedged",
+	"vehiculoInversion": "Fondo",
+	"anioRegistro": 2026,
+	"tipoFondo": "Mixtos Defensivos",
+	"isin": "IE00B59GC072",
+	"morningstarEstrellas": 4,
+	"rentabilidadAnual": 1.15,
+	"destacado": true,
+	"rentabilidadesPorAnio": [
+		{
+		  "anio": 2017,
+		  "rentabilidad": -4.23
+		},
+		{
+		  "anio": 2018,
+		  "rentabilidad": -1.08
+		},
+		{
+		  "anio": 2019,
+		  "rentabilidad": 7.75
+		},
+		{
+		  "anio": 2020,
+		  "rentabilidad": 5.36
+		},
+		{
+		  "anio": 2021,
+		  "rentabilidad": 8.24
+		},
+		{
+		  "anio": 2022,
+		  "rentabilidad": 12.38
+		},
+		{
+		  "anio": 2023,
+		  "rentabilidad": 5.93
+		},
+		{
+		  "anio": 2024,
+		  "rentabilidad": -7.39
+		},
+		{
+		  "anio": 2025,
+		  "rentabilidad": 12.57
+		},
+		{
+		  "anio": 2026,
+		  "rentabilidad": 1.15
+		}
+	],
+	"metricasPorPeriodo": {
+		"12M": {
+			"alfa": -7.12,
+			"beta": 0.51,
+			"ratioSharpe": 0.62,
+			"volatilidad": 10.39,
+			"maximaCaida": -5.47,
+			"trackingError": 15.40,
+			"rCuadrado": 21.02,
+			"correlacion": 45.84
+		},
+		"3A": {
+			"alfa": -3.15,
+			"beta": 0.48,
+			"ratioSharpe": 0.25,
+			"volatilidad": 13.41,
+			"maximaCaida": -15.80,
+			"trackingError": 16.19,
+			"rCuadrado": 14.76,
+			"correlacion": 38.42
+		},
+		"5A": {
+			"alfa": 1.35,
+			"beta": 0.56,
+			"ratioSharpe": 0.53,
+			"volatilidad": 14.26,
+			"maximaCaida": -15.80,
+			"trackingError": 16.40,
+			"rCuadrado": 23.78,
+			"correlacion": 48.77
+		},
+		"10A": {
+			"alfa": 2.55,
+			"beta": 0.52,
+			"ratioSharpe": 0.30,
+			"volatilidad": "--",
+			"maximaCaida": "--",
+			"trackingError": "--",
+			"rCuadrado": 4.51,
+			"correlacion": "--"
+		}
+	},
+	"links": {
+		"morningstar": "https://global.morningstar.com/es/inversiones/fondos/0P0000T2WT/cotizacion",
+		"finect": "https://www.finect.com/fondos-inversion/IE00B59GC072-Gam_star_global_rates_a_eur_acc"
+	},
+	"observaciones": [
+		"El GAM Star Fund plc - GAM Star Global Rates es un fondo de inversión gestionado por GAM London Limited, cuyo objetivo principal es la búsqueda de rendimientos absolutos. Su estrategia se centra en la toma de posiciones largas en valores de renta fija y en monedas (divisas) a nivel global. Enmarcado en la categoría de Macro Trading USD, el fondo implementa un enfoque de inversión macroeconómico, buscando capitalizar movimientos en los tipos de interés y los mercados de divisas. Este producto, identificado con el ISIN IE00B59GC072, se dirige a inversores que buscan exposición a estrategias dinámicas en estos mercados, con un perfil que valora la gestión activa de las fluctuaciones de tipos y divisas."
+	]
+},
+{
+	"id": 48,
+	"nombre": "Helium Fund - Helium Performance S EUR",
+	"vehiculoInversion": "Fondo",
+	"anioRegistro": 2026,
+	"tipoFondo": "Alternativo",
+	"isin": "LU0912262358",
+	"morningstarEstrellas": 0,
+	"rentabilidadAnual": 2.53,
+	"destacado": true,
+	"rentabilidadesPorAnio": [
+		{
+		  "anio": 2017,
+		  "rentabilidad": 2.66
+		},
+		{
+		  "anio": 2018,
+		  "rentabilidad": -2.03
+		},
+		{
+		  "anio": 2019,
+		  "rentabilidad": 3.85
+		},
+		{
+		  "anio": 2020,
+		  "rentabilidad": 3.14
+		},
+		{
+		  "anio": 2021,
+		  "rentabilidad": 8.03
+		},
+		{
+		  "anio": 2022,
+		  "rentabilidad": 0.65
+		},
+		{
+		  "anio": 2023,
+		  "rentabilidad": 5.79
+		},
+		{
+		  "anio": 2024,
+		  "rentabilidad": 4.31
+		},
+		{
+		  "anio": 2025,
+		  "rentabilidad": 6.57
+		},
+		{
+		  "anio": 2026,
+		  "rentabilidad": 2.53
+		}
+	],
+	"metricasPorPeriodo": {
+	  "12M": {
+		"alfa": "--",
+		"beta": "--",
+		"ratioSharpe": 2.95,
+		"volatilidad": 1.05,
+		"maximaCaida": -0.34,
+		"trackingError": "--",
+		"rCuadrado": "--",
+		"correlacion": "--"
+	  },
+	  "3A": {
+		"alfa": "--",
+		"beta": "--",
+		"ratioSharpe": 2.07,
+		"volatilidad": 1.24,
+		"maximaCaida": -0.41,
+		"trackingError": "--",
+		"rCuadrado": "--",
+		"correlacion": "--"
+	  },
+	  "5A": {
+		"alfa": "--",
+		"beta": "--",
+		"ratioSharpe": 1.40,
+		"volatilidad": 1.80,
+		"maximaCaida": -3.26,
+		"trackingError": "--",
+		"rCuadrado": "--",
+		"correlacion": "--"
+	  },
+		"10A": {
+			"alfa": "--",
+			"beta": "--",
+			"ratioSharpe": 0.16,
+			"volatilidad": "--",
+			"maximaCaida": "--",
+			"trackingError": "--",
+			"rCuadrado": "--",
+			"correlacion": "--"
+		}
+	},
+	"links": {
+		"morningstar": "https://global.morningstar.com/es/inversiones/fondos/0P0000ZWX7/cotizacion",
+		"finect": "https://www.finect.com/fondos-inversion/LU0912262358-Helium_fund_performance_s_eur"
+	},
+	"observaciones": [
+		"El Helium Fund - Helium Performance, con ISIN LU0912262275, es un fondo de inversión clasificado en la categoría Alternativa - Event Driven. Gestionado por CACEIS Bank, Luxembourg Branch, su principal objetivo es la consecución de retornos absolutos, buscando desvincularse de la dirección general del mercado. La estrategia de inversión de Helium Fund - Helium Performance se centra en identificar y explotar oportunidades de valoración en una amplia gama de activos financieros. Para ello, invierte en valores, instrumentos financieros derivados y obligaciones de deuda, aprovechando las ineficiencias de precios que pueden surgir de eventos corporativos o situaciones de mercado específicas. Este enfoque está diseñado para inversores que buscan una estrategia especializada y la generación de valor a través de la identificación de oportunidades concretas en el pricing de los activos."
+	]
+}
 ]
