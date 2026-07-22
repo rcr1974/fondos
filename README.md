@@ -219,7 +219,7 @@ Alternativos
 
 **Los fondos alternativos no buscan necesariamente batir a la bolsa, sino aportar una fuente de rentabilidad distinta que ayude a estabilizar y diversificar una cartera cuando los activos tradicionales pasan por periodos complicados.** [\[Estos Fond...- YouTube\]](https://www.youtube.com/watch?v=yylTeg66qIc)
 
--------------------------------------------------------
+***
 
 
 A continuación tienes los fondos que aparecen como ejemplo en el vídeo, junto con una clase representativa y su categoría dentro de la clasificación utilizada por el autor.
