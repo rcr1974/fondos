@@ -218,3 +218,247 @@ Alternativos
 ## Idea principal para recordar
 
 **Los fondos alternativos no buscan necesariamente batir a la bolsa, sino aportar una fuente de rentabilidad distinta que ayude a estabilizar y diversificar una cartera cuando los activos tradicionales pasan por periodos complicados.** [\[Estos Fond...- YouTube\]](https://www.youtube.com/watch?v=yylTeg66qIc)
+
+-------------------------------------------------------
+
+
+A continuación tienes los fondos que aparecen como ejemplo en el vídeo, junto con una clase representativa y su categoría dentro de la clasificación utilizada por el autor.
+
+| Categoría del vídeo                     | Fondo                                                                               | ISIN (clase de referencia)                      |
+| --------------------------------------- | ----------------------------------------------------------------------------------- | ----------------------------------------------- |
+| Monetario                               | Groupama Trésorerie IC                                                              | FR0000989626                                    |
+| Monetario                               | Renta 4 Renta Fija 6 Meses FI                                                       | ES0128520006                                    |
+| Ultra Short / Ultra Corto Plazo         | DWS Euro Ultra Short Fixed Income Fund NC                                           | LU0080237943                                    |
+| Renta Fija Corto Plazo Investment Grade | Neuberger Berman Short Duration Euro Bond EUR I Acc                                 | IE00BFZMJT78                                    |
+| Renta Fija Corto Plazo Investment Grade | B&H Deuda FI                                                                        | ES0112618006                                    |
+| Renta Fija Value                        | Storm Bond Fund RC EUR                                                              | LU0840158819                                    |
+| Mixto Defensivo                         | GAM Star Global Rates A EUR Acc Hedged*(posible referencia al fondo "Gama Global")* | IE00B59GC072                                    |
+| Mixto Defensivo                         | Horos Patrimonio FI A                                                               | ES0146296001                                    |
+| Alternativo / Retorno Absoluto          | Dunas Valor Equilibrado FI                                                          | ES0175414012 (clase R) / ES0175414004 (clase I) |
+| Mixto Defensivo                         | Gamma Global A FI                                                                   | ES0140794001                                    | 
+
+Fuentes: ISIN y datos de los fondos obtenidos de las fichas de las gestoras, Finect, QueFondos y CNMV. [\[quefondos.com\]](https://www.quefondos.com/es/fondos/ficha/index.html?isin=FR0000989626), [\[quefondos.com\]](https://www.quefondos.com/es/fondos/ficha/index.html?isin=ES0128520006), [\[funds.dws.com\]](https://funds.dws.com/es-es/fondos-de-renta-fija/lu0080237943-dws-euro-ultra-short-fixed-income-fund-nc/), [\[quefondos.com\]](https://www.quefondos.com/es/fondos/ficha/index.html?isin=IE00BFZMJT78), [\[finect.com\]](https://www.finect.com/fondos-inversion/LU0840158819-Storm_bond_rc_eur), [\[finect.com\]](https://www.finect.com/fondos-inversion/IE00B59GC072-Gam_star_global_rates_a_eur_acc), [\[quefondos.com\]](https://www.quefondos.com/es/fondos/ficha/index.html?isin=ES0146296001), [\[finect.com\]](https://www.finect.com/fondos-inversion/ES0175414012-Dunas_valor_equilibrado_r_fi)
+
+
+# Resumen
+
+El video explica 6 categorías de fondos de inversión conservadores, ordenadas aproximadamente por nivel de riesgo y rentabilidad esperada. El autor insiste en que la clave no es buscar la mayor rentabilidad, sino entender el riesgo real, la volatilidad y el horizonte temporal de cada producto. Analiza ejemplos concretos y muestra que incluso los fondos conservadores pueden sufrir caídas temporales relevantes. La conclusión principal es que la elección debe depender del objetivo, el plazo y la tolerancia al riesgo del inversor. [\[Los 6 fond...- YouTube\]](https://www.youtube.com/watch?v=1ls8oTfePXU)
+
+***
+
+# Puntos Clave
+
+1. **No todos los fondos conservadores son iguales**: existen distintos niveles de riesgo dentro de la renta fija y los fondos defensivos. [\[Los 6 fond...- YouTube\]](https://www.youtube.com/watch?v=1ls8oTfePXU)
+
+2. **Los fondos monetarios son los más seguros**, con volatilidad muy baja y rentabilidades cercanas a los tipos de interés. [\[Los 6 fond...- YouTube\]](https://www.youtube.com/watch?v=1ls8oTfePXU)
+
+3. **Las comisiones importan mucho**, especialmente en productos con rentabilidades moderadas. Una diferencia de costes puede consumir gran parte del beneficio. \[00:05:11–00:05:50] [\[Los 6 fond...- YouTube\]](https://www.youtube.com/watch?v=1ls8oTfePXU)
+
+4. **Los fondos de renta fija pueden sufrir pérdidas temporales**, especialmente cuando cambian los tipos de interés o aparecen tensiones de mercado. \[00:10:47–00:12:25] [\[Los 6 fond...- YouTube\]](https://www.youtube.com/watch?v=1ls8oTfePXU)
+
+5. **El horizonte temporal es crítico**: para necesidades inferiores a 1-2 años, el autor recomienda monetarios o ultra short. \[00:11:31–00:11:40] [\[Los 6 fond...- YouTube\]](https://www.youtube.com/watch?v=1ls8oTfePXU)
+
+6. **Mayor rentabilidad implica normalmente algún riesgo adicional**, ya sea geográfico, sectorial, crediticio o de gestión. [\[Los 6 fond...- YouTube\]](https://www.youtube.com/watch?v=1ls8oTfePXU)
+
+7. **La rentabilidad pasada puede ser engañosa** si no se entiende qué ha impulsado los resultados y qué riesgos existen detrás. \[00:21:19–00:21:53] [\[Los 6 fond...- YouTube\]](https://www.youtube.com/watch?v=1ls8oTfePXU)
+
+***
+
+# Perspectivas Detalladas
+
+## 1. Fondos Monetarios: la referencia de seguridad
+
+**Qué hacen**
+
+* Invierten en deuda de muy corto plazo y alta calidad crediticia.
+* Buscan replicar aproximadamente los tipos de interés vigentes. [\[Los 6 fond...- YouTube\]](https://www.youtube.com/watch?v=1ls8oTfePXU)
+
+**Rentabilidad esperada**
+
+* Aproximadamente 2%-3% en el contexto descrito por el autor. \[00:02:53–00:03:01] [\[Los 6 fond...- YouTube\]](https://www.youtube.com/watch?v=1ls8oTfePXU)
+
+**Riesgo**
+
+* Muy bajo.
+* Caídas históricas extremadamente limitadas. [\[Los 6 fond...- YouTube\]](https://www.youtube.com/watch?v=1ls8oTfePXU)
+
+**Lección**
+
+* Son una herramienta de preservación de capital, no de crecimiento patrimonial.
+
+***
+
+## 2. Fondos Ultra Short: un paso más de riesgo
+
+**Qué hacen**
+
+* Mantienen bonos algo más largos o de calidad ligeramente inferior a los monetarios. [\[Los 6 fond...- YouTube\]](https://www.youtube.com/watch?v=1ls8oTfePXU)
+
+**Ventaja**
+
+* Pueden ofrecer rentabilidades algo superiores. \[00:07:16–00:07:24] [\[Los 6 fond...- YouTube\]](https://www.youtube.com/watch?v=1ls8oTfePXU)
+
+**Inconveniente**
+
+* Introducen algo de volatilidad y pueden tener años negativos. \[00:07:47–00:08:02] [\[Los 6 fond...- YouTube\]](https://www.youtube.com/watch?v=1ls8oTfePXU)
+
+**Marco mental**
+
+* Riesgo incremental moderado a cambio de un potencial retorno superior.
+
+***
+
+## 3. Renta Fija Corto Plazo Investment Grade
+
+**Qué hacen**
+
+* Invierten en deuda de alta calidad crediticia y vencimientos cortos. [\[Los 6 fond...- YouTube\]](https://www.youtube.com/watch?v=1ls8oTfePXU)
+
+**Riesgo importante**
+
+* Aunque sean conservadores, pueden caer un 5%-10% en entornos complicados. \[00:10:23–00:10:43] [\[Los 6 fond...- YouTube\]](https://www.youtube.com/watch?v=1ls8oTfePXU)
+
+**Idea clave**
+
+* El inversor debe estar dispuesto a esperar la recuperación si aparecen pérdidas temporales. \[00:11:13–00:11:28] [\[Los 6 fond...- YouTube\]](https://www.youtube.com/watch?v=1ls8oTfePXU)
+
+***
+
+## 4. Renta Fija Value
+
+**Qué hacen**
+
+* Los gestores buscan bonos infravalorados o mejor remunerados que el mercado estima. \[00:14:03–00:14:24] [\[Los 6 fond...- YouTube\]](https://www.youtube.com/watch?v=1ls8oTfePXU)
+
+**Ventaja**
+
+* Posibilidad de mejorar considerablemente la rentabilidad de la renta fija tradicional. [\[Los 6 fond...- YouTube\]](https://www.youtube.com/watch?v=1ls8oTfePXU)
+
+**Riesgo**
+
+* Dependencia de decisiones del gestor y de sectores específicos. [\[Los 6 fond...- YouTube\]](https://www.youtube.com/watch?v=1ls8oTfePXU)
+
+***
+
+## 5. Mixtos Defensivos
+
+**Estructura típica**
+
+* Mayoritariamente renta fija.
+* Pequeño porcentaje en acciones (aproximadamente 10%-25%). \[00:16:31–00:16:49] [\[Los 6 fond...- YouTube\]](https://www.youtube.com/watch?v=1ls8oTfePXU)
+
+**Objetivo**
+
+* Conseguir algo más de crecimiento a largo plazo manteniendo una volatilidad moderada. [\[Los 6 fond...- YouTube\]](https://www.youtube.com/watch?v=1ls8oTfePXU)
+
+**Cuándo encajan**
+
+* Para inversores que aceptan pequeñas fluctuaciones a cambio de una rentabilidad potencialmente superior.
+
+***
+
+## 6. Fondos Alternativos o Multiestrategia
+
+**Qué hacen**
+
+* Utilizan derivados, posiciones largas y cortas y estrategias de retorno absoluto. \[00:19:20–00:19:43] [\[Los 6 fond...- YouTube\]](https://www.youtube.com/watch?v=1ls8oTfePXU)
+
+**Objetivo**
+
+* Obtener una rentabilidad relativamente estable independientemente de la dirección del mercado. [\[Los 6 fond...- YouTube\]](https://www.youtube.com/watch?v=1ls8oTfePXU)
+
+**Riesgo principal**
+
+* La habilidad del gestor es fundamental. Si se equivoca en sus apuestas, la rentabilidad puede verse afectada. \[00:23:25–00:23:38] [\[Los 6 fond...- YouTube\]](https://www.youtube.com/watch?v=1ls8oTfePXU)
+
+***
+
+# Aplicaciones Procesables
+
+### Si necesitas el dinero en menos de 1 año
+
+Prioriza:
+
+* Fondos monetarios. [\[Los 6 fond...- YouTube\]](https://www.youtube.com/watch?v=1ls8oTfePXU)
+
+### Si necesitas el dinero entre 1 y 2 años
+
+Considera:
+
+* Monetarios.
+* Ultra short. [\[Los 6 fond...- YouTube\]](https://www.youtube.com/watch?v=1ls8oTfePXU)
+
+### Si tu horizonte supera los 2 años
+
+Puedes evaluar:
+
+* Renta fija investment grade.
+* Mixtos defensivos.
+* Alternativos de baja volatilidad. [\[Los 6 fond...- YouTube\]](https://www.youtube.com/watch?v=1ls8oTfePXU)
+
+### Antes de contratar cualquier fondo
+
+Revisa:
+
+1. Comisiones.
+2. Máxima caída histórica.
+3. Volatilidad.
+4. Calidad crediticia.
+5. Concentración geográfica o sectorial.
+6. Horizonte temporal recomendado. [\[Los 6 fond...- YouTube\]](https://www.youtube.com/watch?v=1ls8oTfePXU)
+
+***
+
+# Citas Clave
+
+> “El objetivo de este vídeo es proteger tu capital.” \[00:01:03–00:01:05] [\[Los 6 fond...- YouTube\]](https://www.youtube.com/watch?v=1ls8oTfePXU)
+
+> “No podemos decir que esto tiene riesgo cero, pero podemos decir que el riesgo es prácticamente nulo.” \[00:05:05–00:05:09] [\[Los 6 fond...- YouTube\]](https://www.youtube.com/watch?v=1ls8oTfePXU)
+
+> “Si nosotros vamos a necesitar el dinero dentro de un año, esto no sería un fondo aceptable.” \[00:11:31–00:11:35] [\[Los 6 fond...- YouTube\]](https://www.youtube.com/watch?v=1ls8oTfePXU)
+
+> “Tenemos que entender muy bien dónde ponemos nuestro dinero.” \[00:21:22–00:21:25] [\[Los 6 fond...- YouTube\]](https://www.youtube.com/watch?v=1ls8oTfePXU)
+
+> “Tenemos que buscar un fondo que entendamos y que se ajuste a nuestro perfil y horizonte temporal.” \[00:25:10–00:25:17] [\[Los 6 fond...- YouTube\]](https://www.youtube.com/watch?v=1ls8oTfePXU)
+
+***
+
+# Resumen Visual
+
+## Escalera de riesgo presentada
+
+```
+Menor riesgo
+│
+├─ Fondos Monetarios
+├─ Fondos Ultra Short
+├─ Renta Fija Corto Plazo Investment Grade
+├─ Renta Fija Value
+├─ Mixtos Defensivos
+└─ Alternativos / Multiestrategia
+│
+Mayor rentabilidad potencial
+```
+
+El vídeo utiliza principalmente gráficos históricos de rentabilidad, volatilidad y caídas máximas para mostrar cómo aumenta el riesgo conforme se avanza en esta escala. [\[Los 6 fond...- YouTube\]](https://www.youtube.com/watch?v=1ls8oTfePXU)
+
+***
+
+# Temas Relacionados para Explorar
+
+1. Funcionamiento de los bonos y sensibilidad a tipos de interés.
+2. Duration y riesgo en renta fija.
+3. Diferencia entre Investment Grade y High Yield.
+4. Fondos monetarios vs letras del tesoro.
+5. Retorno absoluto y estrategias long/short.
+6. Construcción de una cartera conservadora por objetivos.
+7. Cómo evaluar un fondo usando volatilidad, drawdown y ratio de gastos. [\[Los 6 fond...- YouTube\]](https://www.youtube.com/watch?v=1ls8oTfePXU)
+
+## Aprendizaje esencial del vídeo
+
+La idea más importante no es cuál de los seis fondos es "mejor", sino que **cada fondo tiene sentido únicamente dentro de un horizonte temporal y un nivel de riesgo concretos**. El error más frecuente que señala el autor es elegir un producto por su rentabilidad histórica sin comprender cuánto puede caer ni cuánto puede tardar en recuperarse. [\[Los 6 fond...- YouTube\]](https://www.youtube.com/watch?v=1ls8oTfePXU)
+
+
+
+
+
