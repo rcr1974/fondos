@@ -59,6 +59,8 @@ Cuando la exposición larga y corta está equilibrada, se busca reducir al máxi
 * Cubrir el riesgo vendiendo futuros sobre el S\&P 500. [\[Estos Fond...- YouTube\]](https://www.youtube.com/watch?v=yylTeg66qIc)
 
 ***
+***
+***
 
 ## 3. Relative Value
 
